@@ -8,110 +8,68 @@ import model.*;
 public class InputParser {
     public static Board readFromFile(String path) {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path), "UTF-8"))) {
-            // Membaca dimensi
+            // Membaca dimensi board
             String line = br.readLine();
-            if (line != null && line.startsWith("\uFEFF")) {
-                line = line.substring(1);
-            }
             if (line == null) {
-                System.out.println("Input invalid");
+                System.out.println("Input invalid, file kosong");
                 return null;
             }
-            line = line.startsWith("\uFEFF") ? line.substring(1) : line;
             String[] dimension = line.strip().split("\\s+");
-            int rows = Integer.parseInt(dimension[0]); // rows dari board
-            int cols = Integer.parseInt(dimension[1]); // cols dari board
+            int rawRows = Integer.parseInt(dimension[0]);
+            int rawCols = Integer.parseInt(dimension[1]);
 
-            // Membaca jumlah dari pieces
+            // Membaca jumlah pieces
             int numPieces = Integer.parseInt(br.readLine().strip());
 
+            // Membaca konfigurasi pieces
             List<String> lines = new ArrayList<>();
+            int maxLineLength = 0;
             while ((line = br.readLine()) != null) {
-                line = line.replaceAll("[^A-Za-z\\.K ]", ""); // Filter karakter yang valid
+                if (!line.matches("[A-Za-z\\.K ]*")) {
+                    System.out.println("Konfigurasi Piece ada yang tidak valid");
+                    return null;
+                }
                 lines.add(line);
+                maxLineLength = Math.max(maxLineLength, line.length());
             }
 
-            int rawRows = lines.size();
-            int maxCol = 0;
-            int exitX = -1, exitY = -1; // Posisi K
-
-            // Hitung kolom maksimum berdasarkan karakter piece (bukan K)
-            for (int i = 0; i < rawRows; i++) {
+            int exitX = -1, exitY = -1; // Posisi default K
+            for (int i = 0; i < lines.size(); i++) {
                 String row = lines.get(i);
                 for (int j = 0; j < row.length(); j++) {
-                    char c = row.charAt(j);
-                    if (Character.isUpperCase(c) && c != 'K') {
-                        maxCol = Math.max(maxCol, j);
-                    }
-                    if (c == 'K') {
+                    if (row.charAt(j) == 'K') {
                         exitX = j;
                         exitY = i;
                     }
                 }
             }
 
-            // Ukuran board awal
-            int boardRows = Math.max(rows, rawRows);
-            int boardCols = Math.max(cols, maxCol + 1);
+            if (exitX == -1 || exitY == -1) {
+                System.out.println("Tidak ditemukan jalur keluar (K)");
+                return null;
+            }
 
-            // Periksa apakah perlu ekspansi ke bawah/kanan
-            boolean expandBottom = (exitY >= rows && exitY >= rawRows);
-            boolean expandRight = (exitX >= cols && exitX >= maxCol + 1);
+            int finalRows = Math.max(rawRows, lines.size());
+            int finalCols = Math.max(rawCols, maxLineLength);
 
-            int offsetY = 0;
-            int offsetX = 0;
+            char[][] board = new char[finalRows][finalCols];
+            for (int i = 0; i < finalRows; i++) {
+                for (int j = 0; j < finalCols; j++) {
+                    board[i][j] = ' '; // Yang sejajar dengan K dijadiin space aja
+                }
+            }
 
-            int finalRows = boardRows + (expandBottom ? 1 : 0);
-            int finalCols = boardCols + (expandRight ? 1 : 0);
-
-            char[][] board = new char[finalRows][finalCols]; // Inisialisasi board
-            for (char[] row : board) Arrays.fill(row, '.');
-
-            // Menyalin karakter dari input ke board, kecuali K
-            for (int i = 0; i < rawRows; i++) {
+            for (int i = 0; i < lines.size(); i++) {
                 String row = lines.get(i);
                 for (int j = 0; j < row.length(); j++) {
-                    char c = row.charAt(j);
-                    if (c != 'K') {
-                        int y = i + offsetY;
-                        int x = j + offsetX;
-                        if (y < finalRows && x < finalCols) {
-                            board[y][x] = c;
-                        }
-                    }
+                    board[i][j] = row.charAt(j);
                 }
             }
 
-            // Menempatkan K
-            if (exitX != -1 && exitY != -1) {
-                int kRow = exitY + offsetY;
-                int kCol = exitX + offsetX;
-                if (kRow < finalRows && kCol < finalCols) {
-                    board[kRow][kCol] = 'K';
-                    exitY = kRow;
-                    exitX = kCol;
-
-                    for (int i = 0; i < finalRows; i++) {
-                        boolean diLuarBoard = (i >= rows || kCol >= cols);
-                        boolean sisaBarisInput = (i - offsetY < lines.size() && kCol >= lines.get(i - offsetY).length());
-                        if (board[i][kCol] == '.' && (diLuarBoard || sisaBarisInput)) {
-                            board[i][kCol] = ' ';
-                        }
-                    }
-                    for (int j = 0; j < finalCols; j++) {
-                        boolean diLuarBoard = (j >= cols);
-                        boolean sisaKolomInput = (kRow - offsetY < lines.size() && j >= lines.get(kRow - offsetY).length());
-                        if (board[kRow][j] == '.' && (diLuarBoard || sisaKolomInput)) {
-                            board[kRow][j] = ' ';
-                        }
-                    }
-                }
-            }
-
+            
             Map<Character, Piece> pieces = new HashMap<>();
             Set<Character> seen = new HashSet<>();
 
-            // Deteksi dan konstruksi setiap piece
             for (int y = 0; y < finalRows; y++) {
                 for (int x = 0; x < finalCols; x++) {
                     char c = board[y][x];
@@ -149,7 +107,7 @@ public class InputParser {
                 return null;
             }
 
-            return new Board(board, pieces, exitX, exitY); // Kembalikan hasil akhir board
+            return new Board(board, pieces, exitX, exitY);
 
         } catch (IOException | NumberFormatException e) {
             System.out.println("Gagal membaca file input " + e.getMessage());
