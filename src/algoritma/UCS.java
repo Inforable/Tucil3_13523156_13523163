@@ -4,26 +4,6 @@ import java.util.*;
 import model.*;
 
 public class UCS {
-    public static class Node implements Comparable<Node> {
-        Board state;
-        int cost;
-        List<String> path; // Daftar langkah yang ditempuh sejauh ini
-        String lastMove;
-
-        public Node(Board state, int cost, List<String> path, String lastMove) {
-            this.state = state;
-            this.cost = cost;
-            this.path = new ArrayList<>(path);
-            this.lastMove = lastMove;
-        }
-
-        @Override
-        // Override compareTo bawaan dengan membandingkan node
-        public int compareTo(Node other) {
-            return Integer.compare(this.cost, other.cost);
-        }
-    }
-
     public static class Move {
         Board resultState;
         String description;
@@ -35,20 +15,19 @@ public class UCS {
     }
 
     public static List<String> solve(Board initialState) {
-        PriorityQueue<Node> prioQueue = new PriorityQueue<>(); // Menyimpan Queue berdasarkan cost
+        PriorityQueue<Board> prioQueue = new PriorityQueue<>(); // Menyimpan Queue berdasarkan cost
         Set<String> visited = new HashSet<>(); // Menyimpan konfigurasi board yang telah dikunjungi
         
-        prioQueue.add(new Node(initialState, 0, new ArrayList<>(), "")); // Initial state
+        prioQueue.add(initialState); // Initial state
 
         while (!prioQueue.isEmpty()) {
-            Node current = prioQueue.poll(); // Mengambil node dengan cost terkecil
-            Board state = current.state;
+            Board current = prioQueue.poll(); // Mengambil node dengan cost terkecil
 
-            if (isGoal(state)) {
+            if (isGoal(current)) {
                 return current.path;
             }
 
-            String key = getBoardKey(state);
+            String key = getBoardKey(current);
             // Skip kalo uda pernah dikunjungi
             if (visited.contains(key)) {
                 continue;
@@ -56,10 +35,12 @@ public class UCS {
             visited.add(key);
 
             // Generate semua pergerakan
-            for (Move move : generateNextStates(state)) {
-                List<String> newPath = new ArrayList<>(current.path);
-                newPath.add(move.description);
-                prioQueue.add(new Node(move.resultState, current.cost + 1, newPath, move.description));
+            for (Move move : generateNextStates(current)) {
+                Board newState = move.resultState;
+                newState.g = current.g + 1;
+                newState.path = new ArrayList<>(current.path);
+                newState.path.add(move.description);
+                prioQueue.add(newState);
             }
         }
         // Jika tidak ditemukan solusi
