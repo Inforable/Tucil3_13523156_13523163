@@ -1,12 +1,9 @@
 package main;
 
-import algoritma.UCS;
-import algoritma.A;
-
+import algoritma.*;
 import java.util.*;
-import model.Board;
-import utils.InputParser;
-import utils.OutputWriter;
+import model.*;
+import utils.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -46,15 +43,37 @@ public class Main {
             System.out.println("\nAnda memilih algoritma: ");
             switch (choice) {
                 case 1:
-                    System.out.println("Greedy Best First Search");
-                    // TODO: Implementasi algoritma Greedy Best First Search
+                    System.out.println("GBFS");
+                    System.out.println("Pilih heuristik:");
+                    System.out.println("1. Jarak terdekat ke exit (K) (Manhattan): ");
+                    System.out.println("2. Banyak pieces penghalang (Blocking Cars): ");
+                    System.out.print("Masukkan pilihan (1-2): ");
+                    int type = scanner.nextInt();
+                    scanner.nextLine();
+
+                    String heuristic = switch (type) {
+                        case 1 -> "manhattan";
+                        case 2 -> "blockingcars";
+                        default -> "manhattan";
+                    };
+
+                    List<String> gbfs = GBFS.solve(start, heuristic);
+                    if (gbfs != null) {
+                        System.out.println("Solusi ditemukan dalam " + gbfs.size() + " langkah:");
+                        for (String langkah : gbfs) {
+                            System.out.println("- " + langkah);
+                        }
+                    } else {
+                        System.out.println("Tidak ditemukan solusi");
+                    }
+
                     break;
                 case 2:
                     System.out.println("Uniform Cost Search");
-                    List<String> solve = UCS.solve(start);
-                    if (solve != null) {
-                        System.out.println("Solusi ditemukan dalam " + solve.size() + " langkah:");
-                        for (String langkah : solve) {
+                    List<String> ucs = UCS.solve(start);
+                    if (ucs != null) {
+                        System.out.println("Solusi ditemukan dalam " + ucs.size() + " langkah:");
+                        for (String langkah : ucs) {
                             System.out.println("- " + langkah);
                         }
                     } else {
