@@ -1,8 +1,7 @@
 package main;
 
+import algoritma.UCS;
 import java.util.*;
-
-import algoritma.a;
 import model.Board;
 import utils.InputParser;
 import utils.OutputWriter;
@@ -50,12 +49,20 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("Uniform Cost Search");
-                    // TODO: Implementasi algoritma Uniform Cost Search
+                    List<String> solve = UCS.solve(start);
+                    if (solve != null) {
+                        System.out.println("Solusi ditemukan dalam " + solve.size() + " langkah:");
+                        for (String langkah : solve) {
+                            System.out.println("- " + langkah);
+                        }
+                    } else {
+                        System.out.println("Tidak ditemukan solusi");
+                    }
                     break;
                 case 3:
                     System.out.println("A* Search");
-                    a.solve(start);
-                    break;
+                    // a.solve(start);
+                    // break;
             }
         }
     }
