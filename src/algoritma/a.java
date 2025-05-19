@@ -2,202 +2,254 @@ package algoritma;
 
 import model.Board;
 import model.Piece;
+import utils.OutputWriter;
+
 import java.util.*;
 
 public class a {
-    private static int BOARD_SIZE;
-    private static int nodesCreated = 0;
-    
-    private static void setBoardSize(Board board) {
-        BOARD_SIZE = board.board.length;
-    }
-    private static int calculateHeuristic(Board board) {
-        Piece primary = null;
-        int blockingPieces = 0;
+    public static int calculateObstacleHeuristic(Board board, Piece primaryPiece) {
+        int obstacles = 0;
+        int primaryX = primaryPiece.x;
+        int primaryY = primaryPiece.y;
         
         for (Piece piece : board.pieces.values()) {
-            if (piece.isPrimary) {
-                primary = piece;
-                break;
+            if (piece != primaryPiece) {
+                if (piece.isHorizontal) {
+                    if (piece.y >= primaryY && piece.x <= primaryX + primaryPiece.length) {
+                        obstacles++;
+                    }
+                } else {
+                    if (piece.x >= primaryX && piece.x <= board.exitX) {
+                        obstacles++;
+                    }
+                }
             }
         }
-        
-        if (primary == null) return Integer.MAX_VALUE;
-        
-        int endX = Math.min(BOARD_SIZE, primary.x + primary.length);
-        for (int x = endX; x < BOARD_SIZE; x++) {
-            if (board.board[primary.y][x] != '.') {
-                blockingPieces++;
-            }
-        }
-        
-        int distanceToExit = BOARD_SIZE - (primary.x + primary.length);
-        
-        return blockingPieces * 2 + distanceToExit;
+        return obstacles;
     }
 
-    private static List<Board> generateMoves(Board currentBoard) {
-        List<Board> possibleMoves = new ArrayList<>();
-        
-        for (Piece piece : currentBoard.pieces.values()) {
-            if (piece.isHorizontal) {
-                // Cek kiri
-                for (int newX = piece.x - 1; newX >= 0; newX--) {
-                    if (newX >= 0 && currentBoard.board[piece.y][newX] == '.') {
-                        Board newBoard = createNewBoardState(currentBoard, piece, newX, piece.y);
-                        if (newBoard != null) {
-                            newBoard.g = currentBoard.g + 1;
-                            newBoard.h = calculateHeuristic(newBoard);
-                            newBoard.path = new ArrayList<>(currentBoard.path);
-                            newBoard.path.add(piece.id + " left");
-                            possibleMoves.add(newBoard);
-                        }
-                    } else break;
-                }
-                
-                // Cek kanan
-                for (int newX = piece.x + 1; newX + piece.length <= BOARD_SIZE; newX++) {
-                    if (newX + piece.length - 1 < BOARD_SIZE && 
-                        currentBoard.board[piece.y][newX + piece.length - 1] == '.') {
-                        Board newBoard = createNewBoardState(currentBoard, piece, newX, piece.y);
-                        if (newBoard != null) {
-                            newBoard.g = currentBoard.g + 1;
-                            newBoard.h = calculateHeuristic(newBoard);
-                            newBoard.path = new ArrayList<>(currentBoard.path);
-                            newBoard.path.add(piece.id + " right");
-                            possibleMoves.add(newBoard);
-                        }
-                    } else break;
-                }
-            } else {
-                // Cek atas
-                for (int newY = piece.y - 1; newY >= 0; newY--) {
-                    if (newY >= 0 && currentBoard.board[newY][piece.x] == '.') {
-                        Board newBoard = createNewBoardState(currentBoard, piece, piece.x, newY);
-                        if (newBoard != null) {
-                            newBoard.g = currentBoard.g + 1;
-                            newBoard.h = calculateHeuristic(newBoard);
-                            newBoard.path = new ArrayList<>(currentBoard.path);
-                            newBoard.path.add(piece.id + " up");
-                            possibleMoves.add(newBoard);
-                        }
-                    } else break;
-                }
-                
-                // Cek bawah
-                for (int newY = piece.y + 1; newY + piece.length <= BOARD_SIZE; newY++) {
-                    if (newY + piece.length - 1 < BOARD_SIZE && 
-                        currentBoard.board[newY + piece.length - 1][piece.x] == '.') {
-                        Board newBoard = createNewBoardState(currentBoard, piece, piece.x, newY);
-                        if (newBoard != null) {
-                            newBoard.g = currentBoard.g + 1;
-                            newBoard.h = calculateHeuristic(newBoard);
-                            newBoard.path = new ArrayList<>(currentBoard.path);
-                            newBoard.path.add(piece.id + " down");
-                            possibleMoves.add(newBoard);
-                        }
-                    } else break;
-                }
-            }
-        }
-        
-        return possibleMoves;
+    public static int calculateManhattanHeuristic(Board board, Piece primaryPiece) {
+        int primaryX = primaryPiece.x;
+        int primaryY = primaryPiece.y;
+        return Math.abs(primaryX - board.exitX) + Math.abs(primaryY - board.exitY);
     }
 
-    private static Board createNewBoardState(Board currentBoard, Piece piece, int newX, int newY) {
-        char[][] newBoardArray = new char[BOARD_SIZE][BOARD_SIZE];
-        Map<Character, Piece> newPieces = new HashMap<>();
+    public static int calculateCombinedHeuristic(Board board, Piece primaryPiece) {
+        int obstacleCount = calculateObstacleHeuristic(board, primaryPiece);
+        int manhattanDistance = calculateManhattanHeuristic(board, primaryPiece);
         
-        for (int i = 0; i < BOARD_SIZE; i++) {
-            for (int j = 0; j < BOARD_SIZE; j++) {
-                newBoardArray[i][j] = currentBoard.board[i][j];
-            }
-        }
+        double obstacleWeight = 0.6;
+        double manhattanWeight = 0.4;
         
-        for (int i = 0; i < piece.length; i++) {
-            if (piece.isHorizontal) {
-                newBoardArray[piece.y][piece.x + i] = '.';
-            } else {
-                newBoardArray[piece.y + i][piece.x] = '.';
-            }
-        }
-        
-        for (int i = 0; i < piece.length; i++) {
-            if (piece.isHorizontal) {
-                if (newBoardArray[newY][newX + i] != '.') return null;
-                newBoardArray[newY][newX + i] = piece.id;
-            } else {
-                if (newBoardArray[newY + i][newX] != '.') return null;
-                newBoardArray[newY + i][newX] = piece.id;
-            }
-        }
-        
-        for (Map.Entry<Character, Piece> entry : currentBoard.pieces.entrySet()) {
-            Piece p = entry.getValue();
-            if (p.id == piece.id) {
-                newPieces.put(p.id, new Piece(p.id, newX, newY, p.length, p.isHorizontal, p.isPrimary));
-            } else {
-                newPieces.put(p.id, new Piece(p.id, p.x, p.y, p.length, p.isHorizontal, p.isPrimary));
-            }
-        }
-        
-        return new Board(newBoardArray, newPieces);
-    }
-
-    private static boolean isSolved(Board board) {
-        Piece primary = board.pieces.values().stream()
-                                  .filter(p -> p.isPrimary)
-                                  .findFirst()
-                                  .orElse(null);
-        
-        return primary != null && primary.x + primary.length == BOARD_SIZE;
-    }    public static Board solve(Board startBoard) {
-        nodesCreated = 0;
-        int steps = 0;
-        setBoardSize(startBoard);  
-        PriorityQueue<Board> openSet = new PriorityQueue<>((a, b) -> 
-            (a.g + a.h) - (b.g + b.h));
+        return (int)(obstacleCount * obstacleWeight + manhattanDistance * manhattanWeight);
+    }    public static Board solveWithObstacleHeuristic(Board initialBoard) {
+        PriorityQueue<Board> openSet = new PriorityQueue<>((a, b) -> (a.g + a.h) - (b.g + b.h));
         Set<String> closedSet = new HashSet<>();
-        
-        startBoard.h = calculateHeuristic(startBoard);
-        openSet.add(startBoard);
-        
-        System.out.println("Initial state:");
-        utils.OutputWriter.printBoard(startBoard.board);
-        System.out.println();
-        
+        int nodesVisited = 0;
+        long startTime = System.currentTimeMillis();
+
+        initialBoard.h = calculateObstacleHeuristic(initialBoard, initialBoard.pieces.get('P'));
+        openSet.add(initialBoard);
+
         while (!openSet.isEmpty()) {
             Board current = openSet.poll();
-            nodesCreated++;
+            nodesVisited++;
             
-            String boardState = Arrays.deepToString(current.board);
-            if (closedSet.contains(boardState)) {
-                continue;
-            }
-            
-            steps++;
-            System.out.println("Step " + steps + ":");
-            utils.OutputWriter.printBoard(current.board);
-            System.out.println();
-            
-            if (isSolved(current)) {
-                System.out.println("Solution found!");
-                System.out.println("Total steps: " + steps);
-                System.out.println("Total nodes created: " + nodesCreated);
+            Piece primaryPiece = current.pieces.get('P');
+            if (primaryPiece.x == current.exitX && primaryPiece.y == current.exitY) {
+                long endTime = System.currentTimeMillis();
+                System.out.println("\nGerakan " + nodesVisited + ": ");
+                OutputWriter.printBoard(current.board);
+                System.out.println("\nSolution found!");
+                System.out.println("Nodes visited: " + nodesVisited);
+                System.out.println("Time taken: " + (endTime - startTime) + " ms");
                 return current;
             }
-            
-            closedSet.add(boardState);
-            
-            List<Board> nextMoves = generateMoves(current);
+
+            String boardKey = getBoardKey(current);
+            if (closedSet.contains(boardKey)) continue;
+            closedSet.add(boardKey);
+
+            List<Board> nextMoves = generatePossibleMoves(current);
             for (Board nextBoard : nextMoves) {
-                String nextBoardState = Arrays.deepToString(nextBoard.board);
-                if (!closedSet.contains(nextBoardState)) {
+                String nextKey = getBoardKey(nextBoard);
+                if (!closedSet.contains(nextKey)) {
+                    nextBoard.g = current.g + 1;
+                    nextBoard.h = calculateObstacleHeuristic(nextBoard, nextBoard.pieces.get('P'));
                     openSet.add(nextBoard);
                 }
             }
         }
+        return null;
+    }    public static Board solveWithManhattanHeuristic(Board initialBoard) {
+        PriorityQueue<Board> openSet = new PriorityQueue<>((a, b) -> (a.g + a.h) - (b.g + b.h));
+        Set<String> closedSet = new HashSet<>();
+        int nodesVisited = 0;
+        long startTime = System.currentTimeMillis();
+
+        initialBoard.h = calculateManhattanHeuristic(initialBoard, initialBoard.pieces.get('P'));
+        openSet.add(initialBoard);
+
+        while (!openSet.isEmpty()) {
+            Board current = openSet.poll();
+            nodesVisited++;
+            
+            Piece primaryPiece = current.pieces.get('P');
+            if (primaryPiece.x == current.exitX && primaryPiece.y == current.exitY) {
+                long endTime = System.currentTimeMillis();
+                System.out.println("\nNode #" + nodesVisited);
+                OutputWriter.printBoard(current.board);
+                System.out.println("\nSolution found!");
+                System.out.println("Nodes visited: " + nodesVisited);
+                System.out.println("Time taken: " + (endTime - startTime) + " ms");
+                return current;
+            }
+
+            String boardKey = getBoardKey(current);
+            if (closedSet.contains(boardKey)) continue;
+            closedSet.add(boardKey);
+
+            List<Board> nextMoves = generatePossibleMoves(current);
+            for (Board nextBoard : nextMoves) {
+                String nextKey = getBoardKey(nextBoard);
+                if (!closedSet.contains(nextKey)) {
+                    nextBoard.g = current.g + 1;
+                    nextBoard.h = calculateManhattanHeuristic(nextBoard, nextBoard.pieces.get('P'));
+                    openSet.add(nextBoard);
+                }
+            }
+        }
+        return null;
+    }
+
+    public static Board solveWithCombinedHeuristic(Board initialBoard) {
+        PriorityQueue<Board> openSet = new PriorityQueue<>((a, b) -> (a.g + a.h) - (b.g + b.h));
+        Set<String> closedSet = new HashSet<>();
+        int moveCounter = 0;
+
+        initialBoard.h = calculateCombinedHeuristic(initialBoard, initialBoard.pieces.get('P'));
+        openSet.add(initialBoard);
+        while (!openSet.isEmpty()) {
+            Board current = openSet.poll();
+            moveCounter++;
+            
+            System.out.println("\nMove #" + moveCounter);
+            OutputWriter.printBoard(current.board);
+
+            Piece primaryPiece = current.pieces.get('P');
+            if (primaryPiece.x == current.exitX && primaryPiece.y == current.exitY) {
+                System.out.println("Total moves: " + moveCounter);
+                return current;
+            }
+
+            String boardKey = getBoardKey(current);
+            if (closedSet.contains(boardKey)) continue;
+            closedSet.add(boardKey);
+
+            List<Board> nextMoves = generatePossibleMoves(current);
+            for (Board nextBoard : nextMoves) {
+                String nextKey = getBoardKey(nextBoard);
+                if (!closedSet.contains(nextKey)) {
+                    nextBoard.g = current.g + 1;
+                    nextBoard.h = calculateCombinedHeuristic(nextBoard, nextBoard.pieces.get('P'));
+                    openSet.add(nextBoard);
+                }
+            }
+        }
+        return null;
+    }
+
+    private static String getBoardKey(Board board) {
+        StringBuilder key = new StringBuilder();
+        for (char[] row : board.board) {
+            key.append(new String(row));
+        }
+        return key.toString();
+    }
+
+    private static List<Board> generatePossibleMoves(Board current) {
+        List<Board> moves = new ArrayList<>();
         
-        return null; 
+        for (Piece piece : current.pieces.values()) {
+            if (piece.isHorizontal) {
+                if (canMoveLeft(current, piece)) {
+                    moves.add(createNewBoardState(current, piece, -1, 0));
+                }
+                if (canMoveRight(current, piece)) {
+                    moves.add(createNewBoardState(current, piece, 1, 0));
+                }
+            } else {
+                if (canMoveUp(current, piece)) {
+                    moves.add(createNewBoardState(current, piece, 0, -1));
+                }
+                if (canMoveDown(current, piece)) {
+                    moves.add(createNewBoardState(current, piece, 0, 1));
+                }
+            }
+        }
+        return moves;
+    }
+
+    private static boolean canMoveLeft(Board board, Piece piece) {
+        return piece.x > 0 && board.board[piece.y][piece.x - 1] == '.';
+    }
+
+    private static boolean canMoveRight(Board board, Piece piece) {
+        return piece.x + piece.length < board.board[0].length && 
+               board.board[piece.y][piece.x + piece.length] == '.';
+    }
+
+    private static boolean canMoveUp(Board board, Piece piece) {
+        return piece.y > 0 && board.board[piece.y - 1][piece.x] == '.';
+    }
+
+    private static boolean canMoveDown(Board board, Piece piece) {
+        return piece.y + piece.length < board.board.length && 
+               board.board[piece.y + piece.length][piece.x] == '.';
+    }
+
+    private static Board createNewBoardState(Board current, Piece piece, int dx, int dy) {
+        char[][] newBoard = new char[current.board.length][current.board[0].length];
+        for (int i = 0; i < current.board.length; i++) {
+            newBoard[i] = current.board[i].clone();
+        }
+        
+        Map<Character, Piece> newPieces = new HashMap<>();
+        for (Map.Entry<Character, Piece> entry : current.pieces.entrySet()) {
+            Piece oldPiece = entry.getValue();
+            if (oldPiece == piece) {
+                newPieces.put(entry.getKey(), new Piece(
+                    oldPiece.id, oldPiece.x + dx, oldPiece.y + dy,
+                    oldPiece.length, oldPiece.isHorizontal, oldPiece.isPrimary
+                ));
+            } else {
+                newPieces.put(entry.getKey(), new Piece(
+                    oldPiece.id, oldPiece.x, oldPiece.y,
+                    oldPiece.length, oldPiece.isHorizontal, oldPiece.isPrimary
+                ));
+            }
+        }
+
+        updateBoardState(newBoard, piece, dx, dy);
+        
+        return new Board(newBoard, newPieces, current.exitX, current.exitY);
+    }
+
+    private static void updateBoardState(char[][] board, Piece piece, int dx, int dy) {
+        for (int i = 0; i < piece.length; i++) {
+            if (piece.isHorizontal) {
+                board[piece.y][piece.x + i] = '.';
+            } else {
+                board[piece.y + i][piece.x] = '.';
+            }
+        }
+        
+        for (int i = 0; i < piece.length; i++) {
+            if (piece.isHorizontal) {
+                board[piece.y + dy][piece.x + dx + i] = piece.id;
+            } else {
+                board[piece.y + dy + i][piece.x + dx] = piece.id;
+            }
+        }
     }
 }

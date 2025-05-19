@@ -54,7 +54,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("A* Search");
-                    a.solve(start);
+                    a.solveWithManhattanHeuristic(start);
                     break;
             }
         }
