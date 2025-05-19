@@ -43,10 +43,18 @@ public class Board {
         Piece piece = pieces.get(id);
         if (piece == null) return;
 
+        int newX = piece.x + (piece.isHorizontal ? delta : 0);
+        int newY = piece.y + (piece.isHorizontal? 0 : delta);
+
+        // validasi posisi terhadap board
+        if (newX < 0 || newY < 0 || piece.isHorizontal && newX + piece.length - 1 >= board[0].length || (!piece.isHorizontal && newY + piece.length - 1 >= board.length)) {
+            return;
+        }
+
         // Hapus dari posisi lama
         if (piece.isHorizontal) {
             for (int i = 0; i < piece.length; i++) {
-                board[piece.y][piece.x + i] = ' ';
+                board[piece.y][piece.x + i] = '.';
             }
             // Update posisi
             piece.x += delta;
@@ -55,7 +63,7 @@ public class Board {
             }
         } else {
             for (int i = 0; i < piece.length; i++) {
-                board[piece.y + i][piece.x] = ' ';
+                board[piece.y + i][piece.x] = '.';
             }
             piece.y += delta;
             for (int i = 0; i < piece.length; i++) {
