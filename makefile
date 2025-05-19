@@ -9,11 +9,12 @@ BIN := bin
 MAIN := $(SRC)/main/*.java
 MODEL := $(SRC)/model/*.java
 UTILS := $(SRC)/utils/*.java
+ALGO := $(SRC)/algoritma/*.java
 
 # Compile: all .java to bin/
 build:
-	@mkdir -p $(BIN)/main $(BIN)/model $(BIN)/utils
-	javac -d $(BIN) $(MAIN) $(MODEL) $(UTILS)
+	@mkdir -p $(BIN)/main $(BIN)/model $(BIN)/utils $(BIN)/algoritma
+	javac -d $(BIN) $(MAIN) $(MODEL) $(UTILS) $(ALGO)
 
 # Jalankan program
 run: build

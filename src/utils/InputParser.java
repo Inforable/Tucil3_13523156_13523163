@@ -1,4 +1,3 @@
-// ===== File: InputParser.java =====
 package utils;
 
 import java.io.*;
@@ -19,7 +18,14 @@ public class InputParser {
             int rawCols = Integer.parseInt(dimension[1]);
 
             // Membaca jumlah pieces
-            int numPieces = Integer.parseInt(br.readLine().strip());
+            String pieceLine = br.readLine();
+            int numPieces;
+            try {
+                numPieces = Integer.parseInt(pieceLine.strip());
+            } catch (NumberFormatException e) {
+                System.out.println("Jumlah piece harus berupa integer");
+                return null;
+            }
 
             // Membaca konfigurasi pieces
             List<String> lines = new ArrayList<>();
@@ -66,7 +72,7 @@ public class InputParser {
                 }
             }
 
-            
+
             Map<Character, Piece> pieces = new HashMap<>();
             Set<Character> seen = new HashSet<>();
 
@@ -92,7 +98,6 @@ public class InputParser {
                                 ty++;
                             }
                         }
-
                         pieces.put(c, new Piece(c, x, y, length, isHorizontal, isPrimary));
                     }
                 }

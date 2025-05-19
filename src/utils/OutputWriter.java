@@ -8,9 +8,9 @@ public class OutputWriter {
     public static void printBoard(char[][] board) {
         for (char[] row : board) {
             for (char cell : row) {
-                if (cell == 'P'){ System.out.print(ANSI_RED + cell + ANSI_RESET); }
-                else if (cell == 'K'){ System.out.print(ANSI_WHITE_BG + ANSI_BLACK + cell + ANSI_RESET); }
-                else {System.out.print(cell);}
+                if (cell == 'P') System.out.print(ANSI_RED + cell + ANSI_RESET); 
+                else if (cell == 'K') System.out.print(ANSI_WHITE_BG + ANSI_BLACK + cell + ANSI_RESET); 
+                else System.out.print(cell);
             }
             System.out.println();
         }

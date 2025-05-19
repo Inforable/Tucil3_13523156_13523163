@@ -1,8 +1,9 @@
 package main;
 
-import java.util.*;
-
+import algoritma.UCS;
 import algoritma.a;
+
+import java.util.*;
 import model.Board;
 import utils.InputParser;
 import utils.OutputWriter;
@@ -50,11 +51,54 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("Uniform Cost Search");
-                    // TODO: Implementasi algoritma Uniform Cost Search
+                    List<String> solve = UCS.solve(start);
+                    if (solve != null) {
+                        System.out.println("Solusi ditemukan dalam " + solve.size() + " langkah:");
+                        for (String langkah : solve) {
+                            System.out.println("- " + langkah);
+                        }
+                    } else {
+                        System.out.println("Tidak ditemukan solusi");
+                    }
                     break;
                 case 3:
                     System.out.println("A* Search");
-                    a.solveWithManhattanHeuristic(start);
+                    System.out.println("1. Manhattan Distance Heuristic");
+                    System.out.println("2. Obstacle Heuristic");
+                    System.out.println("3. Combined Heuristic");
+                    System.out.print("Masukkan pilihan (1-3): ");
+                    int heuristicChoice = 0;
+                    while (heuristicChoice < 1 || heuristicChoice > 3) {
+                        try {
+                            heuristicChoice = Integer.parseInt(scanner.nextLine());
+                            if (heuristicChoice < 1 || heuristicChoice > 3) {
+                                System.out.println("Input tidak valid! Silakan masukkan angka antara 1-3.");
+                            }
+                        } catch (NumberFormatException e) {
+                            System.out.println("Input tidak valid! Silakan masukkan angka antara 1-3.");
+                            heuristicChoice = 0;
+                        }
+                    }
+                    System.out.println("\nAnda memilih heuristik: ");
+                    switch (heuristicChoice) {
+                        case 1:
+                            System.out.println(" Distance Heuristic");
+                            Board solution = a.solve(start, "manhattan");
+                            OutputWriter.printBoard(solution.board);
+                            break;
+                        case 2:
+                            System.out.println("Obstacle Heuristic");
+                            Board solution1 = a.solve(start, "obstacle");
+                            OutputWriter.printBoard(solution1.board);
+                            break;
+                        case 3:
+                            System.out.println("Combined Heuristic");
+                            Board solution2 = a.solve(start, "combined");
+                            OutputWriter.printBoard(solution2.board);
+                            break;
+                    }
+                    
+
                     break;
             }
         }
