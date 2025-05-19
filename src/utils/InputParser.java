@@ -1,4 +1,3 @@
-// ===== File: InputParser.java =====
 package utils;
 
 import java.io.*;
