@@ -2,11 +2,9 @@ package algoritma;
 
 import model.Board;
 import model.Piece;
-import utils.OutputWriter;
-
 import java.util.*;
 
-public class A {
+public class Djikstra {
     public static class Move {
         Board resultState;
         String description;
@@ -84,74 +82,28 @@ public class A {
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " bawah " + step));
+                    nextStates.add(new Move(newBoard, "Geser " + id + " ke bawah " + step));
                 }
             }
         }
         return nextStates;
     }
 
-    // Hitung jumlah penghalang untuk Heuristik Obstacle
-    public static int calculateObstacleHeuristic(Board board, Piece primaryPiece) {
-        int obstacles = 0;
-        int targetX = board.exitX;
-        int primaryX = primaryPiece.x;
-        int primaryY = primaryPiece.y;
-        for (Piece piece : board.pieces.values()) {
-            if (piece != primaryPiece && piece.isHorizontal && piece.y == primaryY) {
-                if ((primaryX < targetX && piece.x > primaryX && piece.x < targetX) ||
-                    (primaryX > targetX && piece.x < primaryX && piece.x + piece.length > targetX)) {
-                    obstacles++;
-                }
-            } else if (piece != primaryPiece && !piece.isHorizontal) {
-                if (piece.x >= Math.min(primaryX, targetX) && piece.x <= Math.max(primaryX, targetX) && piece.y <= primaryY && piece.y + piece.length > primaryY) {
-                    obstacles++;
-                }
-            }
-        }
-        return obstacles;
-    }
-
-    // Hitung jarak Manhattan untuk Heuristik Manhattan Distance
-    public static int calculateManhattanHeuristic(Board board, Piece primaryPiece) {
-        int horizontalDistance = Math.abs(primaryPiece.x - board.exitX);
-        int verticalDistance = Math.abs(primaryPiece.y - board.exitY) / 2;
-        return horizontalDistance + verticalDistance;
-    }
-    
-    // Hitung kombinasi dari Heuristik Obstacle dan Manhattan Distance
-    public static int calculateCombinedHeuristic(Board board, Piece primaryPiece) {
-        int obstacleCount = calculateObstacleHeuristic(board, primaryPiece);
-        int manhattanDistance = calculateManhattanHeuristic(board, primaryPiece);
-        return obstacleCount + (manhattanDistance * 2);
-    }
-
-    public static Board solve(Board initialState, String heuristicType) {
-        PriorityQueue<Board> openSet = new PriorityQueue<>((a, b) -> (a.g + a.h) - (b.g + b.h));
+    public static Board solve(Board initialState) {
+        PriorityQueue<Board> openSet = new PriorityQueue<>(Comparator.comparingInt(a -> a.g));
         Set<String> visited = new HashSet<>();
         long startTime = System.currentTimeMillis();
 
         initialState.g = 0;
+        initialState.h = 0;
         initialState.path = new ArrayList<>();
-        Piece primaryPiece = initialState.pieces.get('P');
-        switch (heuristicType.toLowerCase()) {
-            case "obstacle":
-                initialState.h = calculateObstacleHeuristic(initialState, primaryPiece);
-                break;
-            case "combined":
-                initialState.h = calculateCombinedHeuristic(initialState, primaryPiece);
-                break;
-            default:
-                initialState.h = calculateManhattanHeuristic(initialState, primaryPiece);
-                break;
-        }
         openSet.add(initialState);
 
         while (!openSet.isEmpty()) {
             Board current = openSet.poll();
             if (isGoal(current)) {
                 long endTime = System.currentTimeMillis();
-                System.out.println("Solusi ditemukan dalam " + current.path.size()+ " langkah");
+                System.out.println("Solusi ditemukan dalam " + current.path.size() + " langkah");
                 System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
                 return current;
             }
@@ -163,19 +115,9 @@ public class A {
                 String nextKey = getBoardKey(nextBoard);
                 if (!visited.contains(nextKey)) {
                     nextBoard.g = current.g + 1;
+                    nextBoard.h = 0;
                     nextBoard.path = new ArrayList<>(current.path);
                     nextBoard.path.add(move.description);
-                    switch (heuristicType.toLowerCase()) {
-                        case "obstacle":
-                            nextBoard.h = calculateObstacleHeuristic(nextBoard, nextBoard.pieces.get('P'));
-                            break;
-                        case "combined":
-                            nextBoard.h = calculateCombinedHeuristic(nextBoard, nextBoard.pieces.get('P'));
-                            break;
-                        default:
-                            nextBoard.h = calculateManhattanHeuristic(nextBoard, nextBoard.pieces.get('P'));
-                            break;
-                    }
                     openSet.add(nextBoard);
                 }
             }
