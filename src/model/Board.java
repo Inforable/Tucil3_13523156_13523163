@@ -2,22 +2,21 @@ package model;
 
 import java.util.*;
 
-public class Board {
+public class Board implements Comparable<Board> {
     public char[][] board;
     public Map<Character, Piece> pieces;
     public int exitX, exitY;
-    public List<String> path; // Placeholder
-    public int g, h;
+    public List<String> path;
+    public int g; 
+    public int h;
 
     // Ctor
     public Board(char[][] board, Map<Character, Piece> pieces, int exitX, int exitY) {
         this.board = board;
-        this.pieces = pieces;
+        this.pieces = (pieces != null) ? pieces : new HashMap<>();
         this.exitX = exitX;
         this.exitY = exitY;
         this.path = new ArrayList<>();
-        this.g = 0;
-        this.h = 0;
     }
 
     // deep copy
@@ -31,11 +30,19 @@ public class Board {
         }
 
         Map<Character, Piece> newPieces = new HashMap<>();
+        if (pieces == null) {
+            throw new IllegalStateException("Pieces ini bernilai null");
+        }
         for (Map.Entry<Character, Piece> entry : pieces.entrySet()) {
             Piece p = entry.getValue();
             newPieces.put(entry.getKey(), new Piece(p.id, p.x, p.y, p.length, p.isHorizontal, p.isPrimary));
         }
-        return new Board(newBoard, newPieces, exitX, exitY);
+        Board cloned = new Board(newBoard, newPieces, exitX, exitY);
+        cloned.path = new ArrayList<>(this.path);
+        cloned.g = this.g;
+        cloned.h = this.h;
+
+        return cloned;
     }
 
     // Menggeser piece dengan id tertentu
@@ -70,5 +77,10 @@ public class Board {
                 board[piece.y + i][piece.x] = piece.id;
             }
         }
+    }
+
+    @Override
+    public int compareTo(Board other) {
+        return Integer.compare(this.g, other.g);
     }
 }
