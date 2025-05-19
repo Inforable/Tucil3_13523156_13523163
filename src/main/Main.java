@@ -1,7 +1,7 @@
 package main;
 
 import algoritma.UCS;
-import algoritma.a;
+import algoritma.A;
 
 import java.util.*;
 import model.Board;
@@ -79,26 +79,50 @@ public class Main {
                             heuristicChoice = 0;
                         }
                     }
-                    System.out.println("\nAnda memilih heuristik: ");
-                    switch (heuristicChoice) {
+                    System.out.println("\nAnda memilih heuristik: ");                    switch (heuristicChoice) {
                         case 1:
-                            System.out.println(" Distance Heuristic");
-                            Board solution = a.solve(start, "manhattan");
-                            OutputWriter.printBoard(solution.board);
+                            System.out.println("Manhattan Distance Heuristic");
+                            Board solution = A.solve(start, "manhattan");
+                            if (solution != null) {
+                                System.out.println("\nFinal board state:");
+                                OutputWriter.printBoard(solution.board);
+                                if (solution.path != null && !solution.path.isEmpty()) {
+                                    System.out.println("\nSolution steps:");
+                                    for (String step : solution.path) {
+                                        System.out.println("- " + step);
+                                    }
+                                }
+                            }
                             break;
                         case 2:
                             System.out.println("Obstacle Heuristic");
-                            Board solution1 = a.solve(start, "obstacle");
-                            OutputWriter.printBoard(solution1.board);
+                            Board solution1 = A.solve(start, "obstacle");
+                            if (solution1 != null) {
+                                System.out.println("\nFinal board state:");
+                                OutputWriter.printBoard(solution1.board);
+                                if (solution1.path != null && !solution1.path.isEmpty()) {
+                                    System.out.println("\nSolution steps:");
+                                    for (String step : solution1.path) {
+                                        System.out.println("- " + step);
+                                    }
+                                }
+                            }
                             break;
                         case 3:
                             System.out.println("Combined Heuristic");
-                            Board solution2 = a.solve(start, "combined");
-                            OutputWriter.printBoard(solution2.board);
+                            Board solution2 = A.solve(start, "combined");
+                            if (solution2 != null) {
+                                System.out.println("Kondisi AKhir papan:");
+                                OutputWriter.printBoard(solution2.board);
+                                if (solution2.path != null && !solution2.path.isEmpty()) {
+                                    System.out.println("\nSolution steps:");
+                                    for (String step : solution2.path) {
+                                        System.out.println("- " + step);
+                                    }
+                                }
+                            }
                             break;
                     }
-                    
-
                     break;
             }
         }
