@@ -69,14 +69,24 @@ public class UCS {
     // Mengecek state sudah mencapai exit atau belum
     public static boolean isGoal(Board state) {
         Piece p = state.pieces.get('P');
-        return state.board[p.y][p.x + p.length - 1] == 'K';
+        for (int i = 0; i < p.length; i++) {
+            int x = p.x + (p.isHorizontal ? i : 0);
+            int y = p.y + (p.isHorizontal ? 0 : i);
+            if (state.exitX == x && state.exitY == y) {
+                return true;
+            }
+        }
+        return false;
     }
 
     // Menghasilkan string unik
     public static String getBoardKey(Board state) {
         StringBuilder sb = new StringBuilder();
-        for (char[] row : state.board) {
-            sb.append(new String(row)).append("\n");
+        List<Character> sortedKeys = new ArrayList<>(state.pieces.keySet());
+        Collections.sort(sortedKeys);
+        for (char id : sortedKeys) {
+            Piece p = state.pieces.get(id);
+            sb.append(id).append(p.x).append(",").append(p.y).append(";");
         }
         return sb.toString();
     }
@@ -91,16 +101,29 @@ public class UCS {
 
             // Gerak horizontal
            if (piece.isHorizontal) {
-                // Geser ke kiri
+                // ke kiri
                 for (int step = 1; piece.x - step >= 0; step++) {
-                    if (state.board[piece.y][piece.x - step] != ' ') break;
+                    int checkX = piece.x - step;
+                    int checkY = piece.y;
+                    if (checkX < 0) break;
+
+                    // Jika cell bukan '.' dan bukan exit, berhenti
+                    if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
+
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, -step);
                     nextStates.add(new Move(newBoard, "Geser " + id + " ke kiri " + step));
                 }
+
                 // Geser ke kanan
                 for (int step = 1; piece.x + piece.length - 1 + step < state.board[0].length; step++) {
-                    if (state.board[piece.y][piece.x + piece.length - 1 + step] != ' ') break;
+                    int checkX = piece.x + piece.length - 1 + step;
+                    int checkY = piece.y;
+                    if (checkX >= state.board[0].length) break;
+
+                    // Jika cell bukan '.' dan bukan exit, berhenti
+                    if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
+
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, step);
                     nextStates.add(new Move(newBoard, "Geser " + id + " ke kanan " + step));
@@ -108,14 +131,27 @@ public class UCS {
             } else {
                 // Geser ke atas
                 for (int step = 1; piece.y - step >= 0; step++) {
-                    if (state.board[piece.y - step][piece.x] != ' ') break;
+                    int checkX = piece.x;
+                    int checkY = piece.y - step;
+                    if (checkY < 0) break;
+
+                    // Jika cell bukan '.' dan bukan exit, berhenti
+                    if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
+
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, -step);
                     nextStates.add(new Move(newBoard, "Geser " + id + " ke atas " + step));
                 }
+
                 // Geser ke bawah
                 for (int step = 1; piece.y + piece.length - 1 + step < state.board.length; step++) {
-                    if (state.board[piece.y + piece.length - 1 + step][piece.x] != ' ') break;
+                    int checkX = piece.x;
+                    int checkY = piece.y + piece.length - 1 + step;
+                    if (checkY >= state.board.length) break;
+
+                    // Jika cell bukan '.' dan bukan exit, berhenti
+                    if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
+
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, step);
                     nextStates.add(new Move(newBoard, "Geser " + id + " ke bawah " + step));
