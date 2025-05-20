@@ -12,7 +12,7 @@ public class Main {
             String filename = scanner.nextLine();
             String inputPath = "test/tc/" + filename;
 
-            Board start = InputParser.readFromFile(inputPath);
+            Board start = (Board) InputParser.readFromFile(inputPath);
             if (start == null) {
                 System.out.println("Gagal memuat papan.");
                 return;
