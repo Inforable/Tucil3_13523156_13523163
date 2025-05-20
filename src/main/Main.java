@@ -19,7 +19,6 @@ public class Main {
             }
 
             System.out.println("Papan berhasil dibaca:");
-            OutputWriter.printBoard(start.board);
 
             int choice = 0;
             while (choice < 1 || choice > 4) {

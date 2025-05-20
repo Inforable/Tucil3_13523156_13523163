@@ -130,7 +130,6 @@ public class OutputWriter {
             return;
         }
 
-        System.out.println("Solusi ditemukan dalam " + (path.size() - 1) + " langkah:");
         System.out.println("Papan awal:");
         printBoard(path.get(0).board.board);
 
