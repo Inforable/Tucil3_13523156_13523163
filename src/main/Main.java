@@ -32,58 +32,38 @@ public class Main {
                 
                 try {
                     choice = Integer.parseInt(scanner.nextLine());
-                    if (choice < 1 || choice > 3) {
-                        System.out.println("Input tidak valid! Silakan masukkan angka antara 1-3.");
+                    if (choice < 1 || choice > 4) {
+                        System.out.println("Input tidak valid! Silakan masukkan angka antara 1-4.");
                     }
                 } catch (NumberFormatException e) {
-                    System.out.println("Input tidak valid! Silakan masukkan angka antara 1-3.");
+                    System.out.println("Input tidak valid! Silakan masukkan angka antara 1-4.");
                     choice = 0;
                 }
             }
 
-            System.out.println("\nAnda memilih algoritma: ");
             switch (choice) {
-                case 1:
+                case 1 -> {
                     System.out.println("GBFS");
                     System.out.println("Pilih heuristik:");
-                    System.out.println("1. Jarak terdekat ke exit (K) (Manhattan): ");
-                    System.out.println("2. Banyak pieces penghalang (Blocking Cars): ");
+                    System.out.println("1. Jarak terdekat ke exit (Manhattan)");
+                    System.out.println("2. Banyak pieces penghalang (Blocking Cars)");
                     System.out.print("Masukkan pilihan (1-2): ");
                     int type = scanner.nextInt();
                     scanner.nextLine();
 
-                    String heuristic = switch (type) {
-                        case 1 -> "manhattan";
-                        case 2 -> "blockingcars";
-                        default -> "manhattan";
-                    };
+                    String heuristic = (type == 2) ? "blockingcars" : "manhattan";
 
-                    List<String> gbfs = GBFS.solve(start, heuristic);
-                    if (gbfs != null) {
-                        System.out.println("Solusi ditemukan dalam " + gbfs.size() + " langkah:");
-                        for (String langkah : gbfs) {
-                            System.out.println("- " + langkah);
-                        }
-                    } else {
-                        System.out.println("Tidak ditemukan solusi");
-                    }
+                    List<Node> gbfsPath = GBFS.solve(start, heuristic);
+                    printSolutionPath(gbfsPath);
+                }
 
-                    break;
-
-                case 2:
+                case 2 -> {
                     System.out.println("Uniform Cost Search");
-                    List<String> ucs = UCS.solve(start);
-                    if (ucs != null) {
-                        System.out.println("Solusi ditemukan dalam " + ucs.size() + " langkah:");
-                        for (String langkah : ucs) {
-                            System.out.println("- " + langkah);
-                        }
-                    } else {
-                        System.out.println("Tidak ditemukan solusi");
-                    }
-                    break;
+                    List<Node> ucsPath = UCS.solve(start);
+                    printSolutionPath(ucsPath);
+                }
 
-                case 3:
+                case 3 -> {
                     System.out.println("A* Search");
                     System.out.println("Pilih heuristik:");
                     System.out.println("1. Manhattan Distance Heuristic");
@@ -102,71 +82,40 @@ public class Main {
                             heuristicChoice = 0;
                         }
                     }
-                    System.out.println("\nAnda memilih heuristik: ");                   
-                    switch (heuristicChoice) {
-                        case 1 -> {
-                            System.out.println("Manhattan Distance Heuristic");
-                            Board solution = A.solve(start, "manhattan");
-                            if (solution != null) {
-                                System.out.println("\nKondisi Akhir Papan:");
-                                OutputWriter.printBoard(solution.board);
-                                if (solution.path != null && !solution.path.isEmpty()) {
-                                    System.out.println("\nSolution steps:");
-                                    for (String step : solution.path) {
-                                        System.out.println("- " + step);
-                                    }
-                                }
-                            }
-                        break;
-                    }
-                        case 2 -> {
-                            System.out.println("Obstacle Heuristic");
-                            Board solution1 = A.solve(start, "obstacle");
-                            if (solution1 != null) {
-                                System.out.println("\nKondisi Akhir Papan:");
-                                OutputWriter.printBoard(solution1.board);
-                                if (solution1.path != null && !solution1.path.isEmpty()) {
-                                    System.out.println("\nSolution steps:");
-                                    for (String step : solution1.path) {
-                                        System.out.println("- " + step);
-                                    }
-                                }
-                            }
-                        break;
-                    }
-                        case 3 -> {
-                            System.out.println("Combined Heuristic");
-                            Board solution2 = A.solve(start, "combined");
-                            if (solution2 != null) {
-                                System.out.println("Kondisi AKhir papan:");
-                                OutputWriter.printBoard(solution2.board);
-                                if (solution2.path != null && !solution2.path.isEmpty()) {
-                                    System.out.println("\nSolution steps:");
-                                    for (String step : solution2.path) {
-                                        System.out.println("- " + step);
-                                    }
-                                }
-                            }
-                        break;
-                    }
+
+                    String heuristicType = switch (heuristicChoice) {
+                        case 2 -> "obstacle";
+                        case 3 -> "combined";
+                        default -> "manhattan";
+                    };
+
+                    List<Node> aStarPath = A.solve(start, heuristicType);
+                    printSolutionPath(aStarPath);
                 }
 
-                case 4:
+                case 4 -> {
                     System.out.println("Djikstra");
-                    Board solution3 = Djikstra.solve(start);
-                    if (solution3 != null) {
-                        System.out.println("Kondisi akhir papan:");
-                        OutputWriter.printBoard(solution3.board);
-                        if (solution3.path != null && !solution3.path.isEmpty()) {
-                            System.out.println("\nSolution steps:");
-                            for (String step : solution3.path) {
-                                System.out.println("- " + step);
-                            }
-                        }
-                    }
-                    break;
+                    List<Node> djikstraPath = Djikstra.solve(start);
+                    printSolutionPath(djikstraPath);
+                }
             }
-            
+        }
+    }
+
+    private static void printSolutionPath(List<Node> path) {
+        if (path == null) {
+            System.out.println("Tidak ditemukan solusi");
+            return;
+        }
+
+        System.out.println("Solusi ditemukan dalam " + (path.size() - 1) + " langkah:");
+        System.out.println("Papan awal:");
+        OutputWriter.printBoard(path.get(0).board.board);
+
+        for (int i = 1; i < path.size(); i++) {
+            Node node = path.get(i);
+            System.out.println("\nLangkah " + i + ": " + node.moveDesc);
+            OutputWriter.printBoard(node.board.board);
         }
     }
 }
