@@ -1,19 +1,9 @@
 package algoritma;
 
 import java.util.*;
-import model.Board;
-import model.Piece;
+import model.*;
 
 public class A {
-    public static class Move {
-        Board resultState;
-        String description;
-        public Move(Board resultState, String description) {
-            this.resultState = resultState;
-            this.description = description;
-        }
-    }
-
     private static boolean isGoal(Board state) {
         Piece p = state.pieces.get('P');
         for (int i = 0; i < p.length; i++) {
@@ -37,8 +27,9 @@ public class A {
         return sb.toString();
     }
 
-    private static List<Move> generateNextStates(Board state) {
-        List<Move> nextStates = new ArrayList<>();
+    private static List<Node> generateNextNodes(Node currentNode) {
+        Board state = currentNode.board;
+        List<Node> nextNodes = new ArrayList<>();
         for (Map.Entry<Character, Piece> entry : state.pieces.entrySet()) {
             Piece piece = entry.getValue();
             char id = entry.getKey();
@@ -51,7 +42,9 @@ public class A {
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, -step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " ke kiri " + step));
+                    String desc = "Geser " + id + " ke kiri " + step;
+                    Node nextNode = new Node(newBoard, currentNode, desc, currentNode.g + 1, 0);
+                    nextNodes.add(nextNode);
                 }
                 // Geser ke kanan
                 for (int step = 1; piece.x + piece.length - 1 + step < state.board[0].length; step++) {
@@ -61,7 +54,9 @@ public class A {
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " ke kanan " + step));
+                    String desc = "Geser " + id + " ke kanan " + step;
+                    Node nextNode = new Node(newBoard, currentNode, desc, currentNode.g + 1, 0);
+                    nextNodes.add(nextNode);
                 }
             } else {
                 // Geser ke atas
@@ -72,7 +67,9 @@ public class A {
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, -step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " ke atas " + step));
+                    String desc = "Geser " + id + " ke atas " + step;
+                    Node nextNode = new Node(newBoard, currentNode, desc, currentNode.g + 1, 0);
+                    nextNodes.add(nextNode);
                 }
                 // Geser ke bawah
                 for (int step = 1; piece.y + piece.length - 1 + step < state.board.length; step++) {
@@ -82,11 +79,13 @@ public class A {
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + "ke bawah " + step));
+                    String desc = "Geser " + id + " ke bawah " + step;
+                    Node nextNode = new Node(newBoard, currentNode, desc, currentNode.g + 1, 0);
+                    nextNodes.add(nextNode);
                 }
             }
         }
-        return nextStates;
+        return nextNodes;
     }
 
     // Hitung jumlah penghalang untuk Heuristik Obstacle
@@ -124,62 +123,51 @@ public class A {
         return obstacleCount + (manhattanDistance * 2);
     }
 
-    public static Board solve(Board initialState, String heuristicType) {
-        PriorityQueue<Board> openSet = new PriorityQueue<>((a, b) -> (a.g + a.h) - (b.g + b.h));
+    public static List<Node> solve(Board initialBoard, String heuristicType) {
+        PriorityQueue<Node> openSet = new PriorityQueue<>(Comparator.comparingInt(n -> n.g + n.h));
         Set<String> visited = new HashSet<>();
         long startTime = System.currentTimeMillis();
 
-        initialState.g = 0;
-        initialState.path = new ArrayList<>();
-        Piece primaryPiece = initialState.pieces.get('P');
-        switch (heuristicType.toLowerCase()) {
-            case "obstacle":
-                initialState.h = calculateObstacleHeuristic(initialState, primaryPiece);
-                break;
-            case "combined":
-                initialState.h = calculateCombinedHeuristic(initialState, primaryPiece);
-                break;
-            default:
-                initialState.h = calculateManhattanHeuristic(initialState, primaryPiece);
-                break;
-        }
-        openSet.add(initialState);
+        Piece primaryPiece = initialBoard.pieces.get('P');
+        int h0 = 0;
+        h0 = switch (heuristicType.toLowerCase()) {
+            case "obstacle" -> calculateObstacleHeuristic(initialBoard, primaryPiece);
+            case "combined" -> calculateCombinedHeuristic(initialBoard, primaryPiece);
+            default -> calculateManhattanHeuristic(initialBoard, primaryPiece);
+        };
+        
+        Node startNode = new Node(initialBoard, null, null, 0, h0);
+        openSet.add(startNode);
 
         while (!openSet.isEmpty()) {
-            Board current = openSet.poll();
-            if (isGoal(current)) {
+            Node current = openSet.poll();
+            if (isGoal(current.board)) {
                 long endTime = System.currentTimeMillis();
-                System.out.println("Solusi ditemukan dalam " + current.path.size()+ " langkah");
+                System.out.println("Solusi ditemukan dalam " + current.g + " langkah");
                 System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
-                return current;
+                List<Node> solution = Node.reconstructPath(current);
+                return solution;
             }
-            String boardKey = getBoardKey(current);
-            if (visited.contains(boardKey)) continue;
-            visited.add(boardKey);
-            for (Move move : generateNextStates(current)) {
-                Board nextBoard = move.resultState;
-                String nextKey = getBoardKey(nextBoard);
+            String key = getBoardKey(current.board);
+            if (visited.contains(key)) continue;
+            visited.add(key);
+
+            for (Node nextNode : generateNextNodes(current)) {
+                String nextKey = getBoardKey(nextNode.board);
                 if (!visited.contains(nextKey)) {
-                    nextBoard.g = current.g + 1;
-                    nextBoard.path = new ArrayList<>(current.path);
-                    nextBoard.path.add(move.description);
-                    switch (heuristicType.toLowerCase()) {
-                        case "obstacle":
-                            nextBoard.h = calculateObstacleHeuristic(nextBoard, nextBoard.pieces.get('P'));
-                            break;
-                        case "combined":
-                            nextBoard.h = calculateCombinedHeuristic(nextBoard, nextBoard.pieces.get('P'));
-                            break;
-                        default:
-                            nextBoard.h = calculateManhattanHeuristic(nextBoard, nextBoard.pieces.get('P'));
-                            break;
-                    }
-                    openSet.add(nextBoard);
+                    Piece nextPrimary = nextNode.board.pieces.get('P');
+                    int hNext = 0;
+                    hNext = switch (heuristicType.toLowerCase()) {
+                        case "obstacle" -> calculateObstacleHeuristic(nextNode.board, nextPrimary);
+                        case "combined" -> calculateCombinedHeuristic(nextNode.board, nextPrimary);
+                        default -> calculateManhattanHeuristic(nextNode.board, nextPrimary);
+                    };
+                    nextNode.h = hNext;
+                    openSet.add(nextNode);
                 }
             }
         }
         System.out.println("Tidak ada solusi");
-        System.out.println("Tidak ada gerakan yang ditemukan");
         long endTime = System.currentTimeMillis();
         System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
         return null;

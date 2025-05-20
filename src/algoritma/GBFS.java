@@ -4,52 +4,6 @@ import java.util.*;
 import model.*;
 
 public class GBFS {
-    // Class move untuk menyimpan state hasil
-    public static class Move {
-        Board resultState;
-        String description;
-
-        public Move(Board resultState, String description) {
-            this.resultState = resultState;
-            this.description = description;
-        }
-    }
-
-    public static List<String> solve(Board initialState, String heuristicType) {
-        PriorityQueue<Board> prioQueue = new PriorityQueue<>(Comparator.comparingInt(b -> b.h)); // prioQueue based on dengan nilai heuristik
-        Set<String> visited = new HashSet<>(); // Menyimpan konfigurasi board yang telah dikunjungi
-
-        initialState.h = calculateHeuristic(initialState, heuristicType);
-        prioQueue.add(initialState); // Initial state
-
-        while (!prioQueue.isEmpty()) {
-            Board current = prioQueue.poll(); // Mengambil node dengan nilai heuristik terkecil
-
-            if (isGoal(current)) {
-                return current.path;
-            }
-
-            String key = getBoardKey(current);
-            // Skip kalo uda pernah dikunjungi
-            if (visited.contains(key)) {
-                continue;
-            }
-            visited.add(key);
-
-            // Generate semua pergerakan
-            for (Move move : generateNextStates(current)) {
-                Board newState = move.resultState;
-                newState.h = calculateHeuristic(newState, heuristicType);
-                newState.path = new ArrayList<>(current.path);
-                newState.path.add(move.description);
-                prioQueue.add(newState);
-            }
-        }
-
-        // Jika tidak ditemukan solusi
-        return null;
-    }
-
     // Mengecek state sudah mencapai exit atau belum
     public static boolean isGoal(Board state) {
         Piece p = state.pieces.get('P');
@@ -76,7 +30,7 @@ public class GBFS {
         return sb.toString();
     }
 
-    // Menghitung nilai heuristik
+        // Menghitung nilai heuristik
     public static int calculateHeuristic(Board state, String type) {
         if ("manhattan".equalsIgnoreCase(type)) {
             return heuristicManhattan(state);
@@ -87,7 +41,7 @@ public class GBFS {
         }
     }
 
-    // Jika memilih heuristik jarak terdekat ke exit (Manhattan)
+        // Jika memilih heuristik jarak terdekat ke exit (Manhattan)
     public static int heuristicManhattan(Board state) {
         Piece primary = state.pieces.get('P');
         if (primary == null) return 0;
@@ -125,41 +79,36 @@ public class GBFS {
     }
 
     // Menghasilkan semua kemungkinan gerakan
-    public static List<Move> generateNextStates(Board state) {
-        List<Move> nextStates = new ArrayList<>();
+    private static List<Node> generateNextNodes(Node currentNode) {
+        Board state = currentNode.board;
+        List<Node> nextNodes = new ArrayList<>();
 
         for (Map.Entry<Character, Piece> entry : state.pieces.entrySet()) {
             Piece piece = entry.getValue();
             char id = entry.getKey();
 
-            // Gerak horizontal
-           if (piece.isHorizontal) {
-                // ke kiri
+            if (piece.isHorizontal) {
+                // Geser ke kiri
                 for (int step = 1; piece.x - step >= 0; step++) {
                     int checkX = piece.x - step;
                     int checkY = piece.y;
                     if (checkX < 0) break;
-
-                    // Jika cell bukan '.' dan bukan exit, berhenti
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
-
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, -step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " ke kiri " + step));
+                    String desc = "Geser " + id + " ke kiri " + step;
+                    nextNodes.add(new Node(newBoard, currentNode, desc, 0, 0));
                 }
-
                 // Geser ke kanan
                 for (int step = 1; piece.x + piece.length - 1 + step < state.board[0].length; step++) {
                     int checkX = piece.x + piece.length - 1 + step;
                     int checkY = piece.y;
                     if (checkX >= state.board[0].length) break;
-
-                    // Jika cell bukan '.' dan bukan exit, berhenti
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
-
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " ke kanan " + step));
+                    String desc = "Geser " + id + " ke kanan " + step;
+                    nextNodes.add(new Node(newBoard, currentNode, desc, 0, 0));
                 }
             } else {
                 // Geser ke atas
@@ -167,30 +116,66 @@ public class GBFS {
                     int checkX = piece.x;
                     int checkY = piece.y - step;
                     if (checkY < 0) break;
-
-                    // Jika cell bukan '.' dan bukan exit, berhenti
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
-
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, -step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " ke atas " + step));
+                    String desc = "Geser " + id + " ke atas " + step;
+                    nextNodes.add(new Node(newBoard, currentNode, desc, 0, 0));
                 }
-
                 // Geser ke bawah
                 for (int step = 1; piece.y + piece.length - 1 + step < state.board.length; step++) {
                     int checkX = piece.x;
                     int checkY = piece.y + piece.length - 1 + step;
                     if (checkY >= state.board.length) break;
-
-                    // Jika cell bukan '.' dan bukan exit, berhenti
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
-
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " ke bawah " + step));
+                    String desc = "Geser " + id + " ke bawah " + step;
+                    nextNodes.add(new Node(newBoard, currentNode, desc, 0, 0));
                 }
             }
         }
-        return nextStates;
+        return nextNodes;
+    }
+
+    public static List<Node> solve(Board initialBoard, String heuristicType) {
+        PriorityQueue<Node> openSet = new PriorityQueue<>(Comparator.comparingInt(n -> n.h));
+        Set<String> visited = new HashSet<>();
+        long startTime = System.currentTimeMillis();
+
+        int h0 = calculateHeuristic(initialBoard, heuristicType);
+        Node startNode = new Node(initialBoard, null, null, 0, h0);
+        openSet.add(startNode);
+
+        while (!openSet.isEmpty()) {
+            Node current = openSet.poll();
+
+            if (isGoal(current.board)) {
+                long endTime = System.currentTimeMillis();
+                System.out.println("Solusi ditemukan dalam " + current.g + " langkah");
+                System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
+                List<Node> solution = Node.reconstructPath(current);
+                return solution;
+            }
+
+            String key = getBoardKey(current.board);
+            if (visited.contains(key)) continue;
+            visited.add(key);
+
+            for (Node nextNode : generateNextNodes(current)) {
+                String nextKey = getBoardKey(nextNode.board);
+                if (!visited.contains(nextKey)) {
+                    int hNext = calculateHeuristic(nextNode.board, heuristicType);
+                    nextNode.h = hNext;
+                    nextNode.g = current.g + 1; // g untuk langkah aja bukan sebagai perhitungan
+                    openSet.add(nextNode);
+                }
+            }
+        }
+
+        System.out.println("Tidak ada solusi");
+        long endTime = System.currentTimeMillis();
+        System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
+        return null;
     }
 }
