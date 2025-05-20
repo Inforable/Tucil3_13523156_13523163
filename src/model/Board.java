@@ -15,6 +15,19 @@ public class Board {
         this.exitY = exitY;
     }
 
+    // Mengecek state sudah mencapai exit atau belum
+    public boolean isGoal() {
+        Piece p = this.pieces.get('P');
+        for (int i = 0; i < p.length; i++) {
+            int x = p.x + (p.isHorizontal ? i : 0);
+            int y = p.y + (p.isHorizontal ? 0 : i);
+            if (this.exitX == x && this.exitY == y) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     // deep copy
     public Board cloneBoard() {
         int rows = board.length;

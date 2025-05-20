@@ -4,18 +4,6 @@ import java.util.*;
 import model.*;
 
 public class Djikstra {
-    public static boolean isGoal(Board state) {
-        Piece p = state.pieces.get('P');
-        for (int i = 0; i < p.length; i++) {
-            int x = p.x + (p.isHorizontal ? i : 0);
-            int y = p.y + (p.isHorizontal ? 0 : i);
-            if (state.exitX == x && state.exitY == y) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     private static String getBoardKey(Board state) {
         StringBuilder sb = new StringBuilder();
         List<Character> sortedKeys = new ArrayList<>(state.pieces.keySet());
@@ -104,7 +92,7 @@ public class Djikstra {
         while (!openSet.isEmpty()) {
             Node current = openSet.poll();
 
-            if (isGoal(current.board)) {
+            if (current.board.isGoal()) {
                 long endTime = System.currentTimeMillis();
                 System.out.println("Solusi ditemukan dalam " + current.g + " langkah");
                 System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
