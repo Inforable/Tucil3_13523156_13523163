@@ -59,9 +59,9 @@ public class A {
             Node current = openSet.poll();
             if (current.board.isGoal()) {
                 long endTime = System.currentTimeMillis();
+                List<Node> solution = Node.reconstructPath(current);
                 System.out.println("Solusi ditemukan dalam " + current.g + " langkah");
                 System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
-                List<Node> solution = Node.reconstructPath(current);
                 return solution;
             }
             String key = current.board.getBoardKey();
@@ -84,7 +84,7 @@ public class A {
                 }
             }
         }
-        System.out.println("Tidak ada solusi");
+        System.out.println("Tidak ditemukan solusi");
         long endTime = System.currentTimeMillis();
         System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
         return null;

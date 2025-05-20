@@ -26,12 +26,13 @@ public class Main {
                 System.out.println("1. Greedy Best First Search");
                 System.out.println("2. Uniform Cost Search");
                 System.out.println("3. A* Search");
-                System.out.println("4. Djikstra");
+                System.out.println("4. IDA* Search");
                 System.out.print("Masukkan pilihan (1-4): ");
 
                 try {
                     choice = Integer.parseInt(scanner.nextLine());
-                    if (choice < 1 || choice > 4) {
+                    if (choice < 1 || choice > 4
+                    ) {
                         System.out.println("Input tidak valid! Silakan masukkan angka antara 1-4.");
                     }
                 } catch (NumberFormatException e) {
@@ -47,8 +48,8 @@ public class Main {
                 case 1 -> {
                     System.out.println("GBFS");
                     System.out.println("Pilih heuristik:");
-                    System.out.println("1. Jarak terdekat ke exit (Manhattan)");
-                    System.out.println("2. Banyak pieces penghalang (Blocking Cars)");
+                    System.out.println("1. Manhattan Distance Heuristic");
+                    System.out.println("2. Obstacle Heuristic");
                     System.out.print("Masukkan pilihan (1-2): ");
                     int type = scanner.nextInt();
                     scanner.nextLine();
@@ -90,8 +91,30 @@ public class Main {
                 }
 
                 case 4 -> {
-                    System.out.println("Djikstra");
-                    path = Djikstra.solve(start);
+                    System.out.println("IDA* Search");
+                    System.out.println("Pilih heuristik:");
+                    System.out.println("1. Manhattan Distance Heuristic");
+                    System.out.println("2. Obstacle Heuristic");
+                    System.out.println("3. Combined Heuristic");
+                    System.out.print("Masukkan pilihan (1-3): ");
+                    int heuristicChoice = 0;
+                    while (heuristicChoice < 1 || heuristicChoice > 3) {
+                        try {
+                            heuristicChoice = Integer.parseInt(scanner.nextLine());
+                            if (heuristicChoice < 1 || heuristicChoice > 3) {
+                                System.out.println("Input tidak valid! Silakan masukkan angka antara 1-3.");
+                            }
+                        } catch (NumberFormatException e) {
+                            System.out.println("Input tidak valid! Silakan masukkan angka antara 1-3.");
+                            heuristicChoice = 0;
+                        }
+                    }
+                    heuristic = switch (heuristicChoice) {
+                        case 2 -> "obstacle";
+                        case 3 -> "combined";
+                        default -> "manhattan";
+                    };
+                    path = IDA.solve(start, heuristic);
                 }
             }
 
@@ -101,7 +124,11 @@ public class Main {
                 System.out.print("\nApakah ingin menyimpan hasil ke file? (y/n): ");
                 String saveChoice = scanner.nextLine().trim().toLowerCase();
                 if (saveChoice.equals("y")) {
-                    String outputFile = "test/result/solusi.txt";
+                    System.out.print("Masukkan nama file simpanan (misal: solusi.txt): ");
+                    String outputFile = scanner.nextLine().trim();
+                    if (!outputFile.contains("/")) {
+                        outputFile = "test/result/" + outputFile;
+                    }
                     OutputWriter.saveSolutionPath(path, outputFile);
                 }
             }
