@@ -29,7 +29,7 @@ public class Main {
                 System.out.println("3. A* Search");
                 System.out.println("4. Djikstra");
                 System.out.print("Masukkan pilihan (1-4): ");
-                
+
                 try {
                     choice = Integer.parseInt(scanner.nextLine());
                     if (choice < 1 || choice > 4) {
@@ -41,6 +41,9 @@ public class Main {
                 }
             }
 
+            List<Node> path = null;
+            String heuristic;
+
             switch (choice) {
                 case 1 -> {
                     System.out.println("GBFS");
@@ -51,16 +54,13 @@ public class Main {
                     int type = scanner.nextInt();
                     scanner.nextLine();
 
-                    String heuristic = (type == 2) ? "blockingcars" : "manhattan";
-
-                    List<Node> gbfsPath = GBFS.solve(start, heuristic);
-                    printSolutionPath(gbfsPath);
+                    heuristic = (type == 2) ? "blockingcars" : "manhattan";
+                    path = GBFS.solve(start, heuristic);
                 }
 
                 case 2 -> {
                     System.out.println("Uniform Cost Search");
-                    List<Node> ucsPath = UCS.solve(start);
-                    printSolutionPath(ucsPath);
+                    path = UCS.solve(start);
                 }
 
                 case 3 -> {
@@ -82,40 +82,30 @@ public class Main {
                             heuristicChoice = 0;
                         }
                     }
-
-                    String heuristicType = switch (heuristicChoice) {
+                    heuristic = switch (heuristicChoice) {
                         case 2 -> "obstacle";
                         case 3 -> "combined";
                         default -> "manhattan";
                     };
-
-                    List<Node> aStarPath = A.solve(start, heuristicType);
-                    printSolutionPath(aStarPath);
+                    path = A.solve(start, heuristic);
                 }
 
                 case 4 -> {
                     System.out.println("Djikstra");
-                    List<Node> djikstraPath = Djikstra.solve(start);
-                    printSolutionPath(djikstraPath);
+                    path = Djikstra.solve(start);
                 }
             }
-        }
-    }
 
-    private static void printSolutionPath(List<Node> path) {
-        if (path == null) {
-            System.out.println("Tidak ditemukan solusi");
-            return;
-        }
+            OutputWriter.printSolutionPath(path);
 
-        System.out.println("Solusi ditemukan dalam " + (path.size() - 1) + " langkah:");
-        System.out.println("Papan awal:");
-        OutputWriter.printBoard(path.get(0).board.board);
-
-        for (int i = 1; i < path.size(); i++) {
-            Node node = path.get(i);
-            System.out.println("\nLangkah " + i + ": " + node.moveDesc);
-            OutputWriter.printBoard(node.board.board);
+            if (path != null) {
+                System.out.print("\nApakah ingin menyimpan hasil ke file? (y/n): ");
+                String saveChoice = scanner.nextLine().trim().toLowerCase();
+                if (saveChoice.equals("y")) {
+                    String outputFile = "test/result/solusi.txt";
+                    OutputWriter.saveSolutionPath(path, outputFile);
+                }
+            }
         }
     }
 }
