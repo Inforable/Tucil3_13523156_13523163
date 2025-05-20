@@ -1,9 +1,8 @@
 package algoritma;
 
+import java.util.*;
 import model.Board;
 import model.Piece;
-
-import java.util.*;
 
 public class A {
     public static class Move {
@@ -83,7 +82,7 @@ public class A {
                     if (!(checkX == state.exitX && checkY == state.exitY) && state.board[checkY][checkX] != '.') break;
                     Board newBoard = state.cloneBoard();
                     newBoard.movePiece(id, step);
-                    nextStates.add(new Move(newBoard, "Geser " + id + " bawah " + step));
+                    nextStates.add(new Move(newBoard, "Geser " + id + "ke bawah " + step));
                 }
             }
         }

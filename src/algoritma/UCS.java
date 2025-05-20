@@ -16,7 +16,7 @@ public class UCS {
     }
 
     public static List<String> solve(Board initialState) {
-        PriorityQueue<Board> prioQueue = new PriorityQueue<>(); // Menyimpan Queue berdasarkan cost
+        PriorityQueue<Board> prioQueue = new PriorityQueue<>(Comparator.comparingInt(b -> b.g)); // Menyimpan Queue berdasarkan cost
         Set<String> visited = new HashSet<>(); // Menyimpan konfigurasi board yang telah dikunjungi
         
         prioQueue.add(initialState); // Initial state
