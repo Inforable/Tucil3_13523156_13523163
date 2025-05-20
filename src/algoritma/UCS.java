@@ -4,18 +4,6 @@ import java.util.*;
 import model.*;
 
 public class UCS {
-    // Menghasilkan string unik
-    public static String getBoardKey(Board state) {
-        StringBuilder sb = new StringBuilder();
-        List<Character> sortedKeys = new ArrayList<>(state.pieces.keySet());
-        Collections.sort(sortedKeys);
-        for (char id : sortedKeys) {
-            Piece p = state.pieces.get(id);
-            sb.append(id).append(p.x).append(",").append(p.y).append(";");
-        }
-        return sb.toString();
-    }
-
     // Menghasilkan semua kemungkinan gerakan
     private static List<Node> generateNextNodes(Node currentNode) {
         Board state = currentNode.board;
@@ -95,12 +83,12 @@ public class UCS {
                 return solution;
             }
 
-            String key = getBoardKey(current.board);
+            String key = current.board.getBoardKey();
             if (visited.contains(key)) continue;
             visited.add(key);
 
             for (Node nextNode : generateNextNodes(current)) {
-                String nextKey = getBoardKey(nextNode.board);
+                String nextKey = nextNode.board.getBoardKey();
                 if (!visited.contains(nextKey)) {
                     openSet.add(nextNode);
                 }

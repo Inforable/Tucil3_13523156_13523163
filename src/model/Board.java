@@ -28,6 +28,18 @@ public class Board {
         return false;
     }
 
+    // Menghasilkan string unik
+    public String getBoardKey() {
+        StringBuilder sb = new StringBuilder();
+        List<Character> sortedKeys = new ArrayList<>(this.pieces.keySet());
+        Collections.sort(sortedKeys);
+        for (char id : sortedKeys) {
+            Piece p = this.pieces.get(id);
+            sb.append(id).append(p.x).append(",").append(p.y).append(";");
+        }
+        return sb.toString();
+    }
+
     // deep copy
     public Board cloneBoard() {
         int rows = board.length;

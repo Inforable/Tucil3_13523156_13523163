@@ -4,17 +4,6 @@ import java.util.*;
 import model.*;
 
 public class A {
-    private static String getBoardKey(Board state) {
-        StringBuilder sb = new StringBuilder();
-        List<Character> sortedKeys = new ArrayList<>(state.pieces.keySet());
-        Collections.sort(sortedKeys);
-        for (char id : sortedKeys) {
-            Piece p = state.pieces.get(id);
-            sb.append(id).append(p.x).append(",").append(p.y).append(";");
-        }
-        return sb.toString();
-    }
-
     private static List<Node> generateNextNodes(Node currentNode) {
         Board state = currentNode.board;
         List<Node> nextNodes = new ArrayList<>();
@@ -136,12 +125,12 @@ public class A {
                 List<Node> solution = Node.reconstructPath(current);
                 return solution;
             }
-            String key = getBoardKey(current.board);
+            String key = current.board.getBoardKey();
             if (visited.contains(key)) continue;
             visited.add(key);
 
             for (Node nextNode : generateNextNodes(current)) {
-                String nextKey = getBoardKey(nextNode.board);
+                String nextKey = nextNode.board.getBoardKey();
                 if (!visited.contains(nextKey)) {
                     Piece nextPrimary = nextNode.board.pieces.get('P');
                     int hNext = 0;

@@ -4,19 +4,7 @@ import java.util.*;
 import model.*;
 
 public class GBFS {
-    // Menghasilkan string unik
-    public static String getBoardKey(Board state) {
-        StringBuilder sb = new StringBuilder();
-        List<Character> sortedKeys = new ArrayList<>(state.pieces.keySet());
-        Collections.sort(sortedKeys);
-        for (char id : sortedKeys) {
-            Piece p = state.pieces.get(id);
-            sb.append(id).append(p.x).append(",").append(p.y).append(";");
-        }
-        return sb.toString();
-    }
-
-        // Menghitung nilai heuristik
+    // Menghitung nilai heuristik
     public static int calculateHeuristic(Board state, String type) {
         if ("manhattan".equalsIgnoreCase(type)) {
             return heuristicManhattan(state);
@@ -144,12 +132,12 @@ public class GBFS {
                 return solution;
             }
 
-            String key = getBoardKey(current.board);
+            String key = current.board.getBoardKey();
             if (visited.contains(key)) continue;
             visited.add(key);
 
             for (Node nextNode : generateNextNodes(current)) {
-                String nextKey = getBoardKey(nextNode.board);
+                String nextKey = nextNode.board.getBoardKey();
                 if (!visited.contains(nextKey)) {
                     int hNext = calculateHeuristic(nextNode.board, heuristicType);
                     nextNode.h = hNext;
