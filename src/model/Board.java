@@ -2,7 +2,7 @@ package model;
 
 import java.util.*;
 
-public class Board implements Comparable<Board> {
+public class Board {
     public char[][] board;
     public Map<Character, Piece> pieces;
     public int exitX, exitY;
@@ -77,10 +77,5 @@ public class Board implements Comparable<Board> {
                 board[piece.y + i][piece.x] = piece.id;
             }
         }
-    }
-
-    @Override
-    public int compareTo(Board other) {
-        return Integer.compare(this.g, other.g);
     }
 }
