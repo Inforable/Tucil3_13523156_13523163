@@ -69,6 +69,7 @@ public class Main {
                     }
 
                     break;
+
                 case 2:
                     System.out.println("Uniform Cost Search");
                     List<String> ucs = UCS.solve(start);
@@ -81,6 +82,7 @@ public class Main {
                         System.out.println("Tidak ditemukan solusi");
                     }
                     break;
+
                 case 3:
                     System.out.println("A* Search");
                     System.out.println("Pilih heuristik:");
@@ -100,8 +102,9 @@ public class Main {
                             heuristicChoice = 0;
                         }
                     }
-                    System.out.println("\nAnda memilih heuristik: ");                    switch (heuristicChoice) {
-                        case 1:
+                    System.out.println("\nAnda memilih heuristik: ");                   
+                    switch (heuristicChoice) {
+                        case 1 -> {
                             System.out.println("Manhattan Distance Heuristic");
                             Board solution = A.solve(start, "manhattan");
                             if (solution != null) {
@@ -114,8 +117,9 @@ public class Main {
                                     }
                                 }
                             }
-                            break;
-                        case 2:
+                        break;
+                    }
+                        case 2 -> {
                             System.out.println("Obstacle Heuristic");
                             Board solution1 = A.solve(start, "obstacle");
                             if (solution1 != null) {
@@ -128,8 +132,9 @@ public class Main {
                                     }
                                 }
                             }
-                            break;
-                        case 3:
+                        break;
+                    }
+                        case 3 -> {
                             System.out.println("Combined Heuristic");
                             Board solution2 = A.solve(start, "combined");
                             if (solution2 != null) {
@@ -142,8 +147,10 @@ public class Main {
                                     }
                                 }
                             }
-                            break;
+                        break;
                     }
+                }
+
                 case 4:
                     System.out.println("Djikstra");
                     Board solution3 = Djikstra.solve(start);

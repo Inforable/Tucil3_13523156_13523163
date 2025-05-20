@@ -2,7 +2,6 @@ package algoritma;
 
 import model.Board;
 import model.Piece;
-import utils.OutputWriter;
 
 import java.util.*;
 
