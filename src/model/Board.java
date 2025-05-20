@@ -6,9 +6,6 @@ public class Board {
     public char[][] board;
     public Map<Character, Piece> pieces;
     public int exitX, exitY;
-    public List<String> path;
-    public int g; 
-    public int h;
 
     // Ctor
     public Board(char[][] board, Map<Character, Piece> pieces, int exitX, int exitY) {
@@ -16,7 +13,6 @@ public class Board {
         this.pieces = (pieces != null) ? pieces : new HashMap<>();
         this.exitX = exitX;
         this.exitY = exitY;
-        this.path = new ArrayList<>();
     }
 
     // deep copy
@@ -37,12 +33,7 @@ public class Board {
             Piece p = entry.getValue();
             newPieces.put(entry.getKey(), new Piece(p.id, p.x, p.y, p.length, p.isHorizontal, p.isPrimary));
         }
-        Board cloned = new Board(newBoard, newPieces, exitX, exitY);
-        cloned.path = new ArrayList<>(this.path);
-        cloned.g = this.g;
-        cloned.h = this.h;
-
-        return cloned;
+        return new Board(newBoard, newPieces, exitX, exitY);
     }
 
     // Menggeser piece dengan id tertentu
