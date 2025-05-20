@@ -1,10 +1,8 @@
 package utils;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
+import java.awt.Point;
+import java.io.*;
+import java.util.*;
 import model.*;
 
 public class OutputWriter {
@@ -12,7 +10,9 @@ public class OutputWriter {
     private static final String ANSI_WHITE_BG = "\u001B[47m";
     private static final String ANSI_BLACK = "\u001B[30m";
     private static final String ANSI_RESET = "\u001B[0m";
+    private static final String ANSI_YELLOW_BG = "\u001B[43m";
 
+    // Print board biasa
     public static void printBoard(char[][] board) {
         for (char[] row : board) {
             for (char cell : row) {
@@ -20,6 +20,69 @@ public class OutputWriter {
                     case 'P' -> System.out.print(ANSI_RED + cell + ANSI_RESET);
                     case 'K' -> System.out.print(ANSI_WHITE_BG + ANSI_BLACK + cell + ANSI_RESET);
                     default -> System.out.print(cell);
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    // Mengambil posisi dari semua piece
+    public static Map<Character, Set<Point>> getPiecePositions(char[][] board) {
+        Map<Character, Set<Point>> positions = new HashMap<>();
+        for (int y = 0; y < board.length; y++) {
+            for (int x = 0; x < board[y].length; x++) {
+                char c = board[y][x];
+                if (c != '.') {
+                    positions.computeIfAbsent(c, k -> new HashSet<>()).add(new Point(x, y));
+                }
+            }
+        }
+        return positions;
+    }
+
+    // Print board ketika ada perubahan
+    public static void printStepBoard(char[][] boardNow, char[][] boardPrev) {
+        Set<Point> changedPositions = new HashSet<>();
+
+        if (boardPrev != null) {
+            Map<Character, Set<Point>> prevPositions = getPiecePositions(boardPrev);
+            Map<Character, Set<Point>> nowPositions = getPiecePositions(boardNow);
+
+            // Bandingkan posisi piece per karakter untuk cari perubahan posisi
+            for (char pieceId : nowPositions.keySet()) {
+                Set<Point> oldSet = prevPositions.getOrDefault(pieceId, Collections.emptySet());
+                Set<Point> newSet = nowPositions.get(pieceId);
+
+                for (Point p : oldSet) {
+                    if (!newSet.contains(p)) changedPositions.add(p);
+                }
+
+                for (Point p : newSet) {
+                    if (!oldSet.contains(p)) changedPositions.add(p);
+                }
+            }
+        }
+
+        // Mencetak dengan highlight background kuning untuk posisi yang berubah
+        for (int y = 0; y < boardNow.length; y++) {
+            for (int x = 0; x < boardNow[y].length; x++) {
+                char nowCell = boardNow[y][x];
+                Point pos = new Point(x, y);
+
+                boolean changed = changedPositions.contains(pos);
+
+                if (changed) {
+                    switch (nowCell) {
+                        case 'P' -> System.out.print(ANSI_YELLOW_BG + ANSI_RED + nowCell + ANSI_RESET);
+                        case 'K' -> System.out.print(ANSI_YELLOW_BG + ANSI_BLACK + nowCell + ANSI_RESET);
+                        default -> System.out.print(ANSI_YELLOW_BG + nowCell + ANSI_RESET);
+                    }
+                } else {
+                    switch (nowCell) {
+                        case 'P' ->  System.out.print(ANSI_RED + nowCell + ANSI_RESET);
+                        case 'K' ->  System.out.print(ANSI_WHITE_BG + ANSI_BLACK + nowCell + ANSI_RESET);
+                        default ->  System.out.print(nowCell);
+                    }
                 }
             }
             System.out.println();
@@ -74,7 +137,7 @@ public class OutputWriter {
         for (int i = 1; i < path.size(); i++) {
             Node node = path.get(i);
             System.out.println("\nLangkah " + i + ": " + node.moveDesc);
-            printBoard(node.board.board);
+            printStepBoard(node.board.board, path.get(i - 1).board.board);
         }
     }
 
