@@ -1,0 +1,1770 @@
+Solusi ditemukan dalam 176 langkah:
+Papan awal:
+  K   
+ABBCCD
+AEPFFD
+GEP.HH
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 1: Geser H ke kiri 1
+  K   
+ABBCCD
+AEPFFD
+GEPHH.
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 2: Geser D ke bawah 1
+  K   
+ABBCC.
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 3: Geser C ke kanan 1
+  K   
+ABB.CC
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 4: Geser B ke kanan 1
+  K   
+A.BBCC
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 5: Geser E ke atas 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+G.IIJJ
+NNNL..
+...LMM
+
+
+Langkah 6: Geser I ke kiri 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GII.JJ
+NNNL..
+...LMM
+
+
+Langkah 7: Geser L ke atas 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIILJJ
+NNNL..
+....MM
+
+
+Langkah 8: Geser M ke kiri 4
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIILJJ
+NNNL..
+MM....
+
+
+Langkah 9: Geser M ke kanan 3
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIILJJ
+NNNL..
+...MM.
+
+
+Langkah 10: Geser M ke kiri 2
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIILJJ
+NNNL..
+.MM...
+
+
+Langkah 11: Geser L ke bawah 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GII.JJ
+NNNL..
+.MML..
+
+
+Langkah 12: Geser M ke kiri 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GII.JJ
+NNNL..
+MM.L..
+
+
+Langkah 13: Geser J ke kiri 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIIJJ.
+NNNL..
+MM.L..
+
+
+Langkah 14: Geser D ke bawah 2
+  K   
+AEBBCC
+AEPFF.
+GEPHH.
+GIIJJD
+NNNL.D
+MM.L..
+
+
+Langkah 15: Geser M ke kanan 1
+  K   
+AEBBCC
+AEPFF.
+GEPHH.
+GIIJJD
+NNNL.D
+.MML..
+
+
+Langkah 16: Geser H ke kanan 1
+  K   
+AEBBCC
+AEPFF.
+GEP.HH
+GIIJJD
+NNNL.D
+.MML..
+
+
+Langkah 17: Geser M ke kiri 1
+  K   
+AEBBCC
+AEPFF.
+GEP.HH
+GIIJJD
+NNNL.D
+MM.L..
+
+
+Langkah 18: Geser F ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GIIJJD
+NNNL.D
+MM.L..
+
+
+Langkah 19: Geser M ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GIIJJD
+NNNL.D
+.MML..
+
+
+Langkah 20: Geser H ke kiri 1
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIIJJD
+NNNL.D
+.MML..
+
+
+Langkah 21: Geser M ke kiri 1
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIIJJD
+NNNL.D
+MM.L..
+
+
+Langkah 22: Geser D ke bawah 1
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIIJJ.
+NNNL.D
+MM.L.D
+
+
+Langkah 23: Geser M ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIIJJ.
+NNNL.D
+.MML.D
+
+
+Langkah 24: Geser J ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GII.JJ
+NNNL.D
+.MML.D
+
+
+Langkah 25: Geser M ke kiri 1
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GII.JJ
+NNNL.D
+MM.L.D
+
+
+Langkah 26: Geser L ke atas 1
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIILJJ
+NNNL.D
+MM...D
+
+
+Langkah 27: Geser M ke kanan 3
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIILJJ
+NNNL.D
+...MMD
+
+
+Langkah 28: Geser M ke kiri 2
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIILJJ
+NNNL.D
+.MM..D
+
+
+Langkah 29: Geser M ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIILJJ
+NNNL.D
+..MM.D
+
+
+Langkah 30: Geser H ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GIILJJ
+NNNL.D
+..MM.D
+
+
+Langkah 31: Geser M ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GIILJJ
+NNNL.D
+...MMD
+
+
+Langkah 32: Geser M ke kiri 3
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GIILJJ
+NNNL.D
+MM...D
+
+
+Langkah 33: Geser M ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GIILJJ
+NNNL.D
+.MM..D
+
+
+Langkah 34: Geser L ke bawah 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GII.JJ
+NNNL.D
+.MML.D
+
+
+Langkah 35: Geser M ke kiri 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GII.JJ
+NNNL.D
+MM.L.D
+
+
+Langkah 36: Geser L ke atas 3
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+NNN..D
+MM...D
+
+
+Langkah 37: Geser N ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+..NNND
+MM...D
+
+
+Langkah 38: Geser N ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+.NNN.D
+MM...D
+
+
+Langkah 39: Geser M ke kanan 3
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+.NNN.D
+...MMD
+
+
+Langkah 40: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+..NNND
+...MMD
+
+
+Langkah 41: Geser N ke kiri 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+NNN..D
+...MMD
+
+
+Langkah 42: Geser M ke kiri 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+NNN..D
+.MM..D
+
+
+Langkah 43: Geser N ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+..NNND
+.MM..D
+
+
+Langkah 44: Geser N ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+.NNN.D
+.MM..D
+
+
+Langkah 45: Geser M ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+.NNN.D
+..MM.D
+
+
+Langkah 46: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+..NNND
+..MM.D
+
+
+Langkah 47: Geser N ke kiri 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+NNN..D
+..MM.D
+
+
+Langkah 48: Geser J ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJ.
+NNN..D
+..MM.D
+
+
+Langkah 49: Geser N ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJ.
+..NNND
+..MM.D
+
+
+Langkah 50: Geser N ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJ.
+.NNN.D
+..MM.D
+
+
+Langkah 51: Geser M ke kiri 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJ.
+.NNN.D
+MM...D
+
+
+Langkah 52: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJ.
+..NNND
+MM...D
+
+
+Langkah 53: Geser N ke kiri 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJ.
+NNN..D
+MM...D
+
+
+Langkah 54: Geser D ke atas 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+NNN..D
+MM....
+
+
+Langkah 55: Geser N ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+..NNND
+MM....
+
+
+Langkah 56: Geser N ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+.NNN.D
+MM....
+
+
+Langkah 57: Geser M ke kanan 4
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+.NNN.D
+....MM
+
+
+Langkah 58: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+..NNND
+....MM
+
+
+Langkah 59: Geser N ke kiri 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+NNN..D
+....MM
+
+
+Langkah 60: Geser M ke kiri 3
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+NNN..D
+.MM...
+
+
+Langkah 61: Geser N ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+..NNND
+.MM...
+
+
+Langkah 62: Geser N ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+.NNN.D
+.MM...
+
+
+Langkah 63: Geser M ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+.NNN.D
+...MM.
+
+
+Langkah 64: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+..NNND
+...MM.
+
+
+Langkah 65: Geser N ke kiri 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+NNN..D
+...MM.
+
+
+Langkah 66: Geser M ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+NNN..D
+..MM..
+
+
+Langkah 67: Geser N ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+..NNND
+..MM..
+
+
+Langkah 68: Geser N ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GIIJJD
+.NNN.D
+..MM..
+
+
+Langkah 69: Geser G ke bawah 2
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+.IIJJD
+GNNN.D
+G.MM..
+
+
+Langkah 70: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+.IIJJD
+G.NNND
+G.MM..
+
+
+Langkah 71: Geser M ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+.IIJJD
+G.NNND
+G...MM
+
+
+Langkah 72: Geser N ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+.IIJJD
+GNNN.D
+G...MM
+
+
+Langkah 73: Geser M ke kiri 3
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+.IIJJD
+GNNN.D
+GMM...
+
+
+Langkah 74: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+.IIJJD
+G.NNND
+GMM...
+
+
+Langkah 75: Geser M ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+.IIJJD
+G.NNND
+G..MM.
+
+
+Langkah 76: Geser N ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+.IIJJD
+GNNN.D
+G..MM.
+
+
+Langkah 77: Geser I ke kiri 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+II.JJD
+GNNN.D
+G..MM.
+
+
+Langkah 78: Geser M ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+II.JJD
+GNNN.D
+G...MM
+
+
+Langkah 79: Geser M ke kiri 3
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+II.JJD
+GNNN.D
+GMM...
+
+
+Langkah 80: Geser D ke bawah 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+II.JJ.
+GNNN.D
+GMM..D
+
+
+Langkah 81: Geser M ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+II.JJ.
+GNNN.D
+G..MMD
+
+
+Langkah 82: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+II.JJ.
+G.NNND
+G..MMD
+
+
+Langkah 83: Geser J ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+II..JJ
+G.NNND
+G..MMD
+
+
+Langkah 84: Geser I ke kanan 2
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+..IIJJ
+G.NNND
+G..MMD
+
+
+Langkah 85: Geser E ke bawah 1
+  K   
+A.BBCC
+AEPLFF
+.EPLHH
+.EIIJJ
+G.NNND
+G..MMD
+
+
+Langkah 86: Geser N ke kiri 1
+  K   
+A.BBCC
+AEPLFF
+.EPLHH
+.EIIJJ
+GNNN.D
+G..MMD
+
+
+Langkah 87: Geser M ke kiri 1
+  K   
+A.BBCC
+AEPLFF
+.EPLHH
+.EIIJJ
+GNNN.D
+G.MM.D
+
+
+Langkah 88: Geser G ke atas 2
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+..MM.D
+
+
+Langkah 89: Geser N ke kanan 1
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+..NNND
+..MM.D
+
+
+Langkah 90: Geser N ke kiri 2
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+..MM.D
+
+
+Langkah 91: Geser M ke kanan 1
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+...MMD
+
+
+Langkah 92: Geser N ke kanan 2
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+..NNND
+...MMD
+
+
+Langkah 93: Geser N ke kiri 1
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+...MMD
+
+
+Langkah 94: Geser M ke kiri 3
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+MM...D
+
+
+Langkah 95: Geser N ke kanan 1
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+..NNND
+MM...D
+
+
+Langkah 96: Geser N ke kiri 2
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+MM...D
+
+
+Langkah 97: Geser M ke kanan 1
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+.MM..D
+
+
+Langkah 98: Geser N ke kanan 2
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+..NNND
+.MM..D
+
+
+Langkah 99: Geser N ke kiri 1
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+.MM..D
+
+
+Langkah 100: Geser B ke kiri 1
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+.MM..D
+
+
+Langkah 101: Geser N ke kanan 1
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+..NNND
+.MM..D
+
+
+Langkah 102: Geser N ke kiri 2
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+.MM..D
+
+
+Langkah 103: Geser M ke kanan 2
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+...MMD
+
+
+Langkah 104: Geser N ke kanan 2
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+..NNND
+...MMD
+
+
+Langkah 105: Geser N ke kiri 1
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+...MMD
+
+
+Langkah 106: Geser M ke kiri 3
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+MM...D
+
+
+Langkah 107: Geser N ke kanan 1
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+..NNND
+MM...D
+
+
+Langkah 108: Geser N ke kiri 2
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+MM...D
+
+
+Langkah 109: Geser M ke kanan 2
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+..MM.D
+
+
+Langkah 110: Geser N ke kanan 2
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+..NNND
+..MM.D
+
+
+Langkah 111: Geser N ke kiri 1
+  K   
+ABB.CC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+..MM.D
+
+
+Langkah 112: Geser L ke atas 1
+  K   
+ABBLCC
+AEPLFF
+GEP.HH
+GEIIJJ
+.NNN.D
+..MM.D
+
+
+Langkah 113: Geser N ke kanan 1
+  K   
+ABBLCC
+AEPLFF
+GEP.HH
+GEIIJJ
+..NNND
+..MM.D
+
+
+Langkah 114: Geser N ke kiri 2
+  K   
+ABBLCC
+AEPLFF
+GEP.HH
+GEIIJJ
+NNN..D
+..MM.D
+
+
+Langkah 115: Geser M ke kanan 1
+  K   
+ABBLCC
+AEPLFF
+GEP.HH
+GEIIJJ
+NNN..D
+...MMD
+
+
+Langkah 116: Geser N ke kanan 2
+  K   
+ABBLCC
+AEPLFF
+GEP.HH
+GEIIJJ
+..NNND
+...MMD
+
+
+Langkah 117: Geser N ke kiri 1
+  K   
+ABBLCC
+AEPLFF
+GEP.HH
+GEIIJJ
+.NNN.D
+...MMD
+
+
+Langkah 118: Geser M ke kiri 2
+  K   
+ABBLCC
+AEPLFF
+GEP.HH
+GEIIJJ
+.NNN.D
+.MM..D
+
+
+Langkah 119: Geser N ke kanan 1
+  K   
+ABBLCC
+AEPLFF
+GEP.HH
+GEIIJJ
+..NNND
+.MM..D
+
+
+Langkah 120: Geser G ke bawah 1
+  K   
+ABBLCC
+AEPLFF
+.EP.HH
+GEIIJJ
+G.NNND
+.MM..D
+
+
+Langkah 121: Geser N ke kiri 1
+  K   
+ABBLCC
+AEPLFF
+.EP.HH
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 122: Geser M ke kanan 2
+  K   
+ABBLCC
+AEPLFF
+.EP.HH
+GEIIJJ
+GNNN.D
+...MMD
+
+
+Langkah 123: Geser N ke kanan 1
+  K   
+ABBLCC
+AEPLFF
+.EP.HH
+GEIIJJ
+G.NNND
+...MMD
+
+
+Langkah 124: Geser M ke kiri 3
+  K   
+ABBLCC
+AEPLFF
+.EP.HH
+GEIIJJ
+G.NNND
+MM...D
+
+
+Langkah 125: Geser N ke kiri 1
+  K   
+ABBLCC
+AEPLFF
+.EP.HH
+GEIIJJ
+GNNN.D
+MM...D
+
+
+Langkah 126: Geser M ke kanan 2
+  K   
+ABBLCC
+AEPLFF
+.EP.HH
+GEIIJJ
+GNNN.D
+..MM.D
+
+
+Langkah 127: Geser N ke kanan 1
+  K   
+ABBLCC
+AEPLFF
+.EP.HH
+GEIIJJ
+G.NNND
+..MM.D
+
+
+Langkah 128: Geser L ke bawah 1
+  K   
+ABB.CC
+AEPLFF
+.EPLHH
+GEIIJJ
+G.NNND
+..MM.D
+
+
+Langkah 129: Geser N ke kiri 1
+  K   
+ABB.CC
+AEPLFF
+.EPLHH
+GEIIJJ
+GNNN.D
+..MM.D
+
+
+Langkah 130: Geser M ke kanan 1
+  K   
+ABB.CC
+AEPLFF
+.EPLHH
+GEIIJJ
+GNNN.D
+...MMD
+
+
+Langkah 131: Geser N ke kanan 1
+  K   
+ABB.CC
+AEPLFF
+.EPLHH
+GEIIJJ
+G.NNND
+...MMD
+
+
+Langkah 132: Geser M ke kiri 3
+  K   
+ABB.CC
+AEPLFF
+.EPLHH
+GEIIJJ
+G.NNND
+MM...D
+
+
+Langkah 133: Geser N ke kiri 1
+  K   
+ABB.CC
+AEPLFF
+.EPLHH
+GEIIJJ
+GNNN.D
+MM...D
+
+
+Langkah 134: Geser M ke kanan 1
+  K   
+ABB.CC
+AEPLFF
+.EPLHH
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 135: Geser N ke kanan 1
+  K   
+ABB.CC
+AEPLFF
+.EPLHH
+GEIIJJ
+G.NNND
+.MM..D
+
+
+Langkah 136: Geser E ke bawah 1
+  K   
+ABB.CC
+A.PLFF
+.EPLHH
+GEIIJJ
+GENNND
+.MM..D
+
+
+Langkah 137: Geser M ke kanan 2
+  K   
+ABB.CC
+A.PLFF
+.EPLHH
+GEIIJJ
+GENNND
+...MMD
+
+
+Langkah 138: Geser M ke kiri 3
+  K   
+ABB.CC
+A.PLFF
+.EPLHH
+GEIIJJ
+GENNND
+MM...D
+
+
+Langkah 139: Geser M ke kanan 2
+  K   
+ABB.CC
+A.PLFF
+.EPLHH
+GEIIJJ
+GENNND
+..MM.D
+
+
+Langkah 140: Geser L ke atas 1
+  K   
+ABBLCC
+A.PLFF
+.EP.HH
+GEIIJJ
+GENNND
+..MM.D
+
+
+Langkah 141: Geser M ke kanan 1
+  K   
+ABBLCC
+A.PLFF
+.EP.HH
+GEIIJJ
+GENNND
+...MMD
+
+
+Langkah 142: Geser M ke kiri 3
+  K   
+ABBLCC
+A.PLFF
+.EP.HH
+GEIIJJ
+GENNND
+MM...D
+
+
+Langkah 143: Geser M ke kanan 1
+  K   
+ABBLCC
+A.PLFF
+.EP.HH
+GEIIJJ
+GENNND
+.MM..D
+
+
+Langkah 144: Geser A ke bawah 1
+  K   
+.BBLCC
+A.PLFF
+AEP.HH
+GEIIJJ
+GENNND
+.MM..D
+
+
+Langkah 145: Geser M ke kanan 2
+  K   
+.BBLCC
+A.PLFF
+AEP.HH
+GEIIJJ
+GENNND
+...MMD
+
+
+Langkah 146: Geser M ke kiri 3
+  K   
+.BBLCC
+A.PLFF
+AEP.HH
+GEIIJJ
+GENNND
+MM...D
+
+
+Langkah 147: Geser M ke kanan 2
+  K   
+.BBLCC
+A.PLFF
+AEP.HH
+GEIIJJ
+GENNND
+..MM.D
+
+
+Langkah 148: Geser L ke bawah 1
+  K   
+.BB.CC
+A.PLFF
+AEPLHH
+GEIIJJ
+GENNND
+..MM.D
+
+
+Langkah 149: Geser M ke kanan 1
+  K   
+.BB.CC
+A.PLFF
+AEPLHH
+GEIIJJ
+GENNND
+...MMD
+
+
+Langkah 150: Geser M ke kiri 3
+  K   
+.BB.CC
+A.PLFF
+AEPLHH
+GEIIJJ
+GENNND
+MM...D
+
+
+Langkah 151: Geser M ke kanan 1
+  K   
+.BB.CC
+A.PLFF
+AEPLHH
+GEIIJJ
+GENNND
+.MM..D
+
+
+Langkah 152: Geser G ke bawah 1
+  K   
+.BB.CC
+A.PLFF
+AEPLHH
+.EIIJJ
+GENNND
+GMM..D
+
+
+Langkah 153: Geser M ke kanan 2
+  K   
+.BB.CC
+A.PLFF
+AEPLHH
+.EIIJJ
+GENNND
+G..MMD
+
+
+Langkah 154: Geser M ke kiri 1
+  K   
+.BB.CC
+A.PLFF
+AEPLHH
+.EIIJJ
+GENNND
+G.MM.D
+
+
+Langkah 155: Geser L ke atas 1
+  K   
+.BBLCC
+A.PLFF
+AEP.HH
+.EIIJJ
+GENNND
+G.MM.D
+
+
+Langkah 156: Geser M ke kanan 1
+  K   
+.BBLCC
+A.PLFF
+AEP.HH
+.EIIJJ
+GENNND
+G..MMD
+
+
+Langkah 157: Geser M ke kiri 2
+  K   
+.BBLCC
+A.PLFF
+AEP.HH
+.EIIJJ
+GENNND
+GMM..D
+
+
+Langkah 158: Geser H ke kiri 1
+  K   
+.BBLCC
+A.PLFF
+AEPHH.
+.EIIJJ
+GENNND
+GMM..D
+
+
+Langkah 159: Geser M ke kanan 2
+  K   
+.BBLCC
+A.PLFF
+AEPHH.
+.EIIJJ
+GENNND
+G..MMD
+
+
+Langkah 160: Geser M ke kiri 1
+  K   
+.BBLCC
+A.PLFF
+AEPHH.
+.EIIJJ
+GENNND
+G.MM.D
+
+
+Langkah 161: Geser G ke atas 1
+  K   
+.BBLCC
+A.PLFF
+AEPHH.
+GEIIJJ
+GENNND
+..MM.D
+
+
+Langkah 162: Geser M ke kanan 1
+  K   
+.BBLCC
+A.PLFF
+AEPHH.
+GEIIJJ
+GENNND
+...MMD
+
+
+Langkah 163: Geser M ke kiri 3
+  K   
+.BBLCC
+A.PLFF
+AEPHH.
+GEIIJJ
+GENNND
+MM...D
+
+
+Langkah 164: Geser M ke kanan 1
+  K   
+.BBLCC
+A.PLFF
+AEPHH.
+GEIIJJ
+GENNND
+.MM..D
+
+
+Langkah 165: Geser E ke atas 1
+  K   
+.BBLCC
+AEPLFF
+AEPHH.
+GEIIJJ
+G.NNND
+.MM..D
+
+
+Langkah 166: Geser N ke kiri 1
+  K   
+.BBLCC
+AEPLFF
+AEPHH.
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 167: Geser M ke kanan 2
+  K   
+.BBLCC
+AEPLFF
+AEPHH.
+GEIIJJ
+GNNN.D
+...MMD
+
+
+Langkah 168: Geser N ke kanan 1
+  K   
+.BBLCC
+AEPLFF
+AEPHH.
+GEIIJJ
+G.NNND
+...MMD
+
+
+Langkah 169: Geser M ke kiri 3
+  K   
+.BBLCC
+AEPLFF
+AEPHH.
+GEIIJJ
+G.NNND
+MM...D
+
+
+Langkah 170: Geser N ke kiri 1
+  K   
+.BBLCC
+AEPLFF
+AEPHH.
+GEIIJJ
+GNNN.D
+MM...D
+
+
+Langkah 171: Geser M ke kanan 2
+  K   
+.BBLCC
+AEPLFF
+AEPHH.
+GEIIJJ
+GNNN.D
+..MM.D
+
+
+Langkah 172: Geser N ke kanan 1
+  K   
+.BBLCC
+AEPLFF
+AEPHH.
+GEIIJJ
+G.NNND
+..MM.D
+
+
+Langkah 173: Geser H ke kanan 1
+  K   
+.BBLCC
+AEPLFF
+AEP.HH
+GEIIJJ
+G.NNND
+..MM.D
+
+
+Langkah 174: Geser N ke kiri 1
+  K   
+.BBLCC
+AEPLFF
+AEP.HH
+GEIIJJ
+GNNN.D
+..MM.D
+
+
+Langkah 175: Geser B ke kiri 1
+  K   
+BB.LCC
+AEPLFF
+AEP.HH
+GEIIJJ
+GNNN.D
+..MM.D
+
+
+Langkah 176: Geser P ke atas 2
+  P   
+BBPLCC
+AE.LFF
+AE..HH
+GEIIJJ
+GNNN.D
+..MM.D
+

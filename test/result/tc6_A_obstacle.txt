@@ -1,0 +1,225 @@
+Solusi ditemukan dalam 24 langkah:
+Papan awal:
+ ..AABB
+ .CCD..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 1: Geser A ke kiri 2
+ AA..BB
+ .CCD..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 2: Geser P ke kiri 1
+ AA..BB
+ .CCD..
+ .E.DFF
+K.EPP.G
+ .E..HG
+ .IIIHG
+
+
+Langkah 3: Geser H ke atas 1
+ AA..BB
+ .CCD..
+ .E.DFF
+K.EPPHG
+ .E..HG
+ .III.G
+
+
+Langkah 4: Geser I ke kanan 1
+ AA..BB
+ .CCD..
+ .E.DFF
+K.EPPHG
+ .E..HG
+ ..IIIG
+
+
+Langkah 5: Geser E ke bawah 1
+ AA..BB
+ .CCD..
+ ...DFF
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 6: Geser D ke atas 1
+ AA.DBB
+ .CCD..
+ ....FF
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 7: Geser F ke kiri 4
+ AA.DBB
+ .CCD..
+ FF....
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 8: Geser D ke bawah 1
+ AA..BB
+ .CCD..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 9: Geser B ke kiri 2
+ AABB..
+ .CCD..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 10: Geser H ke atas 2
+ AABB..
+ .CCDH.
+ FF.DH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 11: Geser G ke atas 3
+ AABB.G
+ .CCDHG
+ FF.DHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 12: Geser P ke kanan 2
+ AABB.G
+ .CCDHG
+ FF.DHG
+K.E..PP
+ .E....
+ .EIII.
+
+
+Langkah 13: Geser D ke bawah 2
+ AABB.G
+ .CC.HG
+ FF..HG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 14: Geser F ke kanan 2
+ AABB.G
+ .CC.HG
+ ..FFHG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 15: Geser E ke atas 1
+ AABB.G
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ..III.
+
+
+Langkah 16: Geser I ke kiri 2
+ AABB.G
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ III...
+
+
+Langkah 17: Geser D ke bawah 1
+ AABB.G
+ .CC.HG
+ .EFFHG
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 18: Geser P ke kiri 1
+ AABB.G
+ .CC.HG
+ .EFFHG
+K.E.PP.
+ .E.D..
+ IIID..
+
+
+Langkah 19: Geser C ke kanan 1
+ AABB.G
+ ..CCHG
+ .EFFHG
+K.E.PP.
+ .E.D..
+ IIID..
+
+
+Langkah 20: Geser G ke bawah 3
+ AABB..
+ ..CCH.
+ .EFFH.
+K.E.PPG
+ .E.D.G
+ IIID.G
+
+
+Langkah 21: Geser B ke kanan 2
+ AA..BB
+ ..CCH.
+ .EFFH.
+K.E.PPG
+ .E.D.G
+ IIID.G
+
+
+Langkah 22: Geser A ke kanan 2
+ ..AABB
+ ..CCH.
+ .EFFH.
+K.E.PPG
+ .E.D.G
+ IIID.G
+
+
+Langkah 23: Geser E ke atas 2
+ .EAABB
+ .ECCH.
+ .EFFH.
+K...PPG
+ ...D.G
+ IIID.G
+
+
+Langkah 24: Geser P ke kiri 4
+ .EAABB
+ .ECCH.
+ .EFFH.
+PP....G
+ ...D.G
+ IIID.G
+

@@ -1,0 +1,243 @@
+Solusi ditemukan dalam 26 langkah:
+Papan awal:
+.ABBCC 
+.AD... 
+PPDEFGK
+HIIEFG 
+HJJEFL 
+MMM..L 
+
+
+Langkah 1: Geser G ke atas 1
+.ABBCC 
+.AD..G 
+PPDEFGK
+HIIEF. 
+HJJEFL 
+MMM..L 
+
+
+Langkah 2: Geser E ke atas 1
+.ABBCC 
+.ADE.G 
+PPDEFGK
+HIIEF. 
+HJJ.FL 
+MMM..L 
+
+
+Langkah 3: Geser L ke atas 1
+.ABBCC 
+.ADE.G 
+PPDEFGK
+HIIEFL 
+HJJ.FL 
+MMM... 
+
+
+Langkah 4: Geser F ke atas 1
+.ABBCC 
+.ADEFG 
+PPDEFGK
+HIIEFL 
+HJJ..L 
+MMM... 
+
+
+Langkah 5: Geser M ke kanan 3
+.ABBCC 
+.ADEFG 
+PPDEFGK
+HIIEFL 
+HJJ..L 
+...MMM 
+
+
+Langkah 6: Geser J ke kanan 2
+.ABBCC 
+.ADEFG 
+PPDEFGK
+HIIEFL 
+H..JJL 
+...MMM 
+
+
+Langkah 7: Geser H ke bawah 1
+.ABBCC 
+.ADEFG 
+PPDEFGK
+.IIEFL 
+H..JJL 
+H..MMM 
+
+
+Langkah 8: Geser I ke kiri 1
+.ABBCC 
+.ADEFG 
+PPDEFGK
+II.EFL 
+H..JJL 
+H..MMM 
+
+
+Langkah 9: Geser D ke bawah 3
+.ABBCC 
+.A.EFG 
+PP.EFGK
+II.EFL 
+H.DJJL 
+H.DMMM 
+
+
+Langkah 10: Geser I ke kanan 1
+.ABBCC 
+.A.EFG 
+PP.EFGK
+.IIEFL 
+H.DJJL 
+H.DMMM 
+
+
+Langkah 11: Geser P ke kanan 1
+.ABBCC 
+.A.EFG 
+.PPEFGK
+.IIEFL 
+H.DJJL 
+H.DMMM 
+
+
+Langkah 12: Geser H ke atas 4
+HABBCC 
+HA.EFG 
+.PPEFGK
+.IIEFL 
+..DJJL 
+..DMMM 
+
+
+Langkah 13: Geser I ke kiri 1
+HABBCC 
+HA.EFG 
+.PPEFGK
+II.EFL 
+..DJJL 
+..DMMM 
+
+
+Langkah 14: Geser P ke kiri 1
+HABBCC 
+HA.EFG 
+PP.EFGK
+II.EFL 
+..DJJL 
+..DMMM 
+
+
+Langkah 15: Geser D ke atas 2
+HABBCC 
+HA.EFG 
+PPDEFGK
+IIDEFL 
+...JJL 
+...MMM 
+
+
+Langkah 16: Geser J ke kiri 3
+HABBCC 
+HA.EFG 
+PPDEFGK
+IIDEFL 
+JJ...L 
+...MMM 
+
+
+Langkah 17: Geser M ke kiri 3
+HABBCC 
+HA.EFG 
+PPDEFGK
+IIDEFL 
+JJ...L 
+MMM... 
+
+
+Langkah 18: Geser D ke bawah 1
+HABBCC 
+HA.EFG 
+PP.EFGK
+IIDEFL 
+JJD..L 
+MMM... 
+
+
+Langkah 19: Geser E ke bawah 2
+HABBCC 
+HA..FG 
+PP..FGK
+IIDEFL 
+JJDE.L 
+MMME.. 
+
+
+Langkah 20: Geser P ke kanan 2
+HABBCC 
+HA..FG 
+..PPFGK
+IIDEFL 
+JJDE.L 
+MMME.. 
+
+
+Langkah 21: Geser A ke bawah 1
+H.BBCC 
+HA..FG 
+.APPFGK
+IIDEFL 
+JJDE.L 
+MMME.. 
+
+
+Langkah 22: Geser F ke bawah 2
+H.BBCC 
+HA...G 
+.APP.GK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 23: Geser B ke kiri 1
+HBB.CC 
+HA...G 
+.APP.GK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 24: Geser C ke kiri 1
+HBBCC. 
+HA...G 
+.APP.GK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 25: Geser G ke atas 1
+HBBCCG 
+HA...G 
+.APP..K
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 26: Geser P ke kanan 3
+HBBCCG 
+HA...G 
+.A...PP
+IIDEFL 
+JJDEFL 
+MMMEF. 
+

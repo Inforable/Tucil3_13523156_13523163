@@ -1,0 +1,28 @@
+Solusi ditemukan dalam 3 langkah:
+Papan awal:
+...P
+.A.P
+.ABB
+   K
+
+
+Langkah 1: Geser A ke atas 1
+.A.P
+.A.P
+..BB
+   K
+
+
+Langkah 2: Geser B ke kiri 2
+.A.P
+.A.P
+BB..
+   K
+
+
+Langkah 3: Geser P ke bawah 2
+.A..
+.A..
+BB.P
+   P
+

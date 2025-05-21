@@ -1,0 +1,8793 @@
+Solusi ditemukan dalam 976 langkah:
+Papan awal:
+ ..AABB
+ .CCD..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 1: Geser I ke kiri 1
+ ..AABB
+ .CCD..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 2: Geser C ke kiri 1
+ ..AABB
+ CC.D..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 3: Geser I ke kanan 1
+ ..AABB
+ CC.D..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 4: Geser A ke kiri 2
+ AA..BB
+ CC.D..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 5: Geser I ke kiri 1
+ AA..BB
+ CC.D..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 6: Geser D ke atas 1
+ AA.DBB
+ CC.D..
+ .E..FF
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 7: Geser I ke kanan 1
+ AA.DBB
+ CC.D..
+ .E..FF
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 8: Geser F ke kiri 2
+ AA.DBB
+ CC.D..
+ .EFF..
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 9: Geser I ke kiri 1
+ AA.DBB
+ CC.D..
+ .EFF..
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 10: Geser G ke atas 2
+ AA.DBB
+ CC.D.G
+ .EFF.G
+K.E.PPG
+ .E..H.
+ III.H.
+
+
+Langkah 11: Geser I ke kanan 1
+ AA.DBB
+ CC.D.G
+ .EFF.G
+K.E.PPG
+ .E..H.
+ .IIIH.
+
+
+Langkah 12: Geser G ke bawah 1
+ AA.DBB
+ CC.D..
+ .EFF.G
+K.E.PPG
+ .E..HG
+ .IIIH.
+
+
+Langkah 13: Geser I ke kiri 1
+ AA.DBB
+ CC.D..
+ .EFF.G
+K.E.PPG
+ .E..HG
+ III.H.
+
+
+Langkah 14: Geser F ke kanan 1
+ AA.DBB
+ CC.D..
+ .E.FFG
+K.E.PPG
+ .E..HG
+ III.H.
+
+
+Langkah 15: Geser I ke kanan 1
+ AA.DBB
+ CC.D..
+ .E.FFG
+K.E.PPG
+ .E..HG
+ .IIIH.
+
+
+Langkah 16: Geser G ke bawah 1
+ AA.DBB
+ CC.D..
+ .E.FF.
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 17: Geser I ke kiri 1
+ AA.DBB
+ CC.D..
+ .E.FF.
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 18: Geser G ke atas 2
+ AA.DBB
+ CC.D.G
+ .E.FFG
+K.E.PPG
+ .E..H.
+ III.H.
+
+
+Langkah 19: Geser I ke kanan 1
+ AA.DBB
+ CC.D.G
+ .E.FFG
+K.E.PPG
+ .E..H.
+ .IIIH.
+
+
+Langkah 20: Geser C ke kanan 1
+ AA.DBB
+ .CCD.G
+ .E.FFG
+K.E.PPG
+ .E..H.
+ .IIIH.
+
+
+Langkah 21: Geser I ke kiri 1
+ AA.DBB
+ .CCD.G
+ .E.FFG
+K.E.PPG
+ .E..H.
+ III.H.
+
+
+Langkah 22: Geser G ke bawah 2
+ AA.DBB
+ .CCD..
+ .E.FF.
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 23: Geser I ke kanan 1
+ AA.DBB
+ .CCD..
+ .E.FF.
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 24: Geser G ke atas 1
+ AA.DBB
+ .CCD..
+ .E.FFG
+K.E.PPG
+ .E..HG
+ .IIIH.
+
+
+Langkah 25: Geser I ke kiri 1
+ AA.DBB
+ .CCD..
+ .E.FFG
+K.E.PPG
+ .E..HG
+ III.H.
+
+
+Langkah 26: Geser F ke kiri 1
+ AA.DBB
+ .CCD..
+ .EFF.G
+K.E.PPG
+ .E..HG
+ III.H.
+
+
+Langkah 27: Geser I ke kanan 1
+ AA.DBB
+ .CCD..
+ .EFF.G
+K.E.PPG
+ .E..HG
+ .IIIH.
+
+
+Langkah 28: Geser G ke bawah 1
+ AA.DBB
+ .CCD..
+ .EFF..
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 29: Geser I ke kiri 1
+ AA.DBB
+ .CCD..
+ .EFF..
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 30: Geser G ke atas 2
+ AA.DBB
+ .CCD.G
+ .EFF.G
+K.E.PPG
+ .E..H.
+ III.H.
+
+
+Langkah 31: Geser I ke kanan 1
+ AA.DBB
+ .CCD.G
+ .EFF.G
+K.E.PPG
+ .E..H.
+ .IIIH.
+
+
+Langkah 32: Geser A ke kanan 1
+ .AADBB
+ .CCD.G
+ .EFF.G
+K.E.PPG
+ .E..H.
+ .IIIH.
+
+
+Langkah 33: Geser I ke kiri 1
+ .AADBB
+ .CCD.G
+ .EFF.G
+K.E.PPG
+ .E..H.
+ III.H.
+
+
+Langkah 34: Geser G ke bawah 2
+ .AADBB
+ .CCD..
+ .EFF..
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 35: Geser I ke kanan 1
+ .AADBB
+ .CCD..
+ .EFF..
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 36: Geser G ke atas 1
+ .AADBB
+ .CCD..
+ .EFF.G
+K.E.PPG
+ .E..HG
+ .IIIH.
+
+
+Langkah 37: Geser I ke kiri 1
+ .AADBB
+ .CCD..
+ .EFF.G
+K.E.PPG
+ .E..HG
+ III.H.
+
+
+Langkah 38: Geser F ke kanan 1
+ .AADBB
+ .CCD..
+ .E.FFG
+K.E.PPG
+ .E..HG
+ III.H.
+
+
+Langkah 39: Geser I ke kanan 1
+ .AADBB
+ .CCD..
+ .E.FFG
+K.E.PPG
+ .E..HG
+ .IIIH.
+
+
+Langkah 40: Geser G ke bawah 1
+ .AADBB
+ .CCD..
+ .E.FF.
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 41: Geser I ke kiri 1
+ .AADBB
+ .CCD..
+ .E.FF.
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 42: Geser G ke atas 2
+ .AADBB
+ .CCD.G
+ .E.FFG
+K.E.PPG
+ .E..H.
+ III.H.
+
+
+Langkah 43: Geser I ke kanan 1
+ .AADBB
+ .CCD.G
+ .E.FFG
+K.E.PPG
+ .E..H.
+ .IIIH.
+
+
+Langkah 44: Geser C ke kiri 1
+ .AADBB
+ CC.D.G
+ .E.FFG
+K.E.PPG
+ .E..H.
+ .IIIH.
+
+
+Langkah 45: Geser I ke kiri 1
+ .AADBB
+ CC.D.G
+ .E.FFG
+K.E.PPG
+ .E..H.
+ III.H.
+
+
+Langkah 46: Geser G ke bawah 2
+ .AADBB
+ CC.D..
+ .E.FF.
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 47: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ .E.FF.
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 48: Geser G ke atas 1
+ .AADBB
+ CC.D..
+ .E.FFG
+K.E.PPG
+ .E..HG
+ .IIIH.
+
+
+Langkah 49: Geser I ke kiri 1
+ .AADBB
+ CC.D..
+ .E.FFG
+K.E.PPG
+ .E..HG
+ III.H.
+
+
+Langkah 50: Geser F ke kiri 1
+ .AADBB
+ CC.D..
+ .EFF.G
+K.E.PPG
+ .E..HG
+ III.H.
+
+
+Langkah 51: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ .EFF.G
+K.E.PPG
+ .E..HG
+ .IIIH.
+
+
+Langkah 52: Geser G ke bawah 1
+ .AADBB
+ CC.D..
+ .EFF..
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 53: Geser I ke kiri 1
+ .AADBB
+ CC.D..
+ .EFF..
+K.E.PPG
+ .E..HG
+ III.HG
+
+
+Langkah 54: Geser G ke atas 2
+ .AADBB
+ CC.D.G
+ .EFF.G
+K.E.PPG
+ .E..H.
+ III.H.
+
+
+Langkah 55: Geser I ke kanan 1
+ .AADBB
+ CC.D.G
+ .EFF.G
+K.E.PPG
+ .E..H.
+ .IIIH.
+
+
+Langkah 56: Geser P ke kiri 1
+ .AADBB
+ CC.D.G
+ .EFF.G
+K.EPP.G
+ .E..H.
+ .IIIH.
+
+
+Langkah 57: Geser I ke kiri 1
+ .AADBB
+ CC.D.G
+ .EFF.G
+K.EPP.G
+ .E..H.
+ III.H.
+
+
+Langkah 58: Geser H ke atas 3
+ .AADBB
+ CC.DHG
+ .EFFHG
+K.EPP.G
+ .E....
+ III...
+
+
+Langkah 59: Geser I ke kanan 3
+ .AADBB
+ CC.DHG
+ .EFFHG
+K.EPP.G
+ .E....
+ ...III
+
+
+Langkah 60: Geser I ke kiri 2
+ .AADBB
+ CC.DHG
+ .EFFHG
+K.EPP.G
+ .E....
+ .III..
+
+
+Langkah 61: Geser I ke kanan 1
+ .AADBB
+ CC.DHG
+ .EFFHG
+K.EPP.G
+ .E....
+ ..III.
+
+
+Langkah 62: Geser H ke bawah 2
+ .AADBB
+ CC.D.G
+ .EFF.G
+K.EPPHG
+ .E..H.
+ ..III.
+
+
+Langkah 63: Geser I ke kanan 1
+ .AADBB
+ CC.D.G
+ .EFF.G
+K.EPPHG
+ .E..H.
+ ...III
+
+
+Langkah 64: Geser I ke kiri 3
+ .AADBB
+ CC.D.G
+ .EFF.G
+K.EPPHG
+ .E..H.
+ III...
+
+
+Langkah 65: Geser I ke kanan 1
+ .AADBB
+ CC.D.G
+ .EFF.G
+K.EPPHG
+ .E..H.
+ .III..
+
+
+Langkah 66: Geser H ke atas 1
+ .AADBB
+ CC.D.G
+ .EFFHG
+K.EPPHG
+ .E....
+ .III..
+
+
+Langkah 67: Geser I ke kanan 2
+ .AADBB
+ CC.D.G
+ .EFFHG
+K.EPPHG
+ .E....
+ ...III
+
+
+Langkah 68: Geser I ke kiri 3
+ .AADBB
+ CC.D.G
+ .EFFHG
+K.EPPHG
+ .E....
+ III...
+
+
+Langkah 69: Geser I ke kanan 2
+ .AADBB
+ CC.D.G
+ .EFFHG
+K.EPPHG
+ .E....
+ ..III.
+
+
+Langkah 70: Geser G ke bawah 2
+ .AADBB
+ CC.D..
+ .EFFH.
+K.EPPHG
+ .E...G
+ ..IIIG
+
+
+Langkah 71: Geser I ke kiri 2
+ .AADBB
+ CC.D..
+ .EFFH.
+K.EPPHG
+ .E...G
+ III..G
+
+
+Langkah 72: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ .EFFH.
+K.EPPHG
+ .E...G
+ .III.G
+
+
+Langkah 73: Geser H ke bawah 2
+ .AADBB
+ CC.D..
+ .EFF..
+K.EPP.G
+ .E..HG
+ .IIIHG
+
+
+Langkah 74: Geser I ke kiri 1
+ .AADBB
+ CC.D..
+ .EFF..
+K.EPP.G
+ .E..HG
+ III.HG
+
+
+Langkah 75: Geser H ke atas 3
+ .AADBB
+ CC.DH.
+ .EFFH.
+K.EPP.G
+ .E...G
+ III..G
+
+
+Langkah 76: Geser I ke kanan 2
+ .AADBB
+ CC.DH.
+ .EFFH.
+K.EPP.G
+ .E...G
+ ..IIIG
+
+
+Langkah 77: Geser I ke kiri 1
+ .AADBB
+ CC.DH.
+ .EFFH.
+K.EPP.G
+ .E...G
+ .III.G
+
+
+Langkah 78: Geser H ke bawah 2
+ .AADBB
+ CC.D..
+ .EFF..
+K.EPPHG
+ .E..HG
+ .III.G
+
+
+Langkah 79: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ .EFF..
+K.EPPHG
+ .E..HG
+ ..IIIG
+
+
+Langkah 80: Geser I ke kiri 2
+ .AADBB
+ CC.D..
+ .EFF..
+K.EPPHG
+ .E..HG
+ III..G
+
+
+Langkah 81: Geser G ke atas 1
+ .AADBB
+ CC.D..
+ .EFF.G
+K.EPPHG
+ .E..HG
+ III...
+
+
+Langkah 82: Geser I ke kanan 3
+ .AADBB
+ CC.D..
+ .EFF.G
+K.EPPHG
+ .E..HG
+ ...III
+
+
+Langkah 83: Geser I ke kiri 2
+ .AADBB
+ CC.D..
+ .EFF.G
+K.EPPHG
+ .E..HG
+ .III..
+
+
+Langkah 84: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ .EFF.G
+K.EPPHG
+ .E..HG
+ ..III.
+
+
+Langkah 85: Geser H ke atas 2
+ .AADBB
+ CC.DH.
+ .EFFHG
+K.EPP.G
+ .E...G
+ ..III.
+
+
+Langkah 86: Geser I ke kanan 1
+ .AADBB
+ CC.DH.
+ .EFFHG
+K.EPP.G
+ .E...G
+ ...III
+
+
+Langkah 87: Geser I ke kiri 3
+ .AADBB
+ CC.DH.
+ .EFFHG
+K.EPP.G
+ .E...G
+ III...
+
+
+Langkah 88: Geser I ke kanan 1
+ .AADBB
+ CC.DH.
+ .EFFHG
+K.EPP.G
+ .E...G
+ .III..
+
+
+Langkah 89: Geser H ke bawah 3
+ .AADBB
+ CC.D..
+ .EFF.G
+K.EPP.G
+ .E..HG
+ .IIIH.
+
+
+Langkah 90: Geser I ke kiri 1
+ .AADBB
+ CC.D..
+ .EFF.G
+K.EPP.G
+ .E..HG
+ III.H.
+
+
+Langkah 91: Geser H ke atas 2
+ .AADBB
+ CC.D..
+ .EFFHG
+K.EPPHG
+ .E...G
+ III...
+
+
+Langkah 92: Geser I ke kanan 3
+ .AADBB
+ CC.D..
+ .EFFHG
+K.EPPHG
+ .E...G
+ ...III
+
+
+Langkah 93: Geser I ke kiri 2
+ .AADBB
+ CC.D..
+ .EFFHG
+K.EPPHG
+ .E...G
+ .III..
+
+
+Langkah 94: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ .EFFHG
+K.EPPHG
+ .E...G
+ ..III.
+
+
+Langkah 95: Geser E ke bawah 1
+ .AADBB
+ CC.D..
+ ..FFHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 96: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ ..FFHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 97: Geser H ke bawah 1
+ .AADBB
+ CC.D..
+ ..FF.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 98: Geser I ke kiri 1
+ .AADBB
+ CC.D..
+ ..FF.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 99: Geser H ke atas 2
+ .AADBB
+ CC.DH.
+ ..FFHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 100: Geser I ke kanan 1
+ .AADBB
+ CC.DH.
+ ..FFHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 101: Geser G ke atas 1
+ .AADBB
+ CC.DHG
+ ..FFHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 102: Geser I ke kiri 1
+ .AADBB
+ CC.DHG
+ ..FFHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 103: Geser H ke bawah 2
+ .AADBB
+ CC.D.G
+ ..FF.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 104: Geser I ke kanan 1
+ .AADBB
+ CC.D.G
+ ..FF.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 105: Geser H ke atas 1
+ .AADBB
+ CC.D.G
+ ..FFHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 106: Geser I ke kiri 1
+ .AADBB
+ CC.D.G
+ ..FFHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 107: Geser G ke bawah 2
+ .AADBB
+ CC.D..
+ ..FFH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 108: Geser H ke bawah 1
+ .AADBB
+ CC.D..
+ ..FF..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 109: Geser H ke atas 2
+ .AADBB
+ CC.DH.
+ ..FFH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 110: Geser F ke kiri 2
+ .AADBB
+ CC.DH.
+ FF..H.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 111: Geser H ke bawah 2
+ .AADBB
+ CC.D..
+ FF....
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 112: Geser H ke atas 1
+ .AADBB
+ CC.D..
+ FF..H.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 113: Geser G ke atas 2
+ .AADBB
+ CC.D.G
+ FF..HG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 114: Geser I ke kanan 1
+ .AADBB
+ CC.D.G
+ FF..HG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 115: Geser H ke bawah 1
+ .AADBB
+ CC.D.G
+ FF...G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 116: Geser I ke kiri 1
+ .AADBB
+ CC.D.G
+ FF...G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 117: Geser H ke atas 2
+ .AADBB
+ CC.DHG
+ FF..HG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 118: Geser I ke kanan 1
+ .AADBB
+ CC.DHG
+ FF..HG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 119: Geser G ke bawah 1
+ .AADBB
+ CC.DH.
+ FF..HG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 120: Geser I ke kiri 1
+ .AADBB
+ CC.DH.
+ FF..HG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 121: Geser H ke bawah 2
+ .AADBB
+ CC.D..
+ FF...G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 122: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ FF...G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 123: Geser H ke atas 1
+ .AADBB
+ CC.D..
+ FF..HG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 124: Geser I ke kiri 1
+ .AADBB
+ CC.D..
+ FF..HG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 125: Geser F ke kanan 1
+ .AADBB
+ CC.D..
+ .FF.HG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 126: Geser I ke kanan 1
+ .AADBB
+ CC.D..
+ .FF.HG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 127: Geser H ke bawah 1
+ .AADBB
+ CC.D..
+ .FF..G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 128: Geser I ke kiri 1
+ .AADBB
+ CC.D..
+ .FF..G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 129: Geser H ke atas 2
+ .AADBB
+ CC.DH.
+ .FF.HG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 130: Geser I ke kanan 1
+ .AADBB
+ CC.DH.
+ .FF.HG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 131: Geser G ke atas 1
+ .AADBB
+ CC.DHG
+ .FF.HG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 132: Geser I ke kiri 1
+ .AADBB
+ CC.DHG
+ .FF.HG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 133: Geser H ke bawah 2
+ .AADBB
+ CC.D.G
+ .FF..G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 134: Geser I ke kanan 1
+ .AADBB
+ CC.D.G
+ .FF..G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 135: Geser H ke atas 1
+ .AADBB
+ CC.D.G
+ .FF.HG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 136: Geser I ke kiri 1
+ .AADBB
+ CC.D.G
+ .FF.HG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 137: Geser G ke bawah 2
+ .AADBB
+ CC.D..
+ .FF.H.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 138: Geser H ke bawah 1
+ .AADBB
+ CC.D..
+ .FF...
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 139: Geser H ke atas 2
+ .AADBB
+ CC.DH.
+ .FF.H.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 140: Geser D ke bawah 1
+ .AA.BB
+ CC.DH.
+ .FFDH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 141: Geser H ke bawah 2
+ .AA.BB
+ CC.D..
+ .FFD..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 142: Geser H ke atas 1
+ .AA.BB
+ CC.D..
+ .FFDH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 143: Geser G ke atas 2
+ .AA.BB
+ CC.D.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 144: Geser I ke kanan 1
+ .AA.BB
+ CC.D.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 145: Geser H ke bawah 1
+ .AA.BB
+ CC.D.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 146: Geser I ke kiri 1
+ .AA.BB
+ CC.D.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 147: Geser H ke atas 2
+ .AA.BB
+ CC.DHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 148: Geser I ke kanan 1
+ .AA.BB
+ CC.DHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 149: Geser G ke bawah 1
+ .AA.BB
+ CC.DH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 150: Geser I ke kiri 1
+ .AA.BB
+ CC.DH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 151: Geser H ke bawah 2
+ .AA.BB
+ CC.D..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 152: Geser I ke kanan 1
+ .AA.BB
+ CC.D..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 153: Geser H ke atas 1
+ .AA.BB
+ CC.D..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 154: Geser I ke kiri 1
+ .AA.BB
+ CC.D..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 155: Geser F ke kiri 1
+ .AA.BB
+ CC.D..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 156: Geser I ke kanan 1
+ .AA.BB
+ CC.D..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 157: Geser H ke bawah 1
+ .AA.BB
+ CC.D..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 158: Geser I ke kiri 1
+ .AA.BB
+ CC.D..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 159: Geser H ke atas 2
+ .AA.BB
+ CC.DH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 160: Geser I ke kanan 1
+ .AA.BB
+ CC.DH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 161: Geser G ke atas 1
+ .AA.BB
+ CC.DHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 162: Geser I ke kiri 1
+ .AA.BB
+ CC.DHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 163: Geser H ke bawah 2
+ .AA.BB
+ CC.D.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 164: Geser I ke kanan 1
+ .AA.BB
+ CC.D.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 165: Geser H ke atas 1
+ .AA.BB
+ CC.D.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 166: Geser I ke kiri 1
+ .AA.BB
+ CC.D.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 167: Geser G ke bawah 2
+ .AA.BB
+ CC.D..
+ FF.DH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 168: Geser H ke bawah 1
+ .AA.BB
+ CC.D..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 169: Geser H ke atas 2
+ .AA.BB
+ CC.DH.
+ FF.DH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 170: Geser C ke kanan 1
+ .AA.BB
+ .CCDH.
+ FF.DH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 171: Geser H ke bawah 2
+ .AA.BB
+ .CCD..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 172: Geser H ke atas 1
+ .AA.BB
+ .CCD..
+ FF.DH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 173: Geser G ke atas 2
+ .AA.BB
+ .CCD.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 174: Geser I ke kanan 1
+ .AA.BB
+ .CCD.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 175: Geser H ke bawah 1
+ .AA.BB
+ .CCD.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 176: Geser I ke kiri 1
+ .AA.BB
+ .CCD.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 177: Geser H ke atas 2
+ .AA.BB
+ .CCDHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 178: Geser I ke kanan 1
+ .AA.BB
+ .CCDHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 179: Geser G ke bawah 1
+ .AA.BB
+ .CCDH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 180: Geser I ke kiri 1
+ .AA.BB
+ .CCDH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 181: Geser H ke bawah 2
+ .AA.BB
+ .CCD..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 182: Geser I ke kanan 1
+ .AA.BB
+ .CCD..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 183: Geser H ke atas 1
+ .AA.BB
+ .CCD..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 184: Geser I ke kiri 1
+ .AA.BB
+ .CCD..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 185: Geser F ke kanan 1
+ .AA.BB
+ .CCD..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 186: Geser I ke kanan 1
+ .AA.BB
+ .CCD..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 187: Geser H ke bawah 1
+ .AA.BB
+ .CCD..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 188: Geser I ke kiri 1
+ .AA.BB
+ .CCD..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 189: Geser H ke atas 2
+ .AA.BB
+ .CCDH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 190: Geser I ke kanan 1
+ .AA.BB
+ .CCDH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 191: Geser G ke atas 1
+ .AA.BB
+ .CCDHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 192: Geser I ke kiri 1
+ .AA.BB
+ .CCDHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 193: Geser H ke bawah 2
+ .AA.BB
+ .CCD.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 194: Geser I ke kanan 1
+ .AA.BB
+ .CCD.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 195: Geser H ke atas 1
+ .AA.BB
+ .CCD.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 196: Geser I ke kiri 1
+ .AA.BB
+ .CCD.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 197: Geser G ke bawah 2
+ .AA.BB
+ .CCD..
+ .FFDH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 198: Geser H ke bawah 1
+ .AA.BB
+ .CCD..
+ .FFD..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 199: Geser H ke atas 2
+ .AA.BB
+ .CCDH.
+ .FFDH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 200: Geser D ke atas 1
+ .AADBB
+ .CCDH.
+ .FF.H.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 201: Geser H ke bawah 2
+ .AADBB
+ .CCD..
+ .FF...
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 202: Geser H ke atas 1
+ .AADBB
+ .CCD..
+ .FF.H.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 203: Geser G ke atas 2
+ .AADBB
+ .CCD.G
+ .FF.HG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 204: Geser I ke kanan 1
+ .AADBB
+ .CCD.G
+ .FF.HG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 205: Geser H ke bawah 1
+ .AADBB
+ .CCD.G
+ .FF..G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 206: Geser I ke kiri 1
+ .AADBB
+ .CCD.G
+ .FF..G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 207: Geser H ke atas 2
+ .AADBB
+ .CCDHG
+ .FF.HG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 208: Geser I ke kanan 1
+ .AADBB
+ .CCDHG
+ .FF.HG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 209: Geser G ke bawah 1
+ .AADBB
+ .CCDH.
+ .FF.HG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 210: Geser I ke kiri 1
+ .AADBB
+ .CCDH.
+ .FF.HG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 211: Geser H ke bawah 2
+ .AADBB
+ .CCD..
+ .FF..G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 212: Geser I ke kanan 1
+ .AADBB
+ .CCD..
+ .FF..G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 213: Geser H ke atas 1
+ .AADBB
+ .CCD..
+ .FF.HG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 214: Geser I ke kiri 1
+ .AADBB
+ .CCD..
+ .FF.HG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 215: Geser F ke kanan 1
+ .AADBB
+ .CCD..
+ ..FFHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 216: Geser I ke kanan 1
+ .AADBB
+ .CCD..
+ ..FFHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 217: Geser H ke bawah 1
+ .AADBB
+ .CCD..
+ ..FF.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 218: Geser I ke kiri 1
+ .AADBB
+ .CCD..
+ ..FF.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 219: Geser H ke atas 2
+ .AADBB
+ .CCDH.
+ ..FFHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 220: Geser I ke kanan 1
+ .AADBB
+ .CCDH.
+ ..FFHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 221: Geser G ke atas 1
+ .AADBB
+ .CCDHG
+ ..FFHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 222: Geser I ke kiri 1
+ .AADBB
+ .CCDHG
+ ..FFHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 223: Geser H ke bawah 2
+ .AADBB
+ .CCD.G
+ ..FF.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 224: Geser I ke kanan 1
+ .AADBB
+ .CCD.G
+ ..FF.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 225: Geser H ke atas 1
+ .AADBB
+ .CCD.G
+ ..FFHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 226: Geser I ke kiri 1
+ .AADBB
+ .CCD.G
+ ..FFHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 227: Geser G ke bawah 2
+ .AADBB
+ .CCD..
+ ..FFH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 228: Geser H ke bawah 1
+ .AADBB
+ .CCD..
+ ..FF..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 229: Geser H ke atas 2
+ .AADBB
+ .CCDH.
+ ..FFH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 230: Geser F ke kiri 2
+ .AADBB
+ .CCDH.
+ FF..H.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 231: Geser H ke bawah 1
+ .AADBB
+ .CCD..
+ FF..H.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 232: Geser G ke atas 1
+ .AADBB
+ .CCD..
+ FF..HG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 233: Geser I ke kanan 1
+ .AADBB
+ .CCD..
+ FF..HG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 234: Geser H ke bawah 1
+ .AADBB
+ .CCD..
+ FF...G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 235: Geser I ke kiri 1
+ .AADBB
+ .CCD..
+ FF...G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 236: Geser H ke atas 2
+ .AADBB
+ .CCDH.
+ FF..HG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 237: Geser I ke kanan 1
+ .AADBB
+ .CCDH.
+ FF..HG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 238: Geser P ke kanan 1
+ .AADBB
+ .CCDH.
+ FF..HG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 239: Geser I ke kiri 1
+ .AADBB
+ .CCDH.
+ FF..HG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 240: Geser G ke bawah 1
+ .AADBB
+ .CCDH.
+ FF..H.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 241: Geser F ke kanan 1
+ .AADBB
+ .CCDH.
+ .FF.H.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 242: Geser G ke atas 2
+ .AADBB
+ .CCDHG
+ .FF.HG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 243: Geser I ke kanan 1
+ .AADBB
+ .CCDHG
+ .FF.HG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 244: Geser G ke bawah 1
+ .AADBB
+ .CCDH.
+ .FF.HG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 245: Geser I ke kiri 1
+ .AADBB
+ .CCDH.
+ .FF.HG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 246: Geser D ke bawah 1
+ .AA.BB
+ .CCDH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 247: Geser I ke kanan 1
+ .AA.BB
+ .CCDH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 248: Geser G ke atas 1
+ .AA.BB
+ .CCDHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 249: Geser I ke kiri 1
+ .AA.BB
+ .CCDHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 250: Geser G ke bawah 2
+ .AA.BB
+ .CCDH.
+ .FFDH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 251: Geser F ke kiri 1
+ .AA.BB
+ .CCDH.
+ FF.DH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 252: Geser G ke atas 2
+ .AA.BB
+ .CCDHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 253: Geser I ke kanan 1
+ .AA.BB
+ .CCDHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 254: Geser G ke bawah 1
+ .AA.BB
+ .CCDH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 255: Geser I ke kiri 1
+ .AA.BB
+ .CCDH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 256: Geser C ke kiri 1
+ .AA.BB
+ CC.DH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 257: Geser I ke kanan 1
+ .AA.BB
+ CC.DH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 258: Geser G ke atas 1
+ .AA.BB
+ CC.DHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 259: Geser I ke kiri 1
+ .AA.BB
+ CC.DHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 260: Geser G ke bawah 2
+ .AA.BB
+ CC.DH.
+ FF.DH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 261: Geser F ke kanan 1
+ .AA.BB
+ CC.DH.
+ .FFDH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 262: Geser G ke atas 2
+ .AA.BB
+ CC.DHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 263: Geser I ke kanan 1
+ .AA.BB
+ CC.DHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 264: Geser G ke bawah 1
+ .AA.BB
+ CC.DH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 265: Geser I ke kiri 1
+ .AA.BB
+ CC.DH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 266: Geser B ke kiri 1
+ .AABB.
+ CC.DH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 267: Geser I ke kanan 1
+ .AABB.
+ CC.DH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 268: Geser G ke atas 2
+ .AABBG
+ CC.DHG
+ .FFDHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 269: Geser I ke kiri 1
+ .AABBG
+ CC.DHG
+ .FFDHG
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 270: Geser G ke bawah 3
+ .AABB.
+ CC.DH.
+ .FFDH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 271: Geser G ke atas 2
+ .AABB.
+ CC.DHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 272: Geser I ke kanan 1
+ .AABB.
+ CC.DHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 273: Geser F ke kiri 1
+ .AABB.
+ CC.DHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 274: Geser I ke kiri 1
+ .AABB.
+ CC.DHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 275: Geser G ke bawah 2
+ .AABB.
+ CC.DH.
+ FF.DH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 276: Geser G ke atas 3
+ .AABBG
+ CC.DHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 277: Geser I ke kanan 1
+ .AABBG
+ CC.DHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 278: Geser G ke bawah 2
+ .AABB.
+ CC.DH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 279: Geser I ke kiri 1
+ .AABB.
+ CC.DH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 280: Geser C ke kanan 1
+ .AABB.
+ .CCDH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 281: Geser I ke kanan 1
+ .AABB.
+ .CCDH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 282: Geser G ke atas 2
+ .AABBG
+ .CCDHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 283: Geser I ke kiri 1
+ .AABBG
+ .CCDHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 284: Geser G ke bawah 3
+ .AABB.
+ .CCDH.
+ FF.DH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 285: Geser G ke atas 2
+ .AABB.
+ .CCDHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 286: Geser I ke kanan 1
+ .AABB.
+ .CCDHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 287: Geser F ke kanan 1
+ .AABB.
+ .CCDHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 288: Geser I ke kiri 1
+ .AABB.
+ .CCDHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 289: Geser G ke bawah 2
+ .AABB.
+ .CCDH.
+ .FFDH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 290: Geser G ke atas 3
+ .AABBG
+ .CCDHG
+ .FFDHG
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 291: Geser I ke kanan 1
+ .AABBG
+ .CCDHG
+ .FFDHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 292: Geser G ke bawah 2
+ .AABB.
+ .CCDH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 293: Geser I ke kiri 1
+ .AABB.
+ .CCDH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 294: Geser A ke kiri 1
+ AA.BB.
+ .CCDH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 295: Geser I ke kanan 1
+ AA.BB.
+ .CCDH.
+ .FFDHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 296: Geser G ke atas 2
+ AA.BBG
+ .CCDHG
+ .FFDHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 297: Geser I ke kiri 1
+ AA.BBG
+ .CCDHG
+ .FFDHG
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 298: Geser G ke bawah 3
+ AA.BB.
+ .CCDH.
+ .FFDH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 299: Geser G ke atas 2
+ AA.BB.
+ .CCDHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 300: Geser I ke kanan 1
+ AA.BB.
+ .CCDHG
+ .FFDHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 301: Geser F ke kiri 1
+ AA.BB.
+ .CCDHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 302: Geser I ke kiri 1
+ AA.BB.
+ .CCDHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 303: Geser G ke bawah 2
+ AA.BB.
+ .CCDH.
+ FF.DH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 304: Geser G ke atas 3
+ AA.BBG
+ .CCDHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 305: Geser I ke kanan 1
+ AA.BBG
+ .CCDHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 306: Geser G ke bawah 2
+ AA.BB.
+ .CCDH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 307: Geser I ke kiri 1
+ AA.BB.
+ .CCDH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 308: Geser C ke kiri 1
+ AA.BB.
+ CC.DH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 309: Geser I ke kanan 1
+ AA.BB.
+ CC.DH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 310: Geser G ke atas 2
+ AA.BBG
+ CC.DHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 311: Geser G ke bawah 1
+ AA.BB.
+ CC.DHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 312: Geser I ke kiri 1
+ AA.BB.
+ CC.DHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 313: Geser B ke kiri 1
+ AABB..
+ CC.DHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 314: Geser I ke kanan 1
+ AABB..
+ CC.DHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 315: Geser H ke atas 1
+ AABBH.
+ CC.DHG
+ FF.D.G
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 316: Geser I ke kiri 1
+ AABBH.
+ CC.DHG
+ FF.D.G
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 317: Geser G ke bawah 2
+ AABBH.
+ CC.DH.
+ FF.D..
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 318: Geser H ke bawah 1
+ AABB..
+ CC.DH.
+ FF.DH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 319: Geser G ke atas 3
+ AABB.G
+ CC.DHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 320: Geser I ke kanan 1
+ AABB.G
+ CC.DHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 321: Geser H ke atas 1
+ AABBHG
+ CC.DHG
+ FF.D.G
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 322: Geser I ke kiri 1
+ AABBHG
+ CC.DHG
+ FF.D.G
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 323: Geser G ke bawah 2
+ AABBH.
+ CC.DH.
+ FF.D.G
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 324: Geser I ke kanan 1
+ AABBH.
+ CC.DH.
+ FF.D.G
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 325: Geser H ke bawah 1
+ AABB..
+ CC.DH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 326: Geser I ke kiri 1
+ AABB..
+ CC.DH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 327: Geser C ke kanan 1
+ AABB..
+ .CCDH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 328: Geser I ke kanan 1
+ AABB..
+ .CCDH.
+ FF.DHG
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 329: Geser H ke atas 1
+ AABBH.
+ .CCDH.
+ FF.D.G
+K.E.PPG
+ .E...G
+ .E.III
+
+
+Langkah 330: Geser I ke kiri 1
+ AABBH.
+ .CCDH.
+ FF.D.G
+K.E.PPG
+ .E...G
+ .EIII.
+
+
+Langkah 331: Geser G ke bawah 1
+ AABBH.
+ .CCDH.
+ FF.D..
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 332: Geser H ke bawah 1
+ AABB..
+ .CCDH.
+ FF.DH.
+K.E.PPG
+ .E...G
+ .EIIIG
+
+
+Langkah 333: Geser G ke atas 3
+ AABB.G
+ .CCDHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 334: Geser I ke kanan 1
+ AABB.G
+ .CCDHG
+ FF.DHG
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 335: Geser H ke atas 1
+ AABBHG
+ .CCDHG
+ FF.D.G
+K.E.PP.
+ .E....
+ .E.III
+
+
+Langkah 336: Geser I ke kiri 1
+ AABBHG
+ .CCDHG
+ FF.D.G
+K.E.PP.
+ .E....
+ .EIII.
+
+
+Langkah 337: Geser G ke bawah 1
+ AABBH.
+ .CCDHG
+ FF.D.G
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 338: Geser I ke kanan 1
+ AABBH.
+ .CCDHG
+ FF.D.G
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 339: Geser H ke bawah 1
+ AABB..
+ .CCDHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .E.III
+
+
+Langkah 340: Geser I ke kiri 1
+ AABB..
+ .CCDHG
+ FF.DHG
+K.E.PPG
+ .E....
+ .EIII.
+
+
+Langkah 341: Geser P ke kiri 1
+ AABB..
+ .CCDHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 342: Geser I ke kanan 1
+ AABB..
+ .CCDHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 343: Geser H ke bawah 2
+ AABB..
+ .CCD.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 344: Geser I ke kiri 1
+ AABB..
+ .CCD.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 345: Geser H ke atas 3
+ AABBH.
+ .CCDHG
+ FF.D.G
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 346: Geser I ke kanan 1
+ AABBH.
+ .CCDHG
+ FF.D.G
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 347: Geser H ke bawah 2
+ AABB..
+ .CCD.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 348: Geser I ke kiri 1
+ AABB..
+ .CCD.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 349: Geser G ke bawah 2
+ AABB..
+ .CCD..
+ FF.DH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 350: Geser H ke bawah 1
+ AABB..
+ .CCD..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 351: Geser H ke atas 3
+ AABBH.
+ .CCDH.
+ FF.D..
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 352: Geser H ke bawah 1
+ AABB..
+ .CCDH.
+ FF.DH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 353: Geser G ke atas 3
+ AABB.G
+ .CCDHG
+ FF.DHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 354: Geser I ke kanan 1
+ AABB.G
+ .CCDHG
+ FF.DHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 355: Geser H ke bawah 2
+ AABB.G
+ .CCD.G
+ FF.D.G
+K.EPPH.
+ .E..H.
+ .E.III
+
+
+Langkah 356: Geser I ke kiri 1
+ AABB.G
+ .CCD.G
+ FF.D.G
+K.EPPH.
+ .E..H.
+ .EIII.
+
+
+Langkah 357: Geser H ke atas 3
+ AABBHG
+ .CCDHG
+ FF.D.G
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 358: Geser I ke kanan 1
+ AABBHG
+ .CCDHG
+ FF.D.G
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 359: Geser H ke bawah 2
+ AABB.G
+ .CCD.G
+ FF.DHG
+K.EPPH.
+ .E....
+ .E.III
+
+
+Langkah 360: Geser I ke kiri 1
+ AABB.G
+ .CCD.G
+ FF.DHG
+K.EPPH.
+ .E....
+ .EIII.
+
+
+Langkah 361: Geser G ke bawah 2
+ AABB..
+ .CCD..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 362: Geser I ke kanan 1
+ AABB..
+ .CCD..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 363: Geser H ke bawah 1
+ AABB..
+ .CCD..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 364: Geser I ke kiri 1
+ AABB..
+ .CCD..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 365: Geser H ke atas 3
+ AABBH.
+ .CCDH.
+ FF.D.G
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 366: Geser I ke kanan 1
+ AABBH.
+ .CCDH.
+ FF.D.G
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 367: Geser H ke bawah 1
+ AABB..
+ .CCDH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 368: Geser I ke kiri 1
+ AABB..
+ .CCDH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 369: Geser F ke kanan 1
+ AABB..
+ .CCDH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 370: Geser I ke kanan 1
+ AABB..
+ .CCDH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 371: Geser H ke bawah 2
+ AABB..
+ .CCD..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 372: Geser I ke kiri 1
+ AABB..
+ .CCD..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 373: Geser H ke atas 3
+ AABBH.
+ .CCDH.
+ .FFD.G
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 374: Geser I ke kanan 1
+ AABBH.
+ .CCDH.
+ .FFD.G
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 375: Geser H ke bawah 2
+ AABB..
+ .CCD..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 376: Geser I ke kiri 1
+ AABB..
+ .CCD..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 377: Geser G ke bawah 1
+ AABB..
+ .CCD..
+ .FFDH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 378: Geser H ke bawah 1
+ AABB..
+ .CCD..
+ .FFD..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 379: Geser H ke atas 3
+ AABBH.
+ .CCDH.
+ .FFD..
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 380: Geser H ke bawah 1
+ AABB..
+ .CCDH.
+ .FFDH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 381: Geser G ke atas 3
+ AABB.G
+ .CCDHG
+ .FFDHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 382: Geser I ke kanan 1
+ AABB.G
+ .CCDHG
+ .FFDHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 383: Geser H ke bawah 2
+ AABB.G
+ .CCD.G
+ .FFD.G
+K.EPPH.
+ .E..H.
+ .E.III
+
+
+Langkah 384: Geser I ke kiri 1
+ AABB.G
+ .CCD.G
+ .FFD.G
+K.EPPH.
+ .E..H.
+ .EIII.
+
+
+Langkah 385: Geser H ke atas 3
+ AABBHG
+ .CCDHG
+ .FFD.G
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 386: Geser I ke kanan 1
+ AABBHG
+ .CCDHG
+ .FFD.G
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 387: Geser H ke bawah 2
+ AABB.G
+ .CCD.G
+ .FFDHG
+K.EPPH.
+ .E....
+ .E.III
+
+
+Langkah 388: Geser I ke kiri 1
+ AABB.G
+ .CCD.G
+ .FFDHG
+K.EPPH.
+ .E....
+ .EIII.
+
+
+Langkah 389: Geser G ke bawah 1
+ AABB..
+ .CCD.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 390: Geser I ke kanan 1
+ AABB..
+ .CCD.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 391: Geser H ke bawah 1
+ AABB..
+ .CCD.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 392: Geser I ke kiri 1
+ AABB..
+ .CCD.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 393: Geser H ke atas 3
+ AABBH.
+ .CCDHG
+ .FFD.G
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 394: Geser I ke kanan 1
+ AABBH.
+ .CCDHG
+ .FFD.G
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 395: Geser H ke bawah 1
+ AABB..
+ .CCDHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 396: Geser I ke kiri 1
+ AABB..
+ .CCDHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 397: Geser C ke kiri 1
+ AABB..
+ CC.DHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 398: Geser I ke kanan 1
+ AABB..
+ CC.DHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 399: Geser H ke bawah 2
+ AABB..
+ CC.D.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 400: Geser I ke kiri 1
+ AABB..
+ CC.D.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 401: Geser H ke atas 3
+ AABBH.
+ CC.DHG
+ .FFD.G
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 402: Geser I ke kanan 1
+ AABBH.
+ CC.DHG
+ .FFD.G
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 403: Geser H ke bawah 2
+ AABB..
+ CC.D.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 404: Geser I ke kiri 1
+ AABB..
+ CC.D.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 405: Geser G ke bawah 2
+ AABB..
+ CC.D..
+ .FFDH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 406: Geser H ke bawah 1
+ AABB..
+ CC.D..
+ .FFD..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 407: Geser H ke atas 3
+ AABBH.
+ CC.DH.
+ .FFD..
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 408: Geser H ke bawah 1
+ AABB..
+ CC.DH.
+ .FFDH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 409: Geser G ke atas 3
+ AABB.G
+ CC.DHG
+ .FFDHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 410: Geser I ke kanan 1
+ AABB.G
+ CC.DHG
+ .FFDHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 411: Geser H ke bawah 2
+ AABB.G
+ CC.D.G
+ .FFD.G
+K.EPPH.
+ .E..H.
+ .E.III
+
+
+Langkah 412: Geser I ke kiri 1
+ AABB.G
+ CC.D.G
+ .FFD.G
+K.EPPH.
+ .E..H.
+ .EIII.
+
+
+Langkah 413: Geser H ke atas 3
+ AABBHG
+ CC.DHG
+ .FFD.G
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 414: Geser I ke kanan 1
+ AABBHG
+ CC.DHG
+ .FFD.G
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 415: Geser H ke bawah 2
+ AABB.G
+ CC.D.G
+ .FFDHG
+K.EPPH.
+ .E....
+ .E.III
+
+
+Langkah 416: Geser I ke kiri 1
+ AABB.G
+ CC.D.G
+ .FFDHG
+K.EPPH.
+ .E....
+ .EIII.
+
+
+Langkah 417: Geser G ke bawah 2
+ AABB..
+ CC.D..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 418: Geser I ke kanan 1
+ AABB..
+ CC.D..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 419: Geser H ke bawah 1
+ AABB..
+ CC.D..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 420: Geser I ke kiri 1
+ AABB..
+ CC.D..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 421: Geser H ke atas 3
+ AABBH.
+ CC.DH.
+ .FFD.G
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 422: Geser I ke kanan 1
+ AABBH.
+ CC.DH.
+ .FFD.G
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 423: Geser H ke bawah 1
+ AABB..
+ CC.DH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 424: Geser I ke kiri 1
+ AABB..
+ CC.DH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 425: Geser F ke kiri 1
+ AABB..
+ CC.DH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 426: Geser I ke kanan 1
+ AABB..
+ CC.DH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 427: Geser H ke bawah 2
+ AABB..
+ CC.D..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 428: Geser I ke kiri 1
+ AABB..
+ CC.D..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 429: Geser H ke atas 3
+ AABBH.
+ CC.DH.
+ FF.D.G
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 430: Geser I ke kanan 1
+ AABBH.
+ CC.DH.
+ FF.D.G
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 431: Geser H ke bawah 2
+ AABB..
+ CC.D..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 432: Geser I ke kiri 1
+ AABB..
+ CC.D..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 433: Geser G ke bawah 1
+ AABB..
+ CC.D..
+ FF.DH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 434: Geser H ke bawah 1
+ AABB..
+ CC.D..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 435: Geser H ke atas 3
+ AABBH.
+ CC.DH.
+ FF.D..
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 436: Geser H ke bawah 1
+ AABB..
+ CC.DH.
+ FF.DH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 437: Geser G ke atas 3
+ AABB.G
+ CC.DHG
+ FF.DHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 438: Geser I ke kanan 1
+ AABB.G
+ CC.DHG
+ FF.DHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 439: Geser H ke bawah 2
+ AABB.G
+ CC.D.G
+ FF.D.G
+K.EPPH.
+ .E..H.
+ .E.III
+
+
+Langkah 440: Geser I ke kiri 1
+ AABB.G
+ CC.D.G
+ FF.D.G
+K.EPPH.
+ .E..H.
+ .EIII.
+
+
+Langkah 441: Geser H ke atas 3
+ AABBHG
+ CC.DHG
+ FF.D.G
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 442: Geser I ke kanan 1
+ AABBHG
+ CC.DHG
+ FF.D.G
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 443: Geser H ke bawah 2
+ AABB.G
+ CC.D.G
+ FF.DHG
+K.EPPH.
+ .E....
+ .E.III
+
+
+Langkah 444: Geser I ke kiri 1
+ AABB.G
+ CC.D.G
+ FF.DHG
+K.EPPH.
+ .E....
+ .EIII.
+
+
+Langkah 445: Geser G ke bawah 1
+ AABB..
+ CC.D.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 446: Geser I ke kanan 1
+ AABB..
+ CC.D.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 447: Geser H ke bawah 1
+ AABB..
+ CC.D.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 448: Geser I ke kiri 1
+ AABB..
+ CC.D.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 449: Geser H ke atas 3
+ AABBH.
+ CC.DHG
+ FF.D.G
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 450: Geser I ke kanan 1
+ AABBH.
+ CC.DHG
+ FF.D.G
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 451: Geser H ke bawah 1
+ AABB..
+ CC.DHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 452: Geser I ke kiri 1
+ AABB..
+ CC.DHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 453: Geser B ke kanan 1
+ AA.BB.
+ CC.DHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 454: Geser I ke kanan 1
+ AA.BB.
+ CC.DHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 455: Geser H ke bawah 2
+ AA.BB.
+ CC.D.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 456: Geser I ke kiri 1
+ AA.BB.
+ CC.D.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 457: Geser H ke atas 1
+ AA.BB.
+ CC.D.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 458: Geser I ke kanan 1
+ AA.BB.
+ CC.D.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 459: Geser G ke bawah 1
+ AA.BB.
+ CC.D..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 460: Geser I ke kiri 1
+ AA.BB.
+ CC.D..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 461: Geser H ke bawah 1
+ AA.BB.
+ CC.D..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 462: Geser I ke kanan 1
+ AA.BB.
+ CC.D..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 463: Geser H ke atas 2
+ AA.BB.
+ CC.DH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 464: Geser I ke kiri 1
+ AA.BB.
+ CC.DH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 465: Geser G ke bawah 1
+ AA.BB.
+ CC.DH.
+ FF.DH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 466: Geser H ke bawah 2
+ AA.BB.
+ CC.D..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 467: Geser H ke atas 1
+ AA.BB.
+ CC.D..
+ FF.DH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 468: Geser G ke atas 3
+ AA.BBG
+ CC.D.G
+ FF.DHG
+K.EPPH.
+ .E....
+ .EIII.
+
+
+Langkah 469: Geser I ke kanan 1
+ AA.BBG
+ CC.D.G
+ FF.DHG
+K.EPPH.
+ .E....
+ .E.III
+
+
+Langkah 470: Geser H ke bawah 1
+ AA.BBG
+ CC.D.G
+ FF.D.G
+K.EPPH.
+ .E..H.
+ .E.III
+
+
+Langkah 471: Geser I ke kiri 1
+ AA.BBG
+ CC.D.G
+ FF.D.G
+K.EPPH.
+ .E..H.
+ .EIII.
+
+
+Langkah 472: Geser H ke atas 2
+ AA.BBG
+ CC.DHG
+ FF.DHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 473: Geser I ke kanan 1
+ AA.BBG
+ CC.DHG
+ FF.DHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 474: Geser F ke kanan 1
+ AA.BBG
+ CC.DHG
+ .FFDHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 475: Geser I ke kiri 1
+ AA.BBG
+ CC.DHG
+ .FFDHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 476: Geser H ke bawah 2
+ AA.BBG
+ CC.D.G
+ .FFD.G
+K.EPPH.
+ .E..H.
+ .EIII.
+
+
+Langkah 477: Geser I ke kanan 1
+ AA.BBG
+ CC.D.G
+ .FFD.G
+K.EPPH.
+ .E..H.
+ .E.III
+
+
+Langkah 478: Geser H ke atas 1
+ AA.BBG
+ CC.D.G
+ .FFDHG
+K.EPPH.
+ .E....
+ .E.III
+
+
+Langkah 479: Geser I ke kiri 1
+ AA.BBG
+ CC.D.G
+ .FFDHG
+K.EPPH.
+ .E....
+ .EIII.
+
+
+Langkah 480: Geser G ke bawah 3
+ AA.BB.
+ CC.D..
+ .FFDH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 481: Geser H ke bawah 1
+ AA.BB.
+ CC.D..
+ .FFD..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 482: Geser H ke atas 2
+ AA.BB.
+ CC.DH.
+ .FFDH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 483: Geser G ke atas 2
+ AA.BB.
+ CC.DHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 484: Geser I ke kanan 1
+ AA.BB.
+ CC.DHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 485: Geser H ke bawah 2
+ AA.BB.
+ CC.D.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 486: Geser I ke kiri 1
+ AA.BB.
+ CC.D.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 487: Geser H ke atas 1
+ AA.BB.
+ CC.D.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 488: Geser I ke kanan 1
+ AA.BB.
+ CC.D.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 489: Geser G ke bawah 1
+ AA.BB.
+ CC.D..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 490: Geser I ke kiri 1
+ AA.BB.
+ CC.D..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 491: Geser H ke bawah 1
+ AA.BB.
+ CC.D..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 492: Geser I ke kanan 1
+ AA.BB.
+ CC.D..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 493: Geser H ke atas 2
+ AA.BB.
+ CC.DH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 494: Geser I ke kiri 1
+ AA.BB.
+ CC.DH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 495: Geser C ke kanan 1
+ AA.BB.
+ .CCDH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 496: Geser I ke kanan 1
+ AA.BB.
+ .CCDH.
+ .FFDHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 497: Geser H ke bawah 2
+ AA.BB.
+ .CCD..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 498: Geser I ke kiri 1
+ AA.BB.
+ .CCD..
+ .FFD.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 499: Geser H ke atas 1
+ AA.BB.
+ .CCD..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 500: Geser I ke kanan 1
+ AA.BB.
+ .CCD..
+ .FFDHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 501: Geser G ke atas 2
+ AA.BBG
+ .CCD.G
+ .FFDHG
+K.EPPH.
+ .E....
+ .E.III
+
+
+Langkah 502: Geser I ke kiri 1
+ AA.BBG
+ .CCD.G
+ .FFDHG
+K.EPPH.
+ .E....
+ .EIII.
+
+
+Langkah 503: Geser H ke bawah 1
+ AA.BBG
+ .CCD.G
+ .FFD.G
+K.EPPH.
+ .E..H.
+ .EIII.
+
+
+Langkah 504: Geser I ke kanan 1
+ AA.BBG
+ .CCD.G
+ .FFD.G
+K.EPPH.
+ .E..H.
+ .E.III
+
+
+Langkah 505: Geser H ke atas 2
+ AA.BBG
+ .CCDHG
+ .FFDHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 506: Geser I ke kiri 1
+ AA.BBG
+ .CCDHG
+ .FFDHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 507: Geser G ke bawah 3
+ AA.BB.
+ .CCDH.
+ .FFDH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 508: Geser H ke bawah 2
+ AA.BB.
+ .CCD..
+ .FFD..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 509: Geser H ke atas 1
+ AA.BB.
+ .CCD..
+ .FFDH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 510: Geser G ke atas 2
+ AA.BB.
+ .CCD.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 511: Geser I ke kanan 1
+ AA.BB.
+ .CCD.G
+ .FFDHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 512: Geser H ke bawah 1
+ AA.BB.
+ .CCD.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 513: Geser I ke kiri 1
+ AA.BB.
+ .CCD.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 514: Geser H ke atas 2
+ AA.BB.
+ .CCDHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 515: Geser I ke kanan 1
+ AA.BB.
+ .CCDHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 516: Geser F ke kiri 1
+ AA.BB.
+ .CCDHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 517: Geser I ke kiri 1
+ AA.BB.
+ .CCDHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 518: Geser H ke bawah 2
+ AA.BB.
+ .CCD.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 519: Geser I ke kanan 1
+ AA.BB.
+ .CCD.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 520: Geser H ke atas 1
+ AA.BB.
+ .CCD.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .E.III
+
+
+Langkah 521: Geser I ke kiri 1
+ AA.BB.
+ .CCD.G
+ FF.DHG
+K.EPPHG
+ .E....
+ .EIII.
+
+
+Langkah 522: Geser G ke bawah 2
+ AA.BB.
+ .CCD..
+ FF.DH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 523: Geser H ke bawah 1
+ AA.BB.
+ .CCD..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 524: Geser H ke atas 2
+ AA.BB.
+ .CCDH.
+ FF.DH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 525: Geser G ke atas 3
+ AA.BBG
+ .CCDHG
+ FF.DHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 526: Geser I ke kanan 1
+ AA.BBG
+ .CCDHG
+ FF.DHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 527: Geser H ke bawah 2
+ AA.BBG
+ .CCD.G
+ FF.D.G
+K.EPPH.
+ .E..H.
+ .E.III
+
+
+Langkah 528: Geser I ke kiri 1
+ AA.BBG
+ .CCD.G
+ FF.D.G
+K.EPPH.
+ .E..H.
+ .EIII.
+
+
+Langkah 529: Geser H ke atas 1
+ AA.BBG
+ .CCD.G
+ FF.DHG
+K.EPPH.
+ .E....
+ .EIII.
+
+
+Langkah 530: Geser I ke kanan 1
+ AA.BBG
+ .CCD.G
+ FF.DHG
+K.EPPH.
+ .E....
+ .E.III
+
+
+Langkah 531: Geser G ke bawah 2
+ AA.BB.
+ .CCD..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 532: Geser I ke kiri 1
+ AA.BB.
+ .CCD..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 533: Geser H ke bawah 1
+ AA.BB.
+ .CCD..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .EIII.
+
+
+Langkah 534: Geser I ke kanan 1
+ AA.BB.
+ .CCD..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 535: Geser H ke atas 2
+ AA.BB.
+ .CCDH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 536: Geser I ke kiri 1
+ AA.BB.
+ .CCDH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 537: Geser A ke kanan 1
+ .AABB.
+ .CCDH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .EIII.
+
+
+Langkah 538: Geser I ke kanan 1
+ .AABB.
+ .CCDH.
+ FF.DHG
+K.EPP.G
+ .E...G
+ .E.III
+
+
+Langkah 539: Geser H ke bawah 2
+ .AABB.
+ .CCD..
+ FF.D.G
+K.EPPHG
+ .E..HG
+ .E.III
+
+
+Langkah 540: Geser H ke atas 1
+ .AABB.
+ .CCD..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .E.III
+
+
+Langkah 541: Geser I ke kiri 1
+ .AABB.
+ .CCD..
+ FF.DHG
+K.EPPHG
+ .E...G
+ .EIII.
+
+
+Langkah 542: Geser G ke bawah 1
+ .AABB.
+ .CCD..
+ FF.DH.
+K.EPPHG
+ .E...G
+ .EIIIG
+
+
+Langkah 543: Geser H ke bawah 1
+ .AABB.
+ .CCD..
+ FF.D..
+K.EPPHG
+ .E..HG
+ .EIIIG
+
+
+Langkah 544: Geser H ke atas 2
+ .AABB.
+ .CCDH.
+ FF.DH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 545: Geser G ke atas 2
+ .AABB.
+ .CCDHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .EIII.
+
+
+Langkah 546: Geser I ke kanan 1
+ .AABB.
+ .CCDHG
+ FF.DHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 547: Geser H ke bawah 2
+ .AABB.
+ .CCD.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 548: Geser I ke kiri 1
+ .AABB.
+ .CCD.G
+ FF.D.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 549: Geser F ke kanan 1
+ .AABB.
+ .CCD.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .EIII.
+
+
+Langkah 550: Geser I ke kanan 1
+ .AABB.
+ .CCD.G
+ .FFD.G
+K.EPPHG
+ .E..H.
+ .E.III
+
+
+Langkah 551: Geser H ke atas 2
+ .AABB.
+ .CCDHG
+ .FFDHG
+K.EPP.G
+ .E....
+ .E.III
+
+
+Langkah 552: Geser G ke atas 1
+ .AABBG
+ .CCDHG
+ .FFDHG
+K.EPP..
+ .E....
+ .E.III
+
+
+Langkah 553: Geser I ke kiri 1
+ .AABBG
+ .CCDHG
+ .FFDHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 554: Geser P ke kanan 2
+ .AABBG
+ .CCDHG
+ .FFDHG
+K.E..PP
+ .E....
+ .EIII.
+
+
+Langkah 555: Geser I ke kanan 1
+ .AABBG
+ .CCDHG
+ .FFDHG
+K.E..PP
+ .E....
+ .E.III
+
+
+Langkah 556: Geser F ke kiri 1
+ .AABBG
+ .CCDHG
+ FF.DHG
+K.E..PP
+ .E....
+ .E.III
+
+
+Langkah 557: Geser D ke bawah 2
+ .AABBG
+ .CC.HG
+ FF..HG
+K.E.DPP
+ .E.D..
+ .E.III
+
+
+Langkah 558: Geser I ke kiri 1
+ .AABBG
+ .CC.HG
+ FF..HG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 559: Geser F ke kanan 2
+ .AABBG
+ .CC.HG
+ ..FFHG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 560: Geser I ke kanan 1
+ .AABBG
+ .CC.HG
+ ..FFHG
+K.E.DPP
+ .E.D..
+ .E.III
+
+
+Langkah 561: Geser F ke kiri 1
+ .AABBG
+ .CC.HG
+ .FF.HG
+K.E.DPP
+ .E.D..
+ .E.III
+
+
+Langkah 562: Geser I ke kiri 1
+ .AABBG
+ .CC.HG
+ .FF.HG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 563: Geser C ke kanan 1
+ .AABBG
+ ..CCHG
+ .FF.HG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 564: Geser F ke kiri 1
+ .AABBG
+ ..CCHG
+ FF..HG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 565: Geser I ke kanan 1
+ .AABBG
+ ..CCHG
+ FF..HG
+K.E.DPP
+ .E.D..
+ .E.III
+
+
+Langkah 566: Geser C ke kiri 2
+ .AABBG
+ CC..HG
+ FF..HG
+K.E.DPP
+ .E.D..
+ .E.III
+
+
+Langkah 567: Geser I ke kiri 1
+ .AABBG
+ CC..HG
+ FF..HG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 568: Geser F ke kanan 2
+ .AABBG
+ CC..HG
+ ..FFHG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 569: Geser I ke kanan 1
+ .AABBG
+ CC..HG
+ ..FFHG
+K.E.DPP
+ .E.D..
+ .E.III
+
+
+Langkah 570: Geser E ke atas 1
+ .AABBG
+ CC..HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ...III
+
+
+Langkah 571: Geser I ke kiri 3
+ .AABBG
+ CC..HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ III...
+
+
+Langkah 572: Geser I ke kanan 2
+ .AABBG
+ CC..HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ..III.
+
+
+Langkah 573: Geser C ke kanan 1
+ .AABBG
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ..III.
+
+
+Langkah 574: Geser I ke kanan 1
+ .AABBG
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ...III
+
+
+Langkah 575: Geser I ke kiri 3
+ .AABBG
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ III...
+
+
+Langkah 576: Geser I ke kanan 1
+ .AABBG
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ .III..
+
+
+Langkah 577: Geser A ke kiri 1
+ AA.BBG
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ .III..
+
+
+Langkah 578: Geser I ke kanan 2
+ AA.BBG
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ...III
+
+
+Langkah 579: Geser I ke kiri 3
+ AA.BBG
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ III...
+
+
+Langkah 580: Geser I ke kanan 2
+ AA.BBG
+ .CC.HG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ..III.
+
+
+Langkah 581: Geser C ke kanan 1
+ AA.BBG
+ ..CCHG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ..III.
+
+
+Langkah 582: Geser I ke kanan 1
+ AA.BBG
+ ..CCHG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ...III
+
+
+Langkah 583: Geser I ke kiri 3
+ AA.BBG
+ ..CCHG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ III...
+
+
+Langkah 584: Geser D ke bawah 1
+ AA.BBG
+ ..CCHG
+ .EFFHG
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 585: Geser E ke atas 1
+ AA.BBG
+ .ECCHG
+ .EFFHG
+K.E..PP
+ ...D..
+ IIID..
+
+
+Langkah 586: Geser B ke kiri 1
+ AABB.G
+ .ECCHG
+ .EFFHG
+K.E..PP
+ ...D..
+ IIID..
+
+
+Langkah 587: Geser H ke atas 1
+ AABBHG
+ .ECCHG
+ .EFF.G
+K.E..PP
+ ...D..
+ IIID..
+
+
+Langkah 588: Geser F ke kanan 1
+ AABBHG
+ .ECCHG
+ .E.FFG
+K.E..PP
+ ...D..
+ IIID..
+
+
+Langkah 589: Geser E ke bawah 1
+ AABBHG
+ ..CCHG
+ .E.FFG
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 590: Geser F ke kiri 1
+ AABBHG
+ ..CCHG
+ .EFF.G
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 591: Geser H ke bawah 1
+ AABB.G
+ ..CCHG
+ .EFFHG
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 592: Geser C ke kiri 2
+ AABB.G
+ CC..HG
+ .EFFHG
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 593: Geser H ke atas 1
+ AABBHG
+ CC..HG
+ .EFF.G
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 594: Geser F ke kanan 1
+ AABBHG
+ CC..HG
+ .E.FFG
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 595: Geser D ke atas 1
+ AABBHG
+ CC..HG
+ .E.FFG
+K.E.DPP
+ .E.D..
+ III...
+
+
+Langkah 596: Geser I ke kanan 3
+ AABBHG
+ CC..HG
+ .E.FFG
+K.E.DPP
+ .E.D..
+ ...III
+
+
+Langkah 597: Geser C ke kanan 1
+ AABBHG
+ .CC.HG
+ .E.FFG
+K.E.DPP
+ .E.D..
+ ...III
+
+
+Langkah 598: Geser I ke kiri 3
+ AABBHG
+ .CC.HG
+ .E.FFG
+K.E.DPP
+ .E.D..
+ III...
+
+
+Langkah 599: Geser D ke bawah 1
+ AABBHG
+ .CC.HG
+ .E.FFG
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 600: Geser P ke kiri 2
+ AABBHG
+ .CC.HG
+ .E.FFG
+K.EPP..
+ .E.D..
+ IIID..
+
+
+Langkah 601: Geser G ke bawah 3
+ AABBH.
+ .CC.H.
+ .E.FF.
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 602: Geser G ke atas 2
+ AABBH.
+ .CC.HG
+ .E.FFG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 603: Geser G ke bawah 1
+ AABBH.
+ .CC.H.
+ .E.FFG
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 604: Geser F ke kiri 1
+ AABBH.
+ .CC.H.
+ .EFF.G
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 605: Geser H ke bawah 4
+ AABB..
+ .CC...
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 606: Geser H ke atas 3
+ AABB..
+ .CC.H.
+ .EFFHG
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 607: Geser H ke bawah 2
+ AABB..
+ .CC...
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 608: Geser H ke atas 1
+ AABB..
+ .CC...
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 609: Geser G ke bawah 1
+ AABB..
+ .CC...
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 610: Geser H ke bawah 2
+ AABB..
+ .CC...
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 611: Geser H ke atas 4
+ AABBH.
+ .CC.H.
+ .EFF..
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 612: Geser H ke bawah 3
+ AABB..
+ .CC...
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 613: Geser H ke atas 2
+ AABB..
+ .CC.H.
+ .EFFH.
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 614: Geser G ke atas 3
+ AABB.G
+ .CC.HG
+ .EFFHG
+K.EPP..
+ .E.D..
+ IIID..
+
+
+Langkah 615: Geser H ke bawah 3
+ AABB.G
+ .CC..G
+ .EFF.G
+K.EPP..
+ .E.DH.
+ IIIDH.
+
+
+Langkah 616: Geser H ke atas 4
+ AABBHG
+ .CC.HG
+ .EFF.G
+K.EPP..
+ .E.D..
+ IIID..
+
+
+Langkah 617: Geser H ke bawah 3
+ AABB.G
+ .CC..G
+ .EFF.G
+K.EPPH.
+ .E.DH.
+ IIID..
+
+
+Langkah 618: Geser H ke atas 1
+ AABB.G
+ .CC..G
+ .EFFHG
+K.EPPH.
+ .E.D..
+ IIID..
+
+
+Langkah 619: Geser G ke bawah 1
+ AABB..
+ .CC..G
+ .EFFHG
+K.EPPHG
+ .E.D..
+ IIID..
+
+
+Langkah 620: Geser H ke bawah 2
+ AABB..
+ .CC..G
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 621: Geser H ke atas 4
+ AABBH.
+ .CC.HG
+ .EFF.G
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 622: Geser H ke bawah 3
+ AABB..
+ .CC..G
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 623: Geser H ke atas 2
+ AABB..
+ .CC.HG
+ .EFFHG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 624: Geser C ke kanan 1
+ AABB..
+ ..CCHG
+ .EFFHG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 625: Geser H ke bawah 3
+ AABB..
+ ..CC.G
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 626: Geser H ke atas 4
+ AABBH.
+ ..CCHG
+ .EFF.G
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 627: Geser H ke bawah 3
+ AABB..
+ ..CC.G
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 628: Geser H ke atas 1
+ AABB..
+ ..CC.G
+ .EFFHG
+K.EPPHG
+ .E.D..
+ IIID..
+
+
+Langkah 629: Geser G ke bawah 2
+ AABB..
+ ..CC..
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 630: Geser H ke bawah 2
+ AABB..
+ ..CC..
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 631: Geser H ke atas 4
+ AABBH.
+ ..CCH.
+ .EFF..
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 632: Geser H ke bawah 3
+ AABB..
+ ..CC..
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 633: Geser H ke atas 2
+ AABB..
+ ..CCH.
+ .EFFH.
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 634: Geser G ke atas 3
+ AABB.G
+ ..CCHG
+ .EFFHG
+K.EPP..
+ .E.D..
+ IIID..
+
+
+Langkah 635: Geser H ke bawah 3
+ AABB.G
+ ..CC.G
+ .EFF.G
+K.EPP..
+ .E.DH.
+ IIIDH.
+
+
+Langkah 636: Geser H ke atas 4
+ AABBHG
+ ..CCHG
+ .EFF.G
+K.EPP..
+ .E.D..
+ IIID..
+
+
+Langkah 637: Geser H ke bawah 3
+ AABB.G
+ ..CC.G
+ .EFF.G
+K.EPPH.
+ .E.DH.
+ IIID..
+
+
+Langkah 638: Geser H ke atas 1
+ AABB.G
+ ..CC.G
+ .EFFHG
+K.EPPH.
+ .E.D..
+ IIID..
+
+
+Langkah 639: Geser G ke bawah 2
+ AABB..
+ ..CC..
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 640: Geser H ke bawah 2
+ AABB..
+ ..CC..
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 641: Geser H ke atas 4
+ AABBH.
+ ..CCH.
+ .EFF.G
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 642: Geser H ke bawah 3
+ AABB..
+ ..CC..
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 643: Geser H ke atas 2
+ AABB..
+ ..CCH.
+ .EFFHG
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 644: Geser E ke atas 1
+ AABB..
+ .ECCH.
+ .EFFHG
+K.EPP.G
+ ...D.G
+ IIID..
+
+
+Langkah 645: Geser H ke bawah 3
+ AABB..
+ .ECC..
+ .EFF.G
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 646: Geser H ke atas 4
+ AABBH.
+ .ECCH.
+ .EFF.G
+K.EPP.G
+ ...D.G
+ IIID..
+
+
+Langkah 647: Geser H ke bawah 3
+ AABB..
+ .ECC..
+ .EFF.G
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 648: Geser H ke atas 1
+ AABB..
+ .ECC..
+ .EFFHG
+K.EPPHG
+ ...D.G
+ IIID..
+
+
+Langkah 649: Geser G ke bawah 1
+ AABB..
+ .ECC..
+ .EFFH.
+K.EPPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 650: Geser H ke bawah 2
+ AABB..
+ .ECC..
+ .EFF..
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 651: Geser H ke atas 4
+ AABBH.
+ .ECCH.
+ .EFF..
+K.EPP.G
+ ...D.G
+ IIID.G
+
+
+Langkah 652: Geser H ke bawah 3
+ AABB..
+ .ECC..
+ .EFF..
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 653: Geser H ke atas 2
+ AABB..
+ .ECCH.
+ .EFFH.
+K.EPP.G
+ ...D.G
+ IIID.G
+
+
+Langkah 654: Geser G ke atas 3
+ AABB.G
+ .ECCHG
+ .EFFHG
+K.EPP..
+ ...D..
+ IIID..
+
+
+Langkah 655: Geser H ke bawah 3
+ AABB.G
+ .ECC.G
+ .EFF.G
+K.EPP..
+ ...DH.
+ IIIDH.
+
+
+Langkah 656: Geser H ke atas 4
+ AABBHG
+ .ECCHG
+ .EFF.G
+K.EPP..
+ ...D..
+ IIID..
+
+
+Langkah 657: Geser H ke bawah 3
+ AABB.G
+ .ECC.G
+ .EFF.G
+K.EPPH.
+ ...DH.
+ IIID..
+
+
+Langkah 658: Geser H ke atas 1
+ AABB.G
+ .ECC.G
+ .EFFHG
+K.EPPH.
+ ...D..
+ IIID..
+
+
+Langkah 659: Geser G ke bawah 1
+ AABB..
+ .ECC.G
+ .EFFHG
+K.EPPHG
+ ...D..
+ IIID..
+
+
+Langkah 660: Geser H ke bawah 2
+ AABB..
+ .ECC.G
+ .EFF.G
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 661: Geser H ke atas 4
+ AABBH.
+ .ECCHG
+ .EFF.G
+K.EPP.G
+ ...D..
+ IIID..
+
+
+Langkah 662: Geser H ke bawah 3
+ AABB..
+ .ECC.G
+ .EFF.G
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 663: Geser H ke atas 2
+ AABB..
+ .ECCHG
+ .EFFHG
+K.EPP.G
+ ...D..
+ IIID..
+
+
+Langkah 664: Geser B ke kanan 2
+ AA..BB
+ .ECCHG
+ .EFFHG
+K.EPP.G
+ ...D..
+ IIID..
+
+
+Langkah 665: Geser H ke bawah 3
+ AA..BB
+ .ECC.G
+ .EFF.G
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 666: Geser H ke atas 2
+ AA..BB
+ .ECC.G
+ .EFFHG
+K.EPPHG
+ ...D..
+ IIID..
+
+
+Langkah 667: Geser H ke bawah 1
+ AA..BB
+ .ECC.G
+ .EFF.G
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 668: Geser G ke bawah 2
+ AA..BB
+ .ECC..
+ .EFF..
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 669: Geser H ke bawah 1
+ AA..BB
+ .ECC..
+ .EFF..
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 670: Geser H ke atas 3
+ AA..BB
+ .ECCH.
+ .EFFH.
+K.EPP.G
+ ...D.G
+ IIID.G
+
+
+Langkah 671: Geser H ke bawah 1
+ AA..BB
+ .ECC..
+ .EFFH.
+K.EPPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 672: Geser G ke atas 1
+ AA..BB
+ .ECC..
+ .EFFHG
+K.EPPHG
+ ...D.G
+ IIID..
+
+
+Langkah 673: Geser H ke bawah 2
+ AA..BB
+ .ECC..
+ .EFF.G
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 674: Geser H ke atas 3
+ AA..BB
+ .ECCH.
+ .EFFHG
+K.EPP.G
+ ...D.G
+ IIID..
+
+
+Langkah 675: Geser H ke bawah 2
+ AA..BB
+ .ECC..
+ .EFF.G
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 676: Geser F ke kanan 1
+ AA..BB
+ .ECC..
+ .E.FFG
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 677: Geser H ke bawah 1
+ AA..BB
+ .ECC..
+ .E.FFG
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 678: Geser G ke bawah 1
+ AA..BB
+ .ECC..
+ .E.FF.
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 679: Geser H ke atas 1
+ AA..BB
+ .ECC..
+ .E.FF.
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 680: Geser G ke atas 2
+ AA..BB
+ .ECC.G
+ .E.FFG
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 681: Geser H ke bawah 1
+ AA..BB
+ .ECC.G
+ .E.FFG
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 682: Geser E ke bawah 1
+ AA..BB
+ ..CC.G
+ .E.FFG
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 683: Geser H ke atas 1
+ AA..BB
+ ..CC.G
+ .E.FFG
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 684: Geser G ke bawah 2
+ AA..BB
+ ..CC..
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 685: Geser H ke bawah 1
+ AA..BB
+ ..CC..
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 686: Geser G ke atas 1
+ AA..BB
+ ..CC..
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 687: Geser H ke atas 1
+ AA..BB
+ ..CC..
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 688: Geser F ke kiri 1
+ AA..BB
+ ..CC..
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 689: Geser H ke bawah 1
+ AA..BB
+ ..CC..
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 690: Geser H ke atas 3
+ AA..BB
+ ..CCH.
+ .EFFHG
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 691: Geser H ke bawah 1
+ AA..BB
+ ..CC..
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 692: Geser G ke bawah 1
+ AA..BB
+ ..CC..
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 693: Geser H ke bawah 2
+ AA..BB
+ ..CC..
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 694: Geser H ke atas 3
+ AA..BB
+ ..CCH.
+ .EFFH.
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 695: Geser H ke bawah 2
+ AA..BB
+ ..CC..
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 696: Geser G ke atas 2
+ AA..BB
+ ..CC.G
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 697: Geser H ke bawah 1
+ AA..BB
+ ..CC.G
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 698: Geser H ke atas 3
+ AA..BB
+ ..CCHG
+ .EFFHG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 699: Geser H ke bawah 1
+ AA..BB
+ ..CC.G
+ .EFFHG
+K.EPPHG
+ .E.D..
+ IIID..
+
+
+Langkah 700: Geser C ke kanan 1
+ AA..BB
+ ...CCG
+ .EFFHG
+K.EPPHG
+ .E.D..
+ IIID..
+
+
+Langkah 701: Geser H ke bawah 2
+ AA..BB
+ ...CCG
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 702: Geser H ke atas 1
+ AA..BB
+ ...CCG
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 703: Geser G ke bawah 2
+ AA..BB
+ ...CC.
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 704: Geser H ke bawah 1
+ AA..BB
+ ...CC.
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 705: Geser H ke atas 2
+ AA..BB
+ ...CC.
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 706: Geser G ke atas 1
+ AA..BB
+ ...CC.
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 707: Geser H ke bawah 2
+ AA..BB
+ ...CC.
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 708: Geser H ke atas 1
+ AA..BB
+ ...CC.
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 709: Geser F ke kanan 1
+ AA..BB
+ ...CC.
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 710: Geser H ke bawah 1
+ AA..BB
+ ...CC.
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 711: Geser G ke bawah 1
+ AA..BB
+ ...CC.
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 712: Geser H ke atas 1
+ AA..BB
+ ...CC.
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 713: Geser G ke atas 2
+ AA..BB
+ ...CCG
+ .E.FFG
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 714: Geser H ke bawah 1
+ AA..BB
+ ...CCG
+ .E.FFG
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 715: Geser E ke atas 1
+ AA..BB
+ .E.CCG
+ .E.FFG
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 716: Geser H ke atas 1
+ AA..BB
+ .E.CCG
+ .E.FFG
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 717: Geser G ke bawah 2
+ AA..BB
+ .E.CC.
+ .E.FF.
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 718: Geser H ke bawah 1
+ AA..BB
+ .E.CC.
+ .E.FF.
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 719: Geser G ke atas 1
+ AA..BB
+ .E.CC.
+ .E.FFG
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 720: Geser H ke atas 1
+ AA..BB
+ .E.CC.
+ .E.FFG
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 721: Geser F ke kiri 1
+ AA..BB
+ .E.CC.
+ .EFF.G
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 722: Geser H ke bawah 1
+ AA..BB
+ .E.CC.
+ .EFF.G
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 723: Geser H ke atas 2
+ AA..BB
+ .E.CC.
+ .EFFHG
+K.EPPHG
+ ...D.G
+ IIID..
+
+
+Langkah 724: Geser G ke bawah 1
+ AA..BB
+ .E.CC.
+ .EFFH.
+K.EPPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 725: Geser H ke bawah 2
+ AA..BB
+ .E.CC.
+ .EFF..
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 726: Geser H ke atas 1
+ AA..BB
+ .E.CC.
+ .EFF..
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 727: Geser G ke atas 2
+ AA..BB
+ .E.CCG
+ .EFF.G
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 728: Geser H ke bawah 1
+ AA..BB
+ .E.CCG
+ .EFF.G
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 729: Geser H ke atas 2
+ AA..BB
+ .E.CCG
+ .EFFHG
+K.EPPHG
+ ...D..
+ IIID..
+
+
+Langkah 730: Geser B ke kiri 2
+ AABB..
+ .E.CCG
+ .EFFHG
+K.EPPHG
+ ...D..
+ IIID..
+
+
+Langkah 731: Geser H ke bawah 2
+ AABB..
+ .E.CCG
+ .EFF.G
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 732: Geser H ke atas 1
+ AABB..
+ .E.CCG
+ .EFF.G
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 733: Geser G ke bawah 2
+ AABB..
+ .E.CC.
+ .EFF..
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 734: Geser H ke bawah 1
+ AABB..
+ .E.CC.
+ .EFF..
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 735: Geser H ke atas 2
+ AABB..
+ .E.CC.
+ .EFFH.
+K.EPPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 736: Geser G ke atas 3
+ AABB.G
+ .E.CCG
+ .EFFHG
+K.EPPH.
+ ...D..
+ IIID..
+
+
+Langkah 737: Geser H ke bawah 2
+ AABB.G
+ .E.CCG
+ .EFF.G
+K.EPP..
+ ...DH.
+ IIIDH.
+
+
+Langkah 738: Geser H ke atas 1
+ AABB.G
+ .E.CCG
+ .EFF.G
+K.EPPH.
+ ...DH.
+ IIID..
+
+
+Langkah 739: Geser G ke bawah 2
+ AABB..
+ .E.CC.
+ .EFF.G
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 740: Geser H ke bawah 1
+ AABB..
+ .E.CC.
+ .EFF.G
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 741: Geser H ke atas 2
+ AABB..
+ .E.CC.
+ .EFFHG
+K.EPPHG
+ ...D.G
+ IIID..
+
+
+Langkah 742: Geser E ke bawah 1
+ AABB..
+ ...CC.
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 743: Geser H ke bawah 2
+ AABB..
+ ...CC.
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 744: Geser H ke atas 1
+ AABB..
+ ...CC.
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 745: Geser G ke bawah 1
+ AABB..
+ ...CC.
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 746: Geser H ke bawah 1
+ AABB..
+ ...CC.
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 747: Geser H ke atas 2
+ AABB..
+ ...CC.
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 748: Geser G ke atas 3
+ AABB.G
+ ...CCG
+ .EFFHG
+K.EPPH.
+ .E.D..
+ IIID..
+
+
+Langkah 749: Geser H ke bawah 2
+ AABB.G
+ ...CCG
+ .EFF.G
+K.EPP..
+ .E.DH.
+ IIIDH.
+
+
+Langkah 750: Geser H ke atas 1
+ AABB.G
+ ...CCG
+ .EFF.G
+K.EPPH.
+ .E.DH.
+ IIID..
+
+
+Langkah 751: Geser G ke bawah 1
+ AABB..
+ ...CCG
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 752: Geser H ke bawah 1
+ AABB..
+ ...CCG
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 753: Geser H ke atas 2
+ AABB..
+ ...CCG
+ .EFFHG
+K.EPPHG
+ .E.D..
+ IIID..
+
+
+Langkah 754: Geser C ke kiri 3
+ AABB..
+ CC...G
+ .EFFHG
+K.EPPHG
+ .E.D..
+ IIID..
+
+
+Langkah 755: Geser H ke bawah 2
+ AABB..
+ CC...G
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 756: Geser H ke atas 4
+ AABBH.
+ CC..HG
+ .EFF.G
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 757: Geser H ke bawah 3
+ AABB..
+ CC...G
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 758: Geser H ke atas 2
+ AABB..
+ CC..HG
+ .EFFHG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 759: Geser G ke bawah 2
+ AABB..
+ CC..H.
+ .EFFH.
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 760: Geser H ke bawah 3
+ AABB..
+ CC....
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 761: Geser H ke atas 4
+ AABBH.
+ CC..H.
+ .EFF..
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 762: Geser H ke bawah 3
+ AABB..
+ CC....
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 763: Geser H ke atas 1
+ AABB..
+ CC....
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 764: Geser G ke atas 3
+ AABB.G
+ CC...G
+ .EFFHG
+K.EPPH.
+ .E.D..
+ IIID..
+
+
+Langkah 765: Geser H ke bawah 2
+ AABB.G
+ CC...G
+ .EFF.G
+K.EPP..
+ .E.DH.
+ IIIDH.
+
+
+Langkah 766: Geser H ke atas 4
+ AABBHG
+ CC..HG
+ .EFF.G
+K.EPP..
+ .E.D..
+ IIID..
+
+
+Langkah 767: Geser H ke bawah 3
+ AABB.G
+ CC...G
+ .EFF.G
+K.EPPH.
+ .E.DH.
+ IIID..
+
+
+Langkah 768: Geser H ke atas 2
+ AABB.G
+ CC..HG
+ .EFFHG
+K.EPP..
+ .E.D..
+ IIID..
+
+
+Langkah 769: Geser G ke bawah 2
+ AABB..
+ CC..H.
+ .EFFHG
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 770: Geser H ke bawah 3
+ AABB..
+ CC....
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 771: Geser H ke atas 4
+ AABBH.
+ CC..H.
+ .EFF.G
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 772: Geser H ke bawah 3
+ AABB..
+ CC....
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 773: Geser H ke atas 1
+ AABB..
+ CC....
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 774: Geser C ke kanan 4
+ AABB..
+ ....CC
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 775: Geser H ke bawah 2
+ AABB..
+ ....CC
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 776: Geser H ke atas 1
+ AABB..
+ ....CC
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 777: Geser G ke bawah 1
+ AABB..
+ ....CC
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 778: Geser H ke bawah 1
+ AABB..
+ ....CC
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 779: Geser H ke atas 2
+ AABB..
+ ....CC
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 780: Geser E ke atas 1
+ AABB..
+ .E..CC
+ .EFFH.
+K.EPPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 781: Geser H ke bawah 2
+ AABB..
+ .E..CC
+ .EFF..
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 782: Geser H ke atas 1
+ AABB..
+ .E..CC
+ .EFF..
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 783: Geser G ke atas 1
+ AABB..
+ .E..CC
+ .EFF.G
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 784: Geser H ke bawah 1
+ AABB..
+ .E..CC
+ .EFF.G
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 785: Geser H ke atas 2
+ AABB..
+ .E..CC
+ .EFFHG
+K.EPPHG
+ ...D.G
+ IIID..
+
+
+Langkah 786: Geser B ke kanan 2
+ AA..BB
+ .E..CC
+ .EFFHG
+K.EPPHG
+ ...D.G
+ IIID..
+
+
+Langkah 787: Geser H ke bawah 2
+ AA..BB
+ .E..CC
+ .EFF.G
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 788: Geser H ke atas 1
+ AA..BB
+ .E..CC
+ .EFF.G
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 789: Geser G ke bawah 1
+ AA..BB
+ .E..CC
+ .EFF..
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 790: Geser H ke bawah 1
+ AA..BB
+ .E..CC
+ .EFF..
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 791: Geser H ke atas 2
+ AA..BB
+ .E..CC
+ .EFFH.
+K.EPPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 792: Geser E ke bawah 1
+ AA..BB
+ ....CC
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 793: Geser H ke bawah 2
+ AA..BB
+ ....CC
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 794: Geser H ke atas 1
+ AA..BB
+ ....CC
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 795: Geser G ke atas 1
+ AA..BB
+ ....CC
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 796: Geser H ke bawah 1
+ AA..BB
+ ....CC
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 797: Geser H ke atas 2
+ AA..BB
+ ....CC
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 798: Geser C ke kiri 4
+ AA..BB
+ CC....
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 799: Geser H ke bawah 2
+ AA..BB
+ CC....
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 800: Geser H ke atas 3
+ AA..BB
+ CC..H.
+ .EFFHG
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 801: Geser H ke bawah 2
+ AA..BB
+ CC....
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 802: Geser G ke bawah 1
+ AA..BB
+ CC....
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 803: Geser H ke bawah 1
+ AA..BB
+ CC....
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 804: Geser H ke atas 3
+ AA..BB
+ CC..H.
+ .EFFH.
+K.EPP.G
+ .E.D.G
+ IIID.G
+
+
+Langkah 805: Geser H ke bawah 1
+ AA..BB
+ CC....
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 806: Geser G ke atas 2
+ AA..BB
+ CC...G
+ .EFFHG
+K.EPPHG
+ .E.D..
+ IIID..
+
+
+Langkah 807: Geser H ke bawah 2
+ AA..BB
+ CC...G
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 808: Geser H ke atas 3
+ AA..BB
+ CC..HG
+ .EFFHG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 809: Geser H ke bawah 2
+ AA..BB
+ CC...G
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 810: Geser F ke kanan 1
+ AA..BB
+ CC...G
+ .E.FFG
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 811: Geser H ke bawah 1
+ AA..BB
+ CC...G
+ .E.FFG
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 812: Geser G ke bawah 2
+ AA..BB
+ CC....
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 813: Geser H ke atas 1
+ AA..BB
+ CC....
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 814: Geser G ke atas 1
+ AA..BB
+ CC....
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 815: Geser H ke bawah 1
+ AA..BB
+ CC....
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 816: Geser C ke kanan 4
+ AA..BB
+ ....CC
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 817: Geser H ke atas 1
+ AA..BB
+ ....CC
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 818: Geser G ke bawah 1
+ AA..BB
+ ....CC
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 819: Geser H ke bawah 1
+ AA..BB
+ ....CC
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 820: Geser F ke kanan 1
+ AA..BB
+ ....CC
+ .E..FF
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 821: Geser H ke atas 1
+ AA..BB
+ ....CC
+ .E..FF
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 822: Geser E ke atas 1
+ AA..BB
+ .E..CC
+ .E..FF
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 823: Geser H ke bawah 1
+ AA..BB
+ .E..CC
+ .E..FF
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 824: Geser F ke kiri 1
+ AA..BB
+ .E..CC
+ .E.FF.
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 825: Geser H ke atas 1
+ AA..BB
+ .E..CC
+ .E.FF.
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 826: Geser G ke atas 1
+ AA..BB
+ .E..CC
+ .E.FFG
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 827: Geser H ke bawah 1
+ AA..BB
+ .E..CC
+ .E.FFG
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 828: Geser B ke kiri 2
+ AABB..
+ .E..CC
+ .E.FFG
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 829: Geser H ke atas 1
+ AABB..
+ .E..CC
+ .E.FFG
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 830: Geser G ke bawah 1
+ AABB..
+ .E..CC
+ .E.FF.
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 831: Geser H ke bawah 1
+ AABB..
+ .E..CC
+ .E.FF.
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 832: Geser F ke kanan 1
+ AABB..
+ .E..CC
+ .E..FF
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 833: Geser H ke atas 1
+ AABB..
+ .E..CC
+ .E..FF
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 834: Geser E ke bawah 1
+ AABB..
+ ....CC
+ .E..FF
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 835: Geser H ke bawah 1
+ AABB..
+ ....CC
+ .E..FF
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 836: Geser F ke kiri 1
+ AABB..
+ ....CC
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 837: Geser H ke atas 1
+ AABB..
+ ....CC
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 838: Geser G ke atas 1
+ AABB..
+ ....CC
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 839: Geser H ke bawah 1
+ AABB..
+ ....CC
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 840: Geser C ke kiri 4
+ AABB..
+ CC....
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 841: Geser H ke atas 1
+ AABB..
+ CC....
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 842: Geser G ke bawah 1
+ AABB..
+ CC....
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 843: Geser H ke bawah 1
+ AABB..
+ CC....
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 844: Geser G ke atas 3
+ AABB.G
+ CC...G
+ .E.FFG
+K.EPP..
+ .E.DH.
+ IIIDH.
+
+
+Langkah 845: Geser H ke atas 1
+ AABB.G
+ CC...G
+ .E.FFG
+K.EPPH.
+ .E.DH.
+ IIID..
+
+
+Langkah 846: Geser G ke bawah 1
+ AABB..
+ CC...G
+ .E.FFG
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 847: Geser H ke bawah 1
+ AABB..
+ CC...G
+ .E.FFG
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 848: Geser C ke kanan 3
+ AABB..
+ ...CCG
+ .E.FFG
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 849: Geser H ke atas 1
+ AABB..
+ ...CCG
+ .E.FFG
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 850: Geser G ke bawah 2
+ AABB..
+ ...CC.
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 851: Geser H ke bawah 1
+ AABB..
+ ...CC.
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 852: Geser G ke atas 3
+ AABB.G
+ ...CCG
+ .E.FFG
+K.EPP..
+ .E.DH.
+ IIIDH.
+
+
+Langkah 853: Geser H ke atas 1
+ AABB.G
+ ...CCG
+ .E.FFG
+K.EPPH.
+ .E.DH.
+ IIID..
+
+
+Langkah 854: Geser G ke bawah 2
+ AABB..
+ ...CC.
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 855: Geser H ke bawah 1
+ AABB..
+ ...CC.
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 856: Geser E ke atas 1
+ AABB..
+ .E.CC.
+ .E.FFG
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 857: Geser H ke atas 1
+ AABB..
+ .E.CC.
+ .E.FFG
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 858: Geser G ke bawah 1
+ AABB..
+ .E.CC.
+ .E.FF.
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 859: Geser H ke bawah 1
+ AABB..
+ .E.CC.
+ .E.FF.
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 860: Geser G ke atas 3
+ AABB.G
+ .E.CCG
+ .E.FFG
+K.EPP..
+ ...DH.
+ IIIDH.
+
+
+Langkah 861: Geser H ke atas 1
+ AABB.G
+ .E.CCG
+ .E.FFG
+K.EPPH.
+ ...DH.
+ IIID..
+
+
+Langkah 862: Geser G ke bawah 1
+ AABB..
+ .E.CCG
+ .E.FFG
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 863: Geser H ke bawah 1
+ AABB..
+ .E.CCG
+ .E.FFG
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 864: Geser C ke kiri 1
+ AABB..
+ .ECC.G
+ .E.FFG
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 865: Geser H ke atas 1
+ AABB..
+ .ECC.G
+ .E.FFG
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 866: Geser G ke bawah 2
+ AABB..
+ .ECC..
+ .E.FF.
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 867: Geser H ke bawah 1
+ AABB..
+ .ECC..
+ .E.FF.
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 868: Geser G ke atas 3
+ AABB.G
+ .ECC.G
+ .E.FFG
+K.EPP..
+ ...DH.
+ IIIDH.
+
+
+Langkah 869: Geser H ke atas 1
+ AABB.G
+ .ECC.G
+ .E.FFG
+K.EPPH.
+ ...DH.
+ IIID..
+
+
+Langkah 870: Geser G ke bawah 2
+ AABB..
+ .ECC..
+ .E.FFG
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 871: Geser H ke bawah 1
+ AABB..
+ .ECC..
+ .E.FFG
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 872: Geser E ke bawah 1
+ AABB..
+ ..CC..
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 873: Geser H ke atas 1
+ AABB..
+ ..CC..
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 874: Geser G ke bawah 1
+ AABB..
+ ..CC..
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 875: Geser H ke bawah 1
+ AABB..
+ ..CC..
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 876: Geser G ke atas 3
+ AABB.G
+ ..CC.G
+ .E.FFG
+K.EPP..
+ .E.DH.
+ IIIDH.
+
+
+Langkah 877: Geser H ke atas 1
+ AABB.G
+ ..CC.G
+ .E.FFG
+K.EPPH.
+ .E.DH.
+ IIID..
+
+
+Langkah 878: Geser G ke bawah 1
+ AABB..
+ ..CC.G
+ .E.FFG
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 879: Geser H ke bawah 1
+ AABB..
+ ..CC.G
+ .E.FFG
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 880: Geser C ke kiri 1
+ AABB..
+ .CC..G
+ .E.FFG
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 881: Geser H ke atas 1
+ AABB..
+ .CC..G
+ .E.FFG
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 882: Geser G ke bawah 2
+ AABB..
+ .CC...
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 883: Geser H ke bawah 1
+ AABB..
+ .CC...
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 884: Geser G ke atas 3
+ AABB.G
+ .CC..G
+ .E.FFG
+K.EPP..
+ .E.DH.
+ IIIDH.
+
+
+Langkah 885: Geser H ke atas 1
+ AABB.G
+ .CC..G
+ .E.FFG
+K.EPPH.
+ .E.DH.
+ IIID..
+
+
+Langkah 886: Geser G ke bawah 2
+ AABB..
+ .CC...
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 887: Geser H ke bawah 1
+ AABB..
+ .CC...
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 888: Geser B ke kanan 2
+ AA..BB
+ .CC...
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 889: Geser H ke atas 1
+ AA..BB
+ .CC...
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 890: Geser G ke bawah 1
+ AA..BB
+ .CC...
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 891: Geser H ke bawah 1
+ AA..BB
+ .CC...
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 892: Geser G ke atas 2
+ AA..BB
+ .CC..G
+ .E.FFG
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 893: Geser H ke atas 1
+ AA..BB
+ .CC..G
+ .E.FFG
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 894: Geser F ke kiri 1
+ AA..BB
+ .CC..G
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 895: Geser H ke bawah 1
+ AA..BB
+ .CC..G
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 896: Geser H ke atas 3
+ AA..BB
+ .CC.HG
+ .EFFHG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 897: Geser A ke kanan 2
+ ..AABB
+ .CC.HG
+ .EFFHG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 898: Geser H ke bawah 1
+ ..AABB
+ .CC..G
+ .EFFHG
+K.EPPHG
+ .E.D..
+ IIID..
+
+
+Langkah 899: Geser G ke bawah 1
+ ..AABB
+ .CC...
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 900: Geser H ke bawah 2
+ ..AABB
+ .CC...
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 901: Geser H ke atas 3
+ ..AABB
+ .CC.H.
+ .EFFHG
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 902: Geser H ke bawah 2
+ ..AABB
+ .CC...
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 903: Geser C ke kanan 3
+ ..AABB
+ ....CC
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 904: Geser H ke bawah 1
+ ..AABB
+ ....CC
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 905: Geser H ke atas 2
+ ..AABB
+ ....CC
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 906: Geser G ke bawah 1
+ ..AABB
+ ....CC
+ .EFFH.
+K.EPPHG
+ .E.D.G
+ IIID.G
+
+
+Langkah 907: Geser H ke bawah 2
+ ..AABB
+ ....CC
+ .EFF..
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 908: Geser H ke atas 1
+ ..AABB
+ ....CC
+ .EFF..
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 909: Geser F ke kanan 2
+ ..AABB
+ ....CC
+ .E..FF
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 910: Geser H ke bawah 1
+ ..AABB
+ ....CC
+ .E..FF
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 911: Geser F ke kiri 1
+ ..AABB
+ ....CC
+ .E.FF.
+K.EPP.G
+ .E.DHG
+ IIIDHG
+
+
+Langkah 912: Geser H ke atas 1
+ ..AABB
+ ....CC
+ .E.FF.
+K.EPPHG
+ .E.DHG
+ IIID.G
+
+
+Langkah 913: Geser G ke atas 1
+ ..AABB
+ ....CC
+ .E.FFG
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 914: Geser H ke bawah 1
+ ..AABB
+ ....CC
+ .E.FFG
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 915: Geser E ke atas 2
+ .EAABB
+ .E..CC
+ .E.FFG
+K..PP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 916: Geser H ke atas 1
+ .EAABB
+ .E..CC
+ .E.FFG
+K..PPHG
+ ...DHG
+ IIID..
+
+
+Langkah 917: Geser G ke bawah 1
+ .EAABB
+ .E..CC
+ .E.FF.
+K..PPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 918: Geser H ke bawah 1
+ .EAABB
+ .E..CC
+ .E.FF.
+K..PP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 919: Geser F ke kanan 1
+ .EAABB
+ .E..CC
+ .E..FF
+K..PP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 920: Geser H ke atas 1
+ .EAABB
+ .E..CC
+ .E..FF
+K..PPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 921: Geser F ke kiri 2
+ .EAABB
+ .E..CC
+ .EFF..
+K..PPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 922: Geser H ke bawah 1
+ .EAABB
+ .E..CC
+ .EFF..
+K..PP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 923: Geser H ke atas 2
+ .EAABB
+ .E..CC
+ .EFFH.
+K..PPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 924: Geser G ke atas 1
+ .EAABB
+ .E..CC
+ .EFFHG
+K..PPHG
+ ...D.G
+ IIID..
+
+
+Langkah 925: Geser H ke bawah 2
+ .EAABB
+ .E..CC
+ .EFF.G
+K..PP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 926: Geser H ke atas 1
+ .EAABB
+ .E..CC
+ .EFF.G
+K..PPHG
+ ...DHG
+ IIID..
+
+
+Langkah 927: Geser E ke bawah 1
+ ..AABB
+ .E..CC
+ .EFF.G
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 928: Geser H ke bawah 1
+ ..AABB
+ .E..CC
+ .EFF.G
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 929: Geser H ke atas 2
+ ..AABB
+ .E..CC
+ .EFFHG
+K.EPPHG
+ ...D.G
+ IIID..
+
+
+Langkah 930: Geser G ke bawah 1
+ ..AABB
+ .E..CC
+ .EFFH.
+K.EPPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 931: Geser H ke bawah 2
+ ..AABB
+ .E..CC
+ .EFF..
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 932: Geser H ke atas 1
+ ..AABB
+ .E..CC
+ .EFF..
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 933: Geser F ke kanan 2
+ ..AABB
+ .E..CC
+ .E..FF
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 934: Geser H ke bawah 1
+ ..AABB
+ .E..CC
+ .E..FF
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 935: Geser F ke kiri 1
+ ..AABB
+ .E..CC
+ .E.FF.
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 936: Geser H ke atas 1
+ ..AABB
+ .E..CC
+ .E.FF.
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 937: Geser G ke atas 1
+ ..AABB
+ .E..CC
+ .E.FFG
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 938: Geser H ke bawah 1
+ ..AABB
+ .E..CC
+ .E.FFG
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 939: Geser C ke kiri 2
+ ..AABB
+ .ECC..
+ .E.FFG
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 940: Geser H ke atas 1
+ ..AABB
+ .ECC..
+ .E.FFG
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 941: Geser G ke bawah 1
+ ..AABB
+ .ECC..
+ .E.FF.
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 942: Geser H ke bawah 1
+ ..AABB
+ .ECC..
+ .E.FF.
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 943: Geser G ke atas 2
+ ..AABB
+ .ECC.G
+ .E.FFG
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 944: Geser H ke atas 1
+ ..AABB
+ .ECC.G
+ .E.FFG
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 945: Geser F ke kiri 1
+ ..AABB
+ .ECC.G
+ .EFF.G
+K.EPPHG
+ ...DH.
+ IIID..
+
+
+Langkah 946: Geser H ke bawah 1
+ ..AABB
+ .ECC.G
+ .EFF.G
+K.EPP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 947: Geser H ke atas 3
+ ..AABB
+ .ECCHG
+ .EFFHG
+K.EPP.G
+ ...D..
+ IIID..
+
+
+Langkah 948: Geser H ke bawah 1
+ ..AABB
+ .ECC.G
+ .EFFHG
+K.EPPHG
+ ...D..
+ IIID..
+
+
+Langkah 949: Geser G ke bawah 2
+ ..AABB
+ .ECC..
+ .EFFH.
+K.EPPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 950: Geser H ke bawah 2
+ ..AABB
+ .ECC..
+ .EFF..
+K.EPP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 951: Geser H ke atas 3
+ ..AABB
+ .ECCH.
+ .EFFH.
+K.EPP.G
+ ...D.G
+ IIID.G
+
+
+Langkah 952: Geser H ke bawah 2
+ ..AABB
+ .ECC..
+ .EFF..
+K.EPPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 953: Geser G ke atas 1
+ ..AABB
+ .ECC..
+ .EFF.G
+K.EPPHG
+ ...DHG
+ IIID..
+
+
+Langkah 954: Geser H ke bawah 1
+ ..AABB
+ .ECC..
+ .EFF.G
+K.EPP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 955: Geser H ke atas 3
+ ..AABB
+ .ECCH.
+ .EFFHG
+K.EPP.G
+ ...D.G
+ IIID..
+
+
+Langkah 956: Geser H ke bawah 1
+ ..AABB
+ .ECC..
+ .EFFHG
+K.EPPHG
+ ...D.G
+ IIID..
+
+
+Langkah 957: Geser E ke bawah 1
+ ..AABB
+ ..CC..
+ .EFFHG
+K.EPPHG
+ .E.D.G
+ IIID..
+
+
+Langkah 958: Geser H ke bawah 2
+ ..AABB
+ ..CC..
+ .EFF.G
+K.EPP.G
+ .E.DHG
+ IIIDH.
+
+
+Langkah 959: Geser H ke atas 3
+ ..AABB
+ ..CCH.
+ .EFFHG
+K.EPP.G
+ .E.D.G
+ IIID..
+
+
+Langkah 960: Geser H ke bawah 2
+ ..AABB
+ ..CC..
+ .EFF.G
+K.EPPHG
+ .E.DHG
+ IIID..
+
+
+Langkah 961: Geser G ke atas 1
+ ..AABB
+ ..CC.G
+ .EFF.G
+K.EPPHG
+ .E.DH.
+ IIID..
+
+
+Langkah 962: Geser H ke bawah 1
+ ..AABB
+ ..CC.G
+ .EFF.G
+K.EPP.G
+ .E.DH.
+ IIIDH.
+
+
+Langkah 963: Geser H ke atas 3
+ ..AABB
+ ..CCHG
+ .EFFHG
+K.EPP.G
+ .E.D..
+ IIID..
+
+
+Langkah 964: Geser E ke atas 2
+ .EAABB
+ .ECCHG
+ .EFFHG
+K..PP.G
+ ...D..
+ IIID..
+
+
+Langkah 965: Geser H ke bawah 3
+ .EAABB
+ .ECC.G
+ .EFF.G
+K..PP.G
+ ...DH.
+ IIIDH.
+
+
+Langkah 966: Geser H ke atas 2
+ .EAABB
+ .ECC.G
+ .EFFHG
+K..PPHG
+ ...D..
+ IIID..
+
+
+Langkah 967: Geser H ke bawah 1
+ .EAABB
+ .ECC.G
+ .EFF.G
+K..PPHG
+ ...DH.
+ IIID..
+
+
+Langkah 968: Geser G ke bawah 2
+ .EAABB
+ .ECC..
+ .EFF..
+K..PPHG
+ ...DHG
+ IIID.G
+
+
+Langkah 969: Geser H ke bawah 1
+ .EAABB
+ .ECC..
+ .EFF..
+K..PP.G
+ ...DHG
+ IIIDHG
+
+
+Langkah 970: Geser H ke atas 3
+ .EAABB
+ .ECCH.
+ .EFFH.
+K..PP.G
+ ...D.G
+ IIID.G
+
+
+Langkah 971: Geser H ke bawah 1
+ .EAABB
+ .ECC..
+ .EFFH.
+K..PPHG
+ ...D.G
+ IIID.G
+
+
+Langkah 972: Geser G ke atas 1
+ .EAABB
+ .ECC..
+ .EFFHG
+K..PPHG
+ ...D.G
+ IIID..
+
+
+Langkah 973: Geser H ke bawah 2
+ .EAABB
+ .ECC..
+ .EFF.G
+K..PP.G
+ ...DHG
+ IIIDH.
+
+
+Langkah 974: Geser H ke atas 3
+ .EAABB
+ .ECCH.
+ .EFFHG
+K..PP.G
+ ...D.G
+ IIID..
+
+
+Langkah 975: Geser H ke bawah 2
+ .EAABB
+ .ECC..
+ .EFF.G
+K..PPHG
+ ...DHG
+ IIID..
+
+
+Langkah 976: Geser P ke kiri 3
+ .EAABB
+ .ECC..
+ .EFF.G
+PP...HG
+ ...DHG
+ IIID..
+

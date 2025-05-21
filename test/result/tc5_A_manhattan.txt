@@ -1,0 +1,230 @@
+Solusi ditemukan dalam 22 langkah:
+Papan awal:
+  K   
+ABBCCD
+AEPFFD
+GEP.HH
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 1: Geser H ke kiri 1
+  K   
+ABBCCD
+AEPFFD
+GEPHH.
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 2: Geser D ke bawah 1
+  K   
+ABBCC.
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 3: Geser C ke kanan 1
+  K   
+ABB.CC
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 4: Geser B ke kanan 1
+  K   
+A.BBCC
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 5: Geser E ke atas 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+G.IIJJ
+NNNL..
+...LMM
+
+
+Langkah 6: Geser I ke kiri 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GII.JJ
+NNNL..
+...LMM
+
+
+Langkah 7: Geser L ke atas 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIILJJ
+NNNL..
+....MM
+
+
+Langkah 8: Geser M ke kiri 3
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIILJJ
+NNNL..
+.MM...
+
+
+Langkah 9: Geser L ke bawah 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GII.JJ
+NNNL..
+.MML..
+
+
+Langkah 10: Geser J ke kiri 1
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIIJJ.
+NNNL..
+.MML..
+
+
+Langkah 11: Geser D ke bawah 3
+  K   
+AEBBCC
+AEPFF.
+GEPHH.
+GIIJJ.
+NNNL.D
+.MML.D
+
+
+Langkah 12: Geser H ke kanan 1
+  K   
+AEBBCC
+AEPFF.
+GEP.HH
+GIIJJ.
+NNNL.D
+.MML.D
+
+
+Langkah 13: Geser F ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GIIJJ.
+NNNL.D
+.MML.D
+
+
+Langkah 14: Geser J ke kanan 1
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GII.JJ
+NNNL.D
+.MML.D
+
+
+Langkah 15: Geser L ke atas 3
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+NNN..D
+.MM..D
+
+
+Langkah 16: Geser N ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+.NNN.D
+.MM..D
+
+
+Langkah 17: Geser G ke bawah 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+GII.JJ
+GNNN.D
+.MM..D
+
+
+Langkah 18: Geser I ke kanan 1
+  K   
+AEBBCC
+AEPLFF
+.EPLHH
+G.IIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 19: Geser A ke bawah 1
+  K   
+.EBBCC
+AEPLFF
+AEPLHH
+G.IIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 20: Geser E ke bawah 1
+  K   
+..BBCC
+AEPLFF
+AEPLHH
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 21: Geser B ke kiri 2
+  K   
+BB..CC
+AEPLFF
+AEPLHH
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 22: Geser P ke atas 2
+  P   
+BBP.CC
+AE.LFF
+AE.LHH
+GEIIJJ
+GNNN.D
+.MM..D
+
