@@ -6,13 +6,20 @@ import model.*;
 public class IDA {
     public static List<Node> solve(Board initialBoard, String heuristicType) {
         long startTime = System.currentTimeMillis();
+
         Piece primaryPiece = initialBoard.pieces.get('P');
         int h0 = getHeuristic(initialBoard, primaryPiece, heuristicType);
         Node startNode = new Node(initialBoard, null, null, 0, h0);
         int threshold = h0;
+
         while (true) {
+            // System.out.println("Mulai iterasi dengan threshold: " + threshold); // debugging
+
             Set<String> visited = new HashSet<>();
-            Result result = search(startNode, 0, threshold, heuristicType, visited);
+            Map<String, Integer> gScoreMap = new HashMap<>();
+
+            Result result = search(startNode, threshold, heuristicType, visited, gScoreMap);
+
             if (result.found) {
                 long endTime = System.currentTimeMillis();
                 List<Node> solution = Node.reconstructPath(result.goalNode);
@@ -20,34 +27,44 @@ public class IDA {
                 System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
                 return solution;
             }
+
             if (result.minThreshold == Integer.MAX_VALUE) {
                 long endTime = System.currentTimeMillis();
                 System.out.println("Tidak ditemukan solusi");
                 System.out.println("Waktu pencarian: " + (endTime - startTime) + " ms");
                 return null;
             }
+
             threshold = result.minThreshold;
         }
     }
 
-    private static Result search(Node node, int g, int threshold, String heuristicType, Set<String> visited) {
-        int f = g + node.h;
+    private static Result search(Node node, int threshold, String heuristicType, Set<String> visited, Map<String, Integer> gScoreMap) {
+        int f = node.g + node.h;
+        String key = node.board.getBoardKey();
+
+        if (gScoreMap.containsKey(key) && gScoreMap.get(key) <= node.g) {
+            return new Result(false, null, Integer.MAX_VALUE);
+        }
+        gScoreMap.put(key, node.g);
+
         if (f > threshold) {
             return new Result(false, null, f);
         }
+
         if (node.board.isGoal()) {
             return new Result(true, node, f);
         }
-        String key = node.board.getBoardKey();
+
         visited.add(key);
         int min = Integer.MAX_VALUE;
+
         List<Node> children = Node.generateNextNodes(node);
+
         for (Node child : children) {
-            String childKey = child.board.getBoardKey();
-            if (visited.contains(childKey)) continue;
+            child.g = node.g + 1;
             Piece nextPrimary = child.board.pieces.get('P');
             child.h = getHeuristic(child.board, nextPrimary, heuristicType);
-            child.g = node.g + 1;
 
             Piece currentPrimary = node.board.pieces.get('P');
             String moveDirection = "";
@@ -61,35 +78,44 @@ public class IDA {
                 moveDirection = "ke atas " + (currentPrimary.y - nextPrimary.y);
             }
             child.moveDesc = "Geser P " + moveDirection;
+        }
 
-            Result result = search(child, g + 1, threshold, heuristicType, visited);
+        children.sort(Comparator.comparingInt(c -> c.g + c.h));
+
+        for (Node child : children) {
+            String childKey = child.board.getBoardKey();
+            if (visited.contains(childKey)) continue;
+
+            Result result = search(child, threshold, heuristicType, visited, gScoreMap);
             if (result.found) {
                 return result;
             }
+
             if (result.minThreshold < min) {
                 min = result.minThreshold;
             }
+
             visited.remove(childKey);
         }
+
+        visited.remove(key);
         return new Result(false, null, min);
     }
 
     private static int getHeuristic(Board board, Piece primaryPiece, String heuristicType) {
         if (primaryPiece == null) return 0;
-        switch (heuristicType.toLowerCase()) {
-            case "obstacle":
-                return A.calculateObstacleHeuristic(board, primaryPiece);
-            case "combined":
-                return A.calculateCombinedHeuristic(board, primaryPiece);
-            default:
-                return A.calculateManhattanHeuristic(board, primaryPiece);
-        }
+        return switch (heuristicType.toLowerCase()) {
+            case "obstacle" -> A.calculateObstacleHeuristic(board, primaryPiece);
+            case "combined" -> A.calculateCombinedHeuristic(board, primaryPiece);
+            default -> A.calculateManhattanHeuristic(board, primaryPiece);
+        };
     }
 
     private static class Result {
         boolean found;
         Node goalNode;
         int minThreshold;
+
         Result(boolean found, Node goalNode, int minThreshold) {
             this.found = found;
             this.goalNode = goalNode;
