@@ -39,15 +39,22 @@ Jika anda ingin menjalankan program ini, anda harus mempersiapkan:
    ```shell
    cd Tucil3_13523156_13523163
    ```
-3. Compile seluruh program bagi pengguna Linux:
+3. Compile seluruh program:
    1. Bagi pengguna Windows:
       ```shell
        ./build.bat
       ```
-   3. Bagi pengguna Linux:
+   2. Bagi pengguna Linux:
       ```shell
        ./build.sh
-      ```      
+      ```  
+      Atau
+      ```make clean
+      lalu
+      ```make build
+      lalu
+      ```make run
+          
 ## Author:
 1. Hasri Fayadh Muqaffa | 13523156
 2. Filbert Engyo        | 13523163
