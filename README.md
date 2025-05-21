@@ -47,3 +47,6 @@ Jika anda ingin menjalankan program ini, anda harus mempersiapkan:
       ```shell
        ./build.sh
       ```      
+## Author:
+1. Hasri Fayadh Muqaffa | 13523156
+2. Filbert Engyo        | 13523163
