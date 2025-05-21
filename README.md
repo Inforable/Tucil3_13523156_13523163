@@ -7,7 +7,8 @@
     - [Built With](#built-with)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-
+- [Author](#Author)
+  
 ## Overview
 Rush Hour adalah sebuah permainan puzzle logika berbasis grid yang menantang pemain untuk menggeser kendaraan di dalam sebuah kotak agar mobil utama dapat keluar dari kemacetan melalui pintu keluar di sisi papan. 
 Tujuan utama dari permainan ini adalah memindahkan mobil merah ke pintu keluar dengan jumlah langkah seminimal mungkin.
