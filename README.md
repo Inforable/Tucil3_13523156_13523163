@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-    - [Built With](#built-with)
+- [Built With](#built-with)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Author](#Author)
@@ -49,12 +49,11 @@ Jika anda ingin menjalankan program ini, anda harus mempersiapkan:
        ./build.sh
       ```  
       Atau
-      ```make clean
-      lalu
-      ```make build
-      lalu
-      ```make run
-          
+      ```shell
+         make clean
+         make build
+         make run
+
 ## Author:
 1. Hasri Fayadh Muqaffa | 13523156
 2. Filbert Engyo        | 13523163
