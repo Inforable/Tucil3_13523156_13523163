@@ -1,0 +1,225 @@
+Solusi ditemukan dalam 24 langkah:
+Papan awal:
+ ..AABB
+ .CCD..
+ .E.DFF
+K.E.PPG
+ .E..HG
+ .IIIHG
+
+
+Langkah 1: Geser P ke kiri 1
+ ..AABB
+ .CCD..
+ .E.DFF
+K.EPP.G
+ .E..HG
+ .IIIHG
+
+
+Langkah 2: Geser P 
+ .AA.BB
+ .CCD..
+ .E.DFF
+K.EPP.G
+ .E..HG
+ .IIIHG
+
+
+Langkah 3: Geser P 
+ .AADBB
+ .CCD..
+ .E..FF
+K.EPP.G
+ .E..HG
+ .IIIHG
+
+
+Langkah 4: Geser P 
+ .AADBB
+ .CCD..
+ .EFF..
+K.EPP.G
+ .E..HG
+ .IIIHG
+
+
+Langkah 5: Geser P 
+ .AADBB
+ .CCDH.
+ .EFFH.
+K.EPP.G
+ .E...G
+ .III.G
+
+
+Langkah 6: Geser P 
+ .AADBB
+ .CCDH.
+ .EFFH.
+K.EPP.G
+ .E...G
+ ..IIIG
+
+
+Langkah 7: Geser P 
+ .AADBB
+ .CCDH.
+ ..FFH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 8: Geser P 
+ .AADBB
+ .CCDH.
+ .FF.H.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 9: Geser P 
+ .AA.BB
+ .CCDH.
+ .FFDH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 10: Geser P 
+ .AABB.
+ .CCDH.
+ .FFDH.
+K.EPP.G
+ .E...G
+ .EIIIG
+
+
+Langkah 11: Geser P 
+ .AABBG
+ .CCDHG
+ .FFDHG
+K.EPP..
+ .E....
+ .EIII.
+
+
+Langkah 12: Geser P ke kanan 2
+ .AABBG
+ .CCDHG
+ .FFDHG
+K.E..PP
+ .E....
+ .EIII.
+
+
+Langkah 13: Geser P 
+ .AABBG
+ .CC.HG
+ .FF.HG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 14: Geser P 
+ .AABBG
+ ..CCHG
+ .FF.HG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 15: Geser P 
+ .AABBG
+ ..CCHG
+ ..FFHG
+K.E.DPP
+ .E.D..
+ .EIII.
+
+
+Langkah 16: Geser P 
+ .AABBG
+ ..CCHG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ ..III.
+
+
+Langkah 17: Geser P 
+ .AABBG
+ ..CCHG
+ .EFFHG
+K.E.DPP
+ .E.D..
+ III...
+
+
+Langkah 18: Geser P 
+ .AABBG
+ ..CCHG
+ .EFFHG
+K.E..PP
+ .E.D..
+ IIID..
+
+
+Langkah 19: Geser P ke kiri 1
+ .AABBG
+ ..CCHG
+ .EFFHG
+K.E.PP.
+ .E.D..
+ IIID..
+
+
+Langkah 20: Geser P 
+ .AABB.
+ ..CCHG
+ .EFFHG
+K.E.PPG
+ .E.D..
+ IIID..
+
+
+Langkah 21: Geser P 
+ .AA.BB
+ ..CCHG
+ .EFFHG
+K.E.PPG
+ .E.D..
+ IIID..
+
+
+Langkah 22: Geser P 
+ ..AABB
+ ..CCHG
+ .EFFHG
+K.E.PPG
+ .E.D..
+ IIID..
+
+
+Langkah 23: Geser P 
+ .EAABB
+ .ECCHG
+ .EFFHG
+K...PPG
+ ...D..
+ IIID..
+
+
+Langkah 24: Geser P ke kiri 4
+ .EAABB
+ .ECCHG
+ .EFFHG
+PP....G
+ ...D..
+ IIID..
+

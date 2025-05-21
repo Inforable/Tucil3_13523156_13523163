@@ -1,0 +1,240 @@
+Solusi ditemukan dalam 23 langkah:
+Papan awal:
+  K   
+ABBCCD
+AEPFFD
+GEP.HH
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 1: Geser P 
+  K   
+ABBCCD
+AEPFFD
+GEPHH.
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 2: Geser P 
+  K   
+ABBCC.
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 3: Geser P 
+  K   
+ABB.CC
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 4: Geser P 
+  K   
+A.BBCC
+AEPFFD
+GEPHHD
+GEIIJJ
+NNNL..
+...LMM
+
+
+Langkah 5: Geser P 
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+G.IIJJ
+NNNL..
+...LMM
+
+
+Langkah 6: Geser P 
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GII.JJ
+NNNL..
+...LMM
+
+
+Langkah 7: Geser P 
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIILJJ
+NNNL..
+....MM
+
+
+Langkah 8: Geser P 
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIILJJ
+NNNL..
+.MM...
+
+
+Langkah 9: Geser P 
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GII.JJ
+NNNL..
+.MML..
+
+
+Langkah 10: Geser P 
+  K   
+AEBBCC
+AEPFFD
+GEPHHD
+GIIJJ.
+NNNL..
+.MML..
+
+
+Langkah 11: Geser P 
+  K   
+AEBBCC
+AEPFF.
+GEPHH.
+GIIJJ.
+NNNL.D
+.MML.D
+
+
+Langkah 12: Geser P 
+  K   
+AEBBCC
+AEP.FF
+GEPHH.
+GIIJJ.
+NNNL.D
+.MML.D
+
+
+Langkah 13: Geser P 
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GIIJJ.
+NNNL.D
+.MML.D
+
+
+Langkah 14: Geser P 
+  K   
+AEBBCC
+AEP.FF
+GEP.HH
+GII.JJ
+NNNL.D
+.MML.D
+
+
+Langkah 15: Geser P 
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+GII.JJ
+NNN..D
+.MM..D
+
+
+Langkah 16: Geser P 
+  K   
+AEBBCC
+AEPLFF
+GEPLHH
+G.IIJJ
+NNN..D
+.MM..D
+
+
+Langkah 17: Geser P 
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+NNN..D
+.MM..D
+
+
+Langkah 18: Geser P 
+  K   
+A.BBCC
+AEPLFF
+GEPLHH
+GEIIJJ
+.NNN.D
+.MM..D
+
+
+Langkah 19: Geser P 
+  K   
+A.BBCC
+AEPLFF
+.EPLHH
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 20: Geser P 
+  K   
+..BBCC
+AEPLFF
+AEPLHH
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 21: Geser P 
+  K   
+BB..CC
+AEPLFF
+AEPLHH
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 22: Geser P ke atas 1
+  K   
+BBP.CC
+AEPLFF
+AE.LHH
+GEIIJJ
+GNNN.D
+.MM..D
+
+
+Langkah 23: Geser P ke atas 1
+  P   
+BBP.CC
+AE.LFF
+AE.LHH
+GEIIJJ
+GNNN.D
+.MM..D
+

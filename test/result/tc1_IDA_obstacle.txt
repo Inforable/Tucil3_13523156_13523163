@@ -8,7 +8,7 @@ HJJEFL
 MMM..L 
 
 
-Langkah 1: Geser E ke atas 1
+Langkah 1: Geser P 
 .ABBCC 
 .ADE.. 
 PPDEFGK
@@ -17,16 +17,16 @@ HJJ.FL
 MMM..L 
 
 
-Langkah 2: Geser G ke atas 1
+Langkah 2: Geser P 
 .ABBCC 
-.ADE.G 
+.ADEF. 
 PPDEFGK
-HIIEF. 
-HJJ.FL 
+HIIEFG 
+HJJ..L 
 MMM..L 
 
 
-Langkah 3: Geser F ke atas 1
+Langkah 3: Geser P 
 .ABBCC 
 .ADEFG 
 PPDEFGK
@@ -35,25 +35,25 @@ HJJ..L
 MMM..L 
 
 
-Langkah 4: Geser L ke atas 1
+Langkah 4: Geser P 
+.ABBCC 
+.ADEFG 
+PPDEFGK
+HIIEF. 
+H..JJL 
+MMM..L 
+
+
+Langkah 5: Geser P 
 .ABBCC 
 .ADEFG 
 PPDEFGK
 HIIEFL 
-HJJ..L 
+H..JJL 
 MMM... 
 
 
-Langkah 5: Geser M ke kanan 3
-.ABBCC 
-.ADEFG 
-PPDEFGK
-HIIEFL 
-HJJ..L 
-...MMM 
-
-
-Langkah 6: Geser J ke kanan 2
+Langkah 6: Geser P 
 .ABBCC 
 .ADEFG 
 PPDEFGK
@@ -62,7 +62,7 @@ H..JJL
 ...MMM 
 
 
-Langkah 7: Geser H ke bawah 1
+Langkah 7: Geser P 
 .ABBCC 
 .ADEFG 
 PPDEFGK
@@ -71,7 +71,7 @@ H..JJL
 H..MMM 
 
 
-Langkah 8: Geser I ke kiri 1
+Langkah 8: Geser P 
 .ABBCC 
 .ADEFG 
 PPDEFGK
@@ -80,7 +80,7 @@ H..JJL
 H..MMM 
 
 
-Langkah 9: Geser D ke bawah 3
+Langkah 9: Geser P 
 .ABBCC 
 .A.EFG 
 PP.EFGK
@@ -89,16 +89,16 @@ H.DJJL
 H.DMMM 
 
 
-Langkah 10: Geser P ke kanan 1
+Langkah 10: Geser P 
 .ABBCC 
 .A.EFG 
-.PPEFGK
-II.EFL 
+PP.EFGK
+.IIEFL 
 H.DJJL 
 H.DMMM 
 
 
-Langkah 11: Geser I ke kanan 1
+Langkah 11: Geser P ke kanan 1
 .ABBCC 
 .A.EFG 
 .PPEFGK
@@ -107,7 +107,7 @@ H.DJJL
 H.DMMM 
 
 
-Langkah 12: Geser H ke atas 4
+Langkah 12: Geser P 
 HABBCC 
 HA.EFG 
 .PPEFGK
@@ -116,7 +116,7 @@ HA.EFG
 ..DMMM 
 
 
-Langkah 13: Geser I ke kiri 1
+Langkah 13: Geser P 
 HABBCC 
 HA.EFG 
 .PPEFGK
@@ -134,7 +134,7 @@ II.EFL
 ..DMMM 
 
 
-Langkah 15: Geser D ke atas 2
+Langkah 15: Geser P 
 HABBCC 
 HA.EFG 
 PPDEFGK
@@ -143,34 +143,34 @@ IIDEFL
 ...MMM 
 
 
-Langkah 16: Geser M ke kiri 3
-HABBCC 
-HA.EFG 
-PPDEFGK
-IIDEFL 
-...JJL 
-MMM... 
-
-
-Langkah 17: Geser J ke kiri 3
+Langkah 16: Geser P 
 HABBCC 
 HA.EFG 
 PPDEFGK
 IIDEFL 
 JJ...L 
+...MMM 
+
+
+Langkah 17: Geser P 
+HABBCC 
+HA.EFG 
+PP.EFGK
+IIDEFL 
+JJD..L 
+...MMM 
+
+
+Langkah 18: Geser P 
+HABBCC 
+HA.EFG 
+PP.EFGK
+IIDEFL 
+JJD..L 
 MMM... 
 
 
-Langkah 18: Geser E ke bawah 2
-HABBCC 
-HA..FG 
-PPD.FGK
-IIDEFL 
-JJ.E.L 
-MMME.. 
-
-
-Langkah 19: Geser D ke bawah 1
+Langkah 19: Geser P 
 HABBCC 
 HA..FG 
 PP..FGK
@@ -179,43 +179,43 @@ JJDE.L
 MMME.. 
 
 
-Langkah 20: Geser P ke kanan 2
+Langkah 20: Geser P 
 HABBCC 
-HA..FG 
-..PPFGK
+HA...G 
+PP...GK
 IIDEFL 
-JJDE.L 
-MMME.. 
+JJDEFL 
+MMMEF. 
 
 
-Langkah 21: Geser A ke bawah 1
+Langkah 21: Geser P ke kanan 2
+HABBCC 
+HA...G 
+..PP.GK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 22: Geser P 
 H.BBCC 
-HA..FG 
-.APPFGK
+HA...G 
+.APP.GK
 IIDEFL 
-JJDE.L 
-MMME.. 
+JJDEFL 
+MMMEF. 
 
 
-Langkah 22: Geser B ke kiri 1
+Langkah 23: Geser P 
 HBB.CC 
-HA..FG 
-.APPFGK
+HA...G 
+.APP.GK
 IIDEFL 
-JJDE.L 
-MMME.. 
+JJDEFL 
+MMMEF. 
 
 
-Langkah 23: Geser C ke kiri 1
-HBBCC. 
-HA..FG 
-.APPFGK
-IIDEFL 
-JJDE.L 
-MMME.. 
-
-
-Langkah 24: Geser F ke bawah 2
+Langkah 24: Geser P 
 HBBCC. 
 HA...G 
 .APP.GK
@@ -224,7 +224,7 @@ JJDEFL
 MMMEF. 
 
 
-Langkah 25: Geser G ke atas 1
+Langkah 25: Geser P 
 HBBCCG 
 HA...G 
 .APP..K

@@ -1,0 +1,243 @@
+Solusi ditemukan dalam 26 langkah:
+Papan awal:
+.ABBCC 
+.AD... 
+PPDEFGK
+HIIEFG 
+HJJEFL 
+MMM..L 
+
+
+Langkah 1: Geser P 
+.ABBCC 
+.ADE.. 
+PPDEFGK
+HIIEFG 
+HJJ.FL 
+MMM..L 
+
+
+Langkah 2: Geser P 
+.ABBCC 
+.ADEF. 
+PPDEFGK
+HIIEFG 
+HJJ..L 
+MMM..L 
+
+
+Langkah 3: Geser P 
+.ABBCC 
+.ADEFG 
+PPDEFGK
+HIIEF. 
+HJJ..L 
+MMM..L 
+
+
+Langkah 4: Geser P 
+.ABBCC 
+.ADEFG 
+PPDEFGK
+HIIEF. 
+H..JJL 
+MMM..L 
+
+
+Langkah 5: Geser P 
+.ABBCC 
+.ADEFG 
+PPDEFGK
+HIIEFL 
+H..JJL 
+MMM... 
+
+
+Langkah 6: Geser P 
+.ABBCC 
+.ADEFG 
+PPDEFGK
+HIIEFL 
+H..JJL 
+...MMM 
+
+
+Langkah 7: Geser P 
+.ABBCC 
+.ADEFG 
+PPDEFGK
+.IIEFL 
+H..JJL 
+H..MMM 
+
+
+Langkah 8: Geser P 
+.ABBCC 
+.ADEFG 
+PPDEFGK
+II.EFL 
+H..JJL 
+H..MMM 
+
+
+Langkah 9: Geser P 
+.ABBCC 
+.A.EFG 
+PP.EFGK
+II.EFL 
+H.DJJL 
+H.DMMM 
+
+
+Langkah 10: Geser P ke kanan 1
+.ABBCC 
+.A.EFG 
+.PPEFGK
+II.EFL 
+H.DJJL 
+H.DMMM 
+
+
+Langkah 11: Geser P 
+.ABBCC 
+.A.EFG 
+.PPEFGK
+.IIEFL 
+H.DJJL 
+H.DMMM 
+
+
+Langkah 12: Geser P 
+HABBCC 
+HA.EFG 
+.PPEFGK
+.IIEFL 
+..DJJL 
+..DMMM 
+
+
+Langkah 13: Geser P 
+HABBCC 
+HA.EFG 
+.PPEFGK
+II.EFL 
+..DJJL 
+..DMMM 
+
+
+Langkah 14: Geser P ke kiri 1
+HABBCC 
+HA.EFG 
+PP.EFGK
+II.EFL 
+..DJJL 
+..DMMM 
+
+
+Langkah 15: Geser P 
+HABBCC 
+HA.EFG 
+PPDEFGK
+IIDEFL 
+...JJL 
+...MMM 
+
+
+Langkah 16: Geser P 
+HABBCC 
+HA.EFG 
+PPDEFGK
+IIDEFL 
+JJ...L 
+...MMM 
+
+
+Langkah 17: Geser P 
+HABBCC 
+HA.EFG 
+PP.EFGK
+IIDEFL 
+JJD..L 
+...MMM 
+
+
+Langkah 18: Geser P 
+HABBCC 
+HA.EFG 
+PP.EFGK
+IIDEFL 
+JJD..L 
+MMM... 
+
+
+Langkah 19: Geser P 
+HABBCC 
+HA..FG 
+PP..FGK
+IIDEFL 
+JJDE.L 
+MMME.. 
+
+
+Langkah 20: Geser P 
+HABBCC 
+HA...G 
+PP...GK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 21: Geser P ke kanan 3
+HABBCC 
+HA...G 
+...PPGK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 22: Geser P 
+H.BBCC 
+HA...G 
+.A.PPGK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 23: Geser P 
+HBB.CC 
+HA...G 
+.A.PPGK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 24: Geser P 
+HBBCC. 
+HA...G 
+.A.PPGK
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 25: Geser P 
+HBBCCG 
+HA...G 
+.A.PP.K
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
+
+Langkah 26: Geser P ke kanan 2
+HBBCCG 
+HA...G 
+.A...PP
+IIDEFL 
+JJDEFL 
+MMMEF. 
+
